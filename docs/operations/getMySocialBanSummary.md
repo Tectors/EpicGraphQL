@@ -1,6 +1,6 @@
 # getMySocialBanSummary
 
-Description here, manual action needed.
+Ban history.
 
 ## Request
 | URL | METHOD |
