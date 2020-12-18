@@ -7,7 +7,7 @@ I am aware of some operations showing as no variables, this is due to the code I
 
 ## Endpoints
 | URL | DIRECTORY | CUSTOM |
-| - | - |
+| - | - | - |
 | https://graphql.epicgames.com | partyhub/graphql | None |
 | https://cdn2.unrealengine.com | Kairos/data | avatars.json |
 
