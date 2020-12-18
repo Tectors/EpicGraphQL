@@ -1,6 +1,6 @@
 # UpdateUserSetting
 
-Description here, manual action needed.
+Update user settings. (ect. kairos)
 
 ## Request
 | URL | METHOD |

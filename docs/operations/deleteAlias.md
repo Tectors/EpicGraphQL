@@ -1,6 +1,6 @@
 # deleteAlias
 
-Description here, manual action needed.
+Remove a nickname.
 
 ## Request
 | URL | METHOD |

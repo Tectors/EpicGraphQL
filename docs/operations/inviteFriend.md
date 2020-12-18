@@ -1,6 +1,6 @@
 # inviteFriend
 
-Description here, manual action needed.
+Add/Accept a friend request.
 
 ## Request
 | URL | METHOD |

@@ -1,6 +1,6 @@
 # EulaAccepted
 
-Description here, manual action needed.
+If the Eula was accepted.
 
 ## Request
 | URL | METHOD |

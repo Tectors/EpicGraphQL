@@ -1,6 +1,6 @@
 # GetNotificationSettings
 
-Description here, manual action needed.
+Notification settings.
 
 ## Request
 | URL | METHOD |

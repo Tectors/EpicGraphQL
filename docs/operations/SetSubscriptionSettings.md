@@ -1,6 +1,6 @@
 # SetSubscriptionSettings
 
-Description here, manual action needed.
+Subscription settings.
 
 ## Request
 | URL | METHOD |

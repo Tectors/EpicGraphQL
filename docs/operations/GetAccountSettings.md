@@ -1,6 +1,6 @@
 # GetAccountSettings
 
-Description here, manual action needed.
+Get Kairos ect.. settings from any user.
 
 ## Request
 | URL | METHOD |

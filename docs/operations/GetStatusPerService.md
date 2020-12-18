@@ -1,6 +1,6 @@
 # GetStatusPerService
 
-Description here, manual action needed.
+Status about a service, that is/isn't in kairos.
 
 ## Request
 | URL | METHOD |

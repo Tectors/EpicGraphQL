@@ -1,6 +1,6 @@
 # blockFriend
 
-Description here, manual action needed.
+Block a friend.
 
 ## Request
 | URL | METHOD |

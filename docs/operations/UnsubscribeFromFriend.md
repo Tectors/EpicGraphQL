@@ -1,6 +1,6 @@
 # UnsubscribeFromFriend
 
-Description here, manual action needed.
+Unsubscribe from a friend. (Removes notifications from that friend)
 
 ## Request
 | URL | METHOD |

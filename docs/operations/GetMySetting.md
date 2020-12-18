@@ -1,6 +1,6 @@
 # GetMySetting
 
-Description here, manual action needed.
+Get a Kairos setting.
 
 ## Request
 | URL | METHOD |

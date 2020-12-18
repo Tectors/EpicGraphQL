@@ -1,6 +1,6 @@
 # setAlias
 
-Description here, manual action needed.
+Set nickname to user.
 
 ## Request
 | URL | METHOD |

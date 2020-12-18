@@ -1,6 +1,6 @@
 # GetSubscriptionSettings
 
-Description here, manual action needed.
+All of the subscribed data. (ect. Friend notifications)
 
 ## Request
 | URL | METHOD |

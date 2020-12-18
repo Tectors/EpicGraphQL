@@ -1,6 +1,6 @@
 # GetAccountWithFriendshipStatus
 
-Description here, manual action needed.
+Friendship status.
 
 ## Request
 | URL | METHOD |

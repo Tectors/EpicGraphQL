@@ -1,6 +1,6 @@
 # GetMySettingOption
 
-Description here, manual action needed.
+Get a specific setting that is from you.
 
 ## Request
 | URL | METHOD |

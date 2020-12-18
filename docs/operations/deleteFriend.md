@@ -1,6 +1,6 @@
 # deleteFriend
 
-Description here, manual action needed.
+Remove/Decline a friend/request.
 
 ## Request
 | URL | METHOD |

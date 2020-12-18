@@ -1,6 +1,6 @@
 # unblockFriend
 
-Description here, manual action needed.
+Unblock a friend.
 
 ## Request
 | URL | METHOD |

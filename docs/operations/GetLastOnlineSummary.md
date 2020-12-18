@@ -1,6 +1,6 @@
 # GetLastOnlineSummary
 
-Description here, manual action needed.
+Last time a user was online.
 
 ## Request
 | URL | METHOD |
