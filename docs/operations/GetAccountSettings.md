@@ -15,13 +15,13 @@ query GetAccountSettings($key: String!, $accountIds: [String]!) { UserSettings {
 ## Variables
 ```json
 {
-   "accountIds": "",
+   "accountIds": {},
    "key": ""
 }
 ```
 | VARIABLES | DESCRIPTION | TYPE |
 | - | - | - |
-| accountIds | A array of account ids. | ARRAY |
+| accountIds | A array of account ids. | object |
 | key | Avatar's Background (A type of variable called key, this is a value) | ARRAY OF HEX CODE |
 
 ## Payload
