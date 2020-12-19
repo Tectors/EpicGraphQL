@@ -8,6 +8,7 @@ Unsubscribe from a friend. (Removes notifications from that friend)
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
+> mutation
 ```graphql
 mutation UnsubscribeFromFriend($friendID: String!) { PresenceV2 { __typename unSubscribeUser(namespace: "_", publisherId: $friendID) { __typename success } } }
 ```

@@ -8,6 +8,7 @@ Last time a user was online.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
+> query
 ```graphql
 query GetLastOnlineSummary($namespace: String!) { PresenceV2 { __typename getLastOnlineSummary(namespace: $namespace, circle: "friends") { __typename summary { __typename friendId namespace circle last_online } } } }
 ```

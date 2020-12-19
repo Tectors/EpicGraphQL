@@ -8,6 +8,7 @@ Ban history.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
+> query
 ```graphql
 query getMySocialBanSummary { SocialBan { __typename summary: getMySocialBanSummary { __typename warnings { __typename acked } bans { __typename starts_at ends_at acked duration_s } } } }
 ```

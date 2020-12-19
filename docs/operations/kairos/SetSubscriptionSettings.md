@@ -8,6 +8,7 @@ Subscription settings.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
+> mutation
 ```graphql
 mutation SetSubscriptionSettings($setting: SubscriptionSettingsInput!) { PresenceV2 { __typename modifySubscriptionSettings(namespace: "_", value: $setting) { __typename success } } }
 ```

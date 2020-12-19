@@ -8,6 +8,7 @@ Status about a service, that is/isn't in kairos.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
+> query
 ```graphql
 query GetStatusPerService($fortniteId: String!, $kairosId: String!, $namespace: String!) { LightSwitch { __typename fortniteStatus: serviceStatus(serviceId: $fortniteId) { __typename status banned } kairosStatus: serviceStatus(serviceId: $kairosId) { __typename status } } SocialBan { __typename summary: getMySocialBanSummary { __typename bans { __typename starts_at ends_at acked duration_s } } } ContentControl { __typename namespace(name: $namespace) { __typename result { __typename canUseVoiceChat } } } }
 ```

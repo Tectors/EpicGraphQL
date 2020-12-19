@@ -8,6 +8,7 @@ Block a friend.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
+> mutation
 ```graphql
 mutation blockFriend($friendId: String!) { Friends { __typename block(friendToBlock: $friendId) { __typename success } } }
 ```

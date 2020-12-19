@@ -8,6 +8,7 @@ Get Kairos ect.. settings from any user.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
+> query
 ```graphql
 query GetAccountSettings($key: String!, $accountIds: [String]!) { UserSettings { __typename setting(key:$key, accountIds:$accountIds) { __typename value accountId } } }
 ```

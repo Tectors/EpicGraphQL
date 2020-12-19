@@ -8,6 +8,7 @@ Set nickname to user.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
+> mutation
 ```graphql
 mutation setAlias($friendId: String!, $alias: String!) { Friends { __typename setAlias(friendId: $friendId, alias: $alias) { __typename success } } }
 ```

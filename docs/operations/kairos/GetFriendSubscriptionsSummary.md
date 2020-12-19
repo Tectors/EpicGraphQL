@@ -8,6 +8,7 @@ Description here, manual action needed.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
+> query
 ```graphql
 query GetFriendSubscriptionsSummary { PresenceV2 { __typename getSubscriptions(namespace: "_") { __typename summary { __typename subscribed_at account_id } } } }
 ```

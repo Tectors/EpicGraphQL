@@ -8,6 +8,7 @@ Description here, manual action needed.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
+> query
 ```graphql
 query GetSummary { Friends { __typename summary(displayNames: true) { __typename friends { __typename accountId displayName alias created connections { __typename name type } } incoming { __typename accountId displayName connections { __typename name type } } outgoing { __typename accountId displayName connections { __typename name type } } suggested { __typename accountId displayName connections { __typename name type } friendsOnPlatforms } blocklist { __typename accountId displayName } } } }
 ```

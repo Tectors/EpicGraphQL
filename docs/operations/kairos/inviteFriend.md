@@ -8,6 +8,7 @@ Add/Accept a friend request.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
+> mutation
 ```graphql
 mutation inviteFriend($friendId: String!) { Friends { __typename invite(friendToInvite: $friendId) { __typename success } } }
 ```

@@ -8,6 +8,7 @@ All of the subscribed data. (ect. Friend notifications)
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
+> query
 ```graphql
 query GetSubscriptionSettings { PresenceV2 { __typename getSubscriptionSettings(namespace: "_") { __typename broadcast { __typename enabled } } } }
 ```
