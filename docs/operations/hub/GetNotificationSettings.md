@@ -51,7 +51,9 @@ query GetNotificationSettings($namespace: String!) {
 ## Payload
 ```json
 {
-   "variables": {},
+   "variables": {
+      "namespace": ""
+   },
    "query": "query GetNotificationSettings($namespace: String!) { Friends { __typename notificationSettings { __typename offline { __typename suppress_all } success message } } PartySettings { __typename notificationSettings(namespace: $namespace) { __typename offline { __typename suppress_all } success message } } }"
 }
 ```

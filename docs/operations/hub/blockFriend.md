@@ -34,7 +34,9 @@ mutation blockFriend($friendId: String!) {
 ## Payload
 ```json
 {
-   "variables": {},
+   "variables": {
+      "friendId": ""
+   },
    "query": "mutation blockFriend($friendId: String!) { Friends { __typename block(friendToBlock: $friendId) { __typename success } } }"
 }
 ```

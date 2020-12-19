@@ -34,7 +34,9 @@ mutation inviteFriend($friendId: String!) {
 ## Payload
 ```json
 {
-   "variables": {},
+   "variables": {
+      "friendId": ""
+   },
    "query": "mutation inviteFriend($friendId: String!) { Friends { __typename invite(friendToInvite: $friendId) { __typename success } } }"
 }
 ```

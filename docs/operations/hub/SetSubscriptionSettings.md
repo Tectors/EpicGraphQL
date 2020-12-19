@@ -34,7 +34,9 @@ mutation SetSubscriptionSettings($setting: SubscriptionSettingsInput!) {
 ## Payload
 ```json
 {
-   "variables": {},
+   "variables": {
+      "setting": {}
+   },
    "query": "mutation SetSubscriptionSettings($setting: SubscriptionSettingsInput!) { PresenceV2 { __typename modifySubscriptionSettings(namespace: \"_\", value: $setting) { __typename success } } }"
 }
 ```

@@ -36,7 +36,10 @@ mutation setAlias($alias: String!, $friendId: String!) {
 ## Payload
 ```json
 {
-   "variables": {},
+   "variables": {
+      "alias": "",
+      "friendId": ""
+   },
    "query": "mutation setAlias($friendId: String!, $alias: String!) { Friends { __typename setAlias(friendId: $friendId, alias: $alias) { __typename success } } }"
 }
 ```

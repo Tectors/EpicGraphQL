@@ -38,7 +38,11 @@ query EulaAccepted($locale: String!, $accountId: String!, $id: String!) {
 ## Payload
 ```json
 {
-   "variables": {},
+   "variables": {
+      "locale": "",
+      "accountId": "",
+      "id": ""
+   },
    "query": "query EulaAccepted($id:String!, $accountId:String!, $locale:String!) { Eula { __typename hasAccountAccepted(id: $id, accountId: $accountId, locale: $locale) { __typename accepted } } }"
 }
 ```

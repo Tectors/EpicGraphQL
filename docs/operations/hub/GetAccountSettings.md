@@ -25,7 +25,7 @@ query GetAccountSettings($key: String!) {
 ## Variables
 ```json
 {
-   "accountIds": {},
+   "accountIds": [],
    "key": ""
 }
 ```
@@ -46,7 +46,10 @@ This GraphQL seems to include the key property, here's some ideas of what it cou
 ## Payload
 ```json
 {
-   "variables": {},
+   "variables": {
+      "accountIds": [],
+      "key": ""
+   },
    "query": "query GetAccountSettings($key: String!, $accountIds: [String]!) { UserSettings { __typename setting(key:$key, accountIds:$accountIds) { __typename value accountId } } }"
 }
 ```

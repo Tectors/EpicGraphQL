@@ -45,7 +45,10 @@ This GraphQL seems to include the key property, here's some ideas of what it cou
 ## Payload
 ```json
 {
-   "variables": {},
+   "variables": {
+      "value": "",
+      "key": ""
+   },
    "query": "mutation UpdateUserSetting($key: String!, $value: String!) { UserSettings { __typename updateSetting(key: $key, value: $value) { __typename success } } }"
 }
 ```
