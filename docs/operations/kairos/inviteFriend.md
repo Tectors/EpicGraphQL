@@ -10,7 +10,15 @@ Add/Accept a friend request.
 ## Query
 > mutation
 ```graphql
-mutation inviteFriend($friendId: String!) { Friends { __typename invite(friendToInvite: $friendId) { __typename success } } }
+mutation inviteFriend($friendId: String!) {
+  Friends {
+    invite(friendToInvite: $friendId) {
+     success
+     __typename
+    }
+   __typename
+  }
+}
 ```
 
 ## Variables

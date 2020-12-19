@@ -10,7 +10,15 @@ Unsubscribe from a friend. (Removes notifications from that friend)
 ## Query
 > mutation
 ```graphql
-mutation UnsubscribeFromFriend($friendID: String!) { PresenceV2 { __typename unSubscribeUser(namespace: "_", publisherId: $friendID) { __typename success } } }
+mutation UnsubscribeFromFriend($friendID: String!) {
+  PresenceV2 {
+    unSubscribeUser(publisherId: $friendID, namespace: "_") {
+     success
+     __typename
+    }
+   __typename
+  }
+}
 ```
 
 ## Variables

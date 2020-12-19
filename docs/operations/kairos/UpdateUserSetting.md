@@ -10,7 +10,15 @@ Update user settings. (ect. kairos)
 ## Query
 > mutation
 ```graphql
-mutation UpdateUserSetting($key: String!, $value: String!) { UserSettings { __typename updateSetting(key: $key, value: $value) { __typename success } } }
+mutation UpdateUserSetting($value: String!, $key: String!) {
+  UserSettings {
+    updateSetting(value: $value, key: $key) {
+     success
+     __typename
+    }
+   __typename
+  }
+}
 ```
 
 ## Variables

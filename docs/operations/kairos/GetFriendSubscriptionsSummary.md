@@ -10,7 +10,19 @@ Description here, manual action needed.
 ## Query
 > query
 ```graphql
-query GetFriendSubscriptionsSummary { PresenceV2 { __typename getSubscriptions(namespace: "_") { __typename summary { __typename subscribed_at account_id } } } }
+query GetFriendSubscriptionsSummary {
+  PresenceV2 {
+    getSubscriptions(namespace: "_") {
+      summary {
+       account_id
+       subscribed_at
+       __typename
+      }
+     __typename
+    }
+   __typename
+  }
+}
 ```
 
 ## Variables

@@ -10,7 +10,15 @@ Subscription settings.
 ## Query
 > mutation
 ```graphql
-mutation SetSubscriptionSettings($setting: SubscriptionSettingsInput!) { PresenceV2 { __typename modifySubscriptionSettings(namespace: "_", value: $setting) { __typename success } } }
+mutation SetSubscriptionSettings($setting: SubscriptionSettingsInput!) {
+  PresenceV2 {
+    modifySubscriptionSettings(value: $setting, namespace: "_") {
+     success
+     __typename
+    }
+   __typename
+  }
+}
 ```
 
 ## Variables

@@ -10,7 +10,12 @@ Get a specific setting that is from you.
 ## Query
 > query
 ```graphql
-query GetMySettingOption($key: String!) { UserSettings { __typename myAvailableSetting(key: $key) } }
+query GetMySettingOption($key: String!) {
+  UserSettings {
+   myAvailableSetting(key: $key)
+   __typename
+  }
+}
 ```
 
 ## Variables

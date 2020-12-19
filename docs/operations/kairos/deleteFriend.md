@@ -10,7 +10,15 @@ Remove/Decline a friend/request.
 ## Query
 > mutation
 ```graphql
-mutation deleteFriend($friendId: String!) { Friends { __typename deleteFriend(friendToDelete: $friendId) { __typename success } } }
+mutation deleteFriend($friendId: String!) {
+  Friends {
+    deleteFriend(friendToDelete: $friendId) {
+     success
+     __typename
+    }
+   __typename
+  }
+}
 ```
 
 ## Variables

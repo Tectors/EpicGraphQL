@@ -10,7 +10,15 @@ Block a friend.
 ## Query
 > mutation
 ```graphql
-mutation blockFriend($friendId: String!) { Friends { __typename block(friendToBlock: $friendId) { __typename success } } }
+mutation blockFriend($friendId: String!) {
+  Friends {
+    block(friendToBlock: $friendId) {
+     success
+     __typename
+    }
+   __typename
+  }
+}
 ```
 
 ## Variables

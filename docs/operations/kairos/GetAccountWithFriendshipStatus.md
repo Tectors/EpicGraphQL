@@ -10,7 +10,22 @@ Friendship status.
 ## Query
 > query
 ```graphql
-query GetAccountWithFriendshipStatus($id: String, $displayName: String, $email: String) { Account { __typename account(id: $id, displayName: $displayName, email: $email) { __typename id displayName friendshipStatus externalAuths { __typename type externalDisplayName } } } }
+query GetAccountWithFriendshipStatus {
+  Account {
+    account(email: $email, displayName: $displayName, id: $id) {
+      externalAuths {
+       externalDisplayName
+       type
+       __typename
+      }
+     friendshipStatus
+     displayName
+     id
+     __typename
+    }
+   __typename
+  }
+}
 ```
 
 ## Variables

@@ -10,7 +10,18 @@ All of the subscribed data. (ect. Friend notifications)
 ## Query
 > query
 ```graphql
-query GetSubscriptionSettings { PresenceV2 { __typename getSubscriptionSettings(namespace: "_") { __typename broadcast { __typename enabled } } } }
+query GetSubscriptionSettings {
+  PresenceV2 {
+    getSubscriptionSettings(namespace: "_") {
+      broadcast {
+       enabled
+       __typename
+      }
+     __typename
+    }
+   __typename
+  }
+}
 ```
 
 ## Variables

@@ -10,7 +10,25 @@ Ban history.
 ## Query
 > query
 ```graphql
-query getMySocialBanSummary { SocialBan { __typename summary: getMySocialBanSummary { __typename warnings { __typename acked } bans { __typename starts_at ends_at acked duration_s } } } }
+query getMySocialBanSummary {
+  SocialBan {
+    getMySocialBanSummary {
+      bans {
+       duration_s
+       acked
+       ends_at
+       starts_at
+       __typename
+      }
+      warnings {
+       acked
+       __typename
+      }
+     __typename
+    }
+   __typename
+  }
+}
 ```
 
 ## Variables

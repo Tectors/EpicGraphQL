@@ -10,7 +10,30 @@ Get information about your account.
 ## Query
 > query
 ```graphql
-query GetMyAccount { Account { __typename myAccount { __typename id displayName email country externalAuths { __typename externalDisplayName type } } } Fortnite { __typename myProfile { __typename id } } }
+query GetMyAccount {
+  Fortnite {
+    myProfile {
+     id
+     __typename
+    }
+   __typename
+  }
+  Account {
+    myAccount {
+      externalAuths {
+       type
+       externalDisplayName
+       __typename
+      }
+     country
+     email
+     displayName
+     id
+     __typename
+    }
+   __typename
+  }
+}
 ```
 
 ## Variables

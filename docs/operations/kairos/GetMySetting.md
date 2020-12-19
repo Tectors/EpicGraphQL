@@ -10,7 +10,16 @@ Get a Kairos setting.
 ## Query
 > query
 ```graphql
-query GetMySetting($key: String!) { UserSettings { __typename mySetting(key: $key) { __typename accountId value } } }
+query GetMySetting($key: String!) {
+  UserSettings {
+    mySetting(key: $key) {
+     value
+     accountId
+     __typename
+    }
+   __typename
+  }
+}
 ```
 
 ## Variables

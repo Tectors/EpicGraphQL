@@ -10,7 +10,15 @@ If the Eula was accepted.
 ## Query
 > query
 ```graphql
-query EulaAccepted($id:String!, $accountId:String!, $locale:String!) { Eula { __typename hasAccountAccepted(id: $id, accountId: $accountId, locale: $locale) { __typename accepted } } }
+query EulaAccepted($locale: String!, $accountId: String!, $id: String!) {
+  Eula {
+    hasAccountAccepted(locale: $locale, accountId: $accountId, id: $id) {
+     accepted
+     __typename
+    }
+   __typename
+  }
+}
 ```
 
 ## Variables

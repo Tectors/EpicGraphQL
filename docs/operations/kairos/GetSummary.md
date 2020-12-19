@@ -10,7 +10,62 @@ Description here, manual action needed.
 ## Query
 > query
 ```graphql
-query GetSummary { Friends { __typename summary(displayNames: true) { __typename friends { __typename accountId displayName alias created connections { __typename name type } } incoming { __typename accountId displayName connections { __typename name type } } outgoing { __typename accountId displayName connections { __typename name type } } suggested { __typename accountId displayName connections { __typename name type } friendsOnPlatforms } blocklist { __typename accountId displayName } } } }
+query GetSummary {
+  Friends {
+    summary(displayNames: true) {
+      blocklist {
+       displayName
+       accountId
+       __typename
+      }
+      suggested {
+       friendsOnPlatforms
+        connections {
+         type
+         name
+         __typename
+        }
+       displayName
+       accountId
+       __typename
+      }
+      outgoing {
+        connections {
+         type
+         name
+         __typename
+        }
+       displayName
+       accountId
+       __typename
+      }
+      incoming {
+        connections {
+         type
+         name
+         __typename
+        }
+       displayName
+       accountId
+       __typename
+      }
+      friends {
+        connections {
+         type
+         name
+         __typename
+        }
+       created
+       alias
+       displayName
+       accountId
+       __typename
+      }
+     __typename
+    }
+   __typename
+  }
+}
 ```
 
 ## Variables

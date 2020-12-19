@@ -10,7 +10,21 @@ Last time a user was online.
 ## Query
 > query
 ```graphql
-query GetLastOnlineSummary($namespace: String!) { PresenceV2 { __typename getLastOnlineSummary(namespace: $namespace, circle: "friends") { __typename summary { __typename friendId namespace circle last_online } } } }
+query GetLastOnlineSummary($namespace: String!) {
+  PresenceV2 {
+    getLastOnlineSummary(circle: "friends", namespace: $namespace) {
+      summary {
+       last_online
+       circle
+       namespace
+       friendId
+       __typename
+      }
+     __typename
+    }
+   __typename
+  }
+}
 ```
 
 ## Variables

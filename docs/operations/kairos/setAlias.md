@@ -10,7 +10,15 @@ Set nickname to user.
 ## Query
 > mutation
 ```graphql
-mutation setAlias($friendId: String!, $alias: String!) { Friends { __typename setAlias(friendId: $friendId, alias: $alias) { __typename success } } }
+mutation setAlias($alias: String!, $friendId: String!) {
+  Friends {
+    setAlias(alias: $alias, friendId: $friendId) {
+     success
+     __typename
+    }
+   __typename
+  }
+}
 ```
 
 ## Variables

@@ -10,7 +10,15 @@ Remove a nickname.
 ## Query
 > mutation
 ```graphql
-mutation deleteAlias($friendId: String!) { Friends { __typename deleteAlias(friendId: $friendId) { __typename success } } }
+mutation deleteAlias($friendId: String!) {
+  Friends {
+    deleteAlias(friendId: $friendId) {
+     success
+     __typename
+    }
+   __typename
+  }
+}
 ```
 
 ## Variables
