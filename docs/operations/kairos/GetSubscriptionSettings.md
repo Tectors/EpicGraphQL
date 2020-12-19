@@ -33,7 +33,6 @@ No variables found, if you think this is a mistake contact me at Tector#0001.
 ## Payload
 ```json
 {
-   "operationName": "GetSubscriptionSettings",
    "variables": {},
    "query": "query GetSubscriptionSettings { PresenceV2 { __typename getSubscriptionSettings(namespace: \"_\") { __typename broadcast { __typename enabled } } } }"
 }

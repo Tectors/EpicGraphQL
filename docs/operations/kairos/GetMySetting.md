@@ -44,7 +44,6 @@ This GraphQL seems to include the key property, here's some ideas of what it cou
 ## Payload
 ```json
 {
-   "operationName": "GetMySetting",
    "variables": {},
    "query": "query GetMySetting($key: String!) { UserSettings { __typename mySetting(key: $key) { __typename accountId value } } }"
 }

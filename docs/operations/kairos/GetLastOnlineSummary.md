@@ -40,7 +40,6 @@ query GetLastOnlineSummary($namespace: String!) {
 ## Payload
 ```json
 {
-   "operationName": "GetLastOnlineSummary",
    "variables": {},
    "query": "query GetLastOnlineSummary($namespace: String!) { PresenceV2 { __typename getLastOnlineSummary(namespace: $namespace, circle: \"friends\") { __typename summary { __typename friendId namespace circle last_online } } } }"
 }

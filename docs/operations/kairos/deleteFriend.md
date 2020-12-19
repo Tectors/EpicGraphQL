@@ -34,7 +34,6 @@ mutation deleteFriend($friendId: String!) {
 ## Payload
 ```json
 {
-   "operationName": "deleteFriend",
    "variables": {},
    "query": "mutation deleteFriend($friendId: String!) { Friends { __typename deleteFriend(friendToDelete: $friendId) { __typename success } } }"
 }

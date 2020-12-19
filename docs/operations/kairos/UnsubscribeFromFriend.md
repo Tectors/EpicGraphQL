@@ -34,7 +34,6 @@ mutation UnsubscribeFromFriend($friendID: String!) {
 ## Payload
 ```json
 {
-   "operationName": "UnsubscribeFromFriend",
    "variables": {},
    "query": "mutation UnsubscribeFromFriend($friendID: String!) { PresenceV2 { __typename unSubscribeUser(namespace: \"_\", publisherId: $friendID) { __typename success } } }"
 }

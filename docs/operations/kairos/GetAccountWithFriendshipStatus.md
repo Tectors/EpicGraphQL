@@ -41,7 +41,6 @@ query GetAccountWithFriendshipStatus {
 ## Payload
 ```json
 {
-   "operationName": "GetAccountWithFriendshipStatus",
    "variables": {},
    "query": "query GetAccountWithFriendshipStatus($id: String, $displayName: String, $email: String) { Account { __typename account(id: $id, displayName: $displayName, email: $email) { __typename id displayName friendshipStatus externalAuths { __typename type externalDisplayName } } } }"
 }
