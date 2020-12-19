@@ -4,7 +4,7 @@ Research about the Epic's non-documented Graphql API for Fortnite, that is mainl
 Navigate to the docs folder.
 
 ## NPM Package
-I might be working on a NPM package that includes all of this, but we'll see ;)
+You can view the package by click [here](https://www.npmjs.com/package/partygrap).
 
 ## Bugs
 I am aware of some operations showing as no variables, this is due to the code I made in 2 hours, so it'll probably be fixed easily.
