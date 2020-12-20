@@ -71,31 +71,31 @@ The data they store is below.
 | NAME | PROPERTY NAME |
 | - | - |
 | Arch | arch |
-| Battery Level | battery_level |
-| Brand Of Phone | brand |
-| Is Charging | charging |
-| Amount Of External Free Storage | external_free_storage |
-| Amount Of External Storage Left | external_storage_size |
-| Brand Version | family |
-| Free Memory Amount | free_memory |
-| Free Storage Amount | free_storage |
-| Is Low Memory | low_memory |
-| Manufacturer | manufacturer |
-| Memory Size | memory_size |
-| Model Of Phone | model |
-| Model ID Of Phone | model_id |
-| Online | online |
-| Orientation | orientation |
-| Screen Density | screen_density |
-| Screen DPI | screen_dpi |
-| Screen Resolution | screen_resolution |
-| Simulator | simulator |
-| Storage Size | storage_size |
-| Build | os.build |
-| Kernel Version | os.kernel_version |
-| Name Of OS | os.name |
-| Rooted | os.rooted |
-| Version | os.version |
+| Battery Level | contexts.device.battery_level |
+| Brand Of Phone | contexts.device.brand |
+| Is Charging | contexts.device.charging |
+| Amount Of External Free Storage | contexts.device.external_free_storage |
+| Amount Of External Storage Left | contexts.device.external_storage_size |
+| Brand Version | contexts.device.family |
+| Free Memory Amount | contexts.device.free_memory |
+| Free Storage Amount | contexts.device.free_storage |
+| Is Low Memory | contexts.device.low_memory |
+| Manufacturer | contexts.device.manufacturer |
+| Memory Size | contexts.device.memory_size |
+| Model Of Phone | contexts.device.model |
+| Model ID Of Phone | contexts.device.model_id |
+| Online | contexts.device.online |
+| Orientation | contexts.device.orientation |
+| Screen Density | contexts.device.screen_density |
+| Screen DPI | contexts.device.screen_dpi |
+| Screen Resolution | contexts.device.screen_resolution |
+| Simulator | contexts.device.simulator |
+| Storage Size | contexts.device.storage_size |
+| Build | contexts.os.build |
+| Kernel Version | contexts.os.kernel_version |
+| Name Of OS | contexts.os.name |
+| Rooted | contexts.os.rooted |
+| Version | contexts.os.version |
 
 ## Modules
 Here's some modules they use. (gotten from the sentry request)
