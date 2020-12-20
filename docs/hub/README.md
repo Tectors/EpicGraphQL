@@ -67,8 +67,9 @@ They have a sentry endpoint that stores all the information about your device.
 | https://sentry.io/api/1776306/store |
 
 The data they store is below.
+
 | NAME | PROPERTY NAME |
-| - |
+| - | - |
 | Arch | arch |
 | Battery Level | battery_level |
 | Brand Of Phone | brand |
