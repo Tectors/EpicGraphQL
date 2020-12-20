@@ -51,12 +51,12 @@ They have a sentry endpoint that stores all the information about your device.
 
 | URL |
 | - |
-| https://sentry.io/api/1776306/store/ |
+| https://sentry.io/api/1776306/store |
 
 ## Modules
 Here's some modules they use. (gotten from the sentry request)
 
-*The main package name is *com.epicgames.fortnite* *
+*The main package name is com.epicgames.fortnite*
 
 | MODULE | FILENAME | FUNCTION |
 | - | - | - |
