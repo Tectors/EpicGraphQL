@@ -1,6 +1,6 @@
 # GetSummary
 
-Description here, manual action needed.
+Summary of all friend requests including outgoing requests, current friends, blocklist.
 
 ## Request
 | URL | METHOD |
