@@ -96,7 +96,6 @@ The data they store is below.
 | Name Of OS | os.name |
 | Rooted | os.rooted |
 | Version | os.version |
-| Version | os.version |
 
 ## Modules
 Here's some modules they use. (gotten from the sentry request)
