@@ -52,3 +52,48 @@ They have a sentry endpoint that stores all the information about your device.
 | URL |
 | - |
 | https://sentry.io/api/1776306/store/ |
+
+## Modules
+Here's some modules they use. (gotten from the sentry request)
+
+*The main package name is *com.epicgames.fortnite* *
+
+| MODULE | FILENAME | FUNCTION |
+| - | - | - |
+| com.google.protobuf | null | null | null |
+| android.os.HandlerThread | HandlerThread.java | run |
+| android.os.Looper | Looper.java | loop |
+| android.os.Handler | Handler.java | dispatchMessage |
+| android.os.Handler | Handler.java | handleCallback |
+| com.epicgames.kairos.core.tasks.TaskOperationQueue$performNextSynchronousTask$2 | null | run |
+| com.epicgames.kairos.core.tasks.TaskOperationQueue$performNextSynchronousTask$2 | null | ᫖ࡱ᫋ |
+| com.epicgames.kairos.core.tasks.BaseTask | null | start |
+| com.epicgames.kairos.core.tasks.BaseTask | null | ᫅ࡦ᫋ |
+| com.epicgames.kairos.utils.DataStoreTaskRunner | null | run |
+| com.epicgames.kairos.utils.DataStoreTaskRunner | null | ᫋᫂᫚ |
+| com.epicgames.kairos.RootNavigationControllerDelegate$DefaultImpls | null | safeWrite |
+| com.epicgames.kairos.RootNavigationControllerDelegate$DefaultImpls | null | ࡳ᫕ |
+| com.epicgames.kairos.utils.DataStoreTaskRunner$run$$inlined$use$lambda$1 | null | invoke |
+| com.epicgames.kairos.utils.DataStoreTaskRunner$run$$inlined$use$lambda$1 | null | ᫙᫂᫚ |
+| com.epicgames.kairos.core.transforms.eos.PresenceTransform$handleEOSEvent$1 | null | invoke |
+| com.epicgames.kairos.core.transforms.eos.PresenceTransform$handleEOSEvent$1 | null | ᫅ࡳ᫋ |
+| com.epicgames.kairos.RootNavigationControllerDelegate$DefaultImpls | null | access$getProperties |
+| com.epicgames.kairos.RootNavigationControllerDelegate$DefaultImpls | null | ࡳ᫕ |
+| com.epicgames.kairos.RootNavigationControllerDelegate$DefaultImpls | null | parse |
+| com.epicgames.kairos.RootNavigationControllerDelegate$DefaultImpls | null | ࡳ᫕ |
+| com.google.protobuf.util.JsonFormat$Parser | null | merge |
+| com.google.protobuf.util.JsonFormat$Parser | null | ࡳ࡫᫊ |
+| com.google.protobuf.util.JsonFormat$ParserImpl | null | merge |
+| com.google.protobuf.util.JsonFormat$ParserImpl | null | ᫀ࡫᫊ |
+| com.google.protobuf.util.JsonFormat$ParserImpl | null | merge |
+| com.google.protobuf.util.JsonFormat$ParserImpl | null | ᫀ࡫᫊ |
+| com.google.protobuf.util.JsonFormat$ParserImpl | null | mergeMessage |
+| com.google.protobuf.util.JsonFormat$ParserImpl | null | ᫀ࡫᫊ |
+| com.epicgames.kairos.core.models.constants.AutoUpdateDownloadOption$Companion | null | stringToEngineModelPlatform |
+| com.epicgames.kairos.core.models.constants.AutoUpdateDownloadOption$Companion | null | ࡪࡠ᫋ |
+| com.epicgames.kairos.utils.KLog | null | a |
+| com.epicgames.kairos.utils.KLog | null | ࡲ᫂᫚ |
+| com.epicgames.kairos.utils.KLog | null | e |
+| com.epicgames.kairos.utils.KLog | null | ࡲ᫂᫚ |
+| com.epicgames.kairos.utils.KLog | null | log$4414f3 |
+| com.epicgames.kairos.utils.KLog | null | ࡨ᫂᫚ |

@@ -30,6 +30,7 @@ You've found the documentation, check below for the table of contents.
   - [UnsubscribeFromFriend](https://github.com/Tectors/EpicGraphql/blob/main/docs/hub/operations/UnsubscribeFromFriend.md)
   - [reportPlayer](https://github.com/Tectors/EpicGraphql/blob/main/docs/hub/operations/reportPlayer.md)
   - [GetMyAccount](https://github.com/Tectors/EpicGraphql/blob/main/docs/hub/operations/GetMyAccount.md)
+  - [SubscribeToFriend](https://github.com/Tectors/EpicGraphql/blob/main/docs/hub/operations/SubscribeToFriend.md)
 - [Account](https://github.com/Tectors/EpicGraphql/tree/main/docs/account)
   - [UserSettingsQuery](https://github.com/Tectors/EpicGraphql/blob/main/docs/account/operations/UserSettingsQuery.md)
   - [UserSettingsMutation](https://github.com/Tectors/EpicGraphql/blob/main/docs/account/operations/UserSettingsMutation.md)
