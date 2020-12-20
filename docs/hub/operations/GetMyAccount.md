@@ -8,7 +8,6 @@ Get information about your account.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
-> query
 ```graphql
 query GetMyAccount {
   Fortnite {

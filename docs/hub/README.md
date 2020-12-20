@@ -12,6 +12,7 @@ Past or new GraphQL url and methods.
 
 ## Avatars
 A list of avatars is located at [here](https://cdn2.unrealengine.com/Kairos/data/avatars.json), but it is very outdated but the app seems to still use it to this day.
+
 The url for these characters is in this format, just replace CID with the id.
 ```
 https://cdn2.unrealengine.com/Kairos/portraits/{CID}.png
@@ -23,6 +24,12 @@ There is a **preview** param, see below as how they show.
 | 1 | Small |
 | 2 | Large |
 
+## ID CODES
+Here's some codes that represent the platform as.
+| NAME |
+| - |
+| FortniteMobileAndroid |
+
 ## Gifs
 The only known gifs, also some ones that I've found are the dancing emotes.
 
@@ -31,6 +38,12 @@ The only known gifs, also some ones that I've found are the dancing emotes.
 | [Dab](https://cdn2.unrealengine.com/Kairos/gifs/Dab_opt.gif) |
 | [Wiggle](https://cdn2.unrealengine.com/Kairos/gifs/Wiggle_opt.gif) |
 | [Llama Bell](https://cdn2.unrealengine.com/Kairos/gifs/LlamaBell_opt.gif) |
+
+## App Identifiers
+This list will be updated if there is any more.
+| IDENTIFIER |
+| - |
+| com.epicgames.fortnite |
 
 ## Andriod Events
 For some reason they send requests to the appsfyler website.
@@ -52,6 +65,37 @@ They have a sentry endpoint that stores all the information about your device.
 | URL |
 | - |
 | https://sentry.io/api/1776306/store |
+
+The data they store is below.
+| NAME | PROPERTY NAME |
+| - |
+| Arch | arch |
+| Battery Level | battery_level |
+| Brand Of Phone | brand |
+| Is Charging | charging |
+| Amount Of External Free Storage | external_free_storage |
+| Amount Of External Storage Left | external_storage_size |
+| Brand Version | family |
+| Free Memory Amount | free_memory |
+| Free Storage Amount | free_storage |
+| Is Low Memory | low_memory |
+| Manufacturer | manufacturer |
+| Memory Size | memory_size |
+| Model Of Phone | model |
+| Model ID Of Phone | model_id |
+| Online | online |
+| Orientation | orientation |
+| Screen Density | screen_density |
+| Screen DPI | screen_dpi |
+| Screen Resolution | screen_resolution |
+| Simulator | simulator |
+| Storage Size | storage_size |
+| Build | os.build |
+| Kernel Version | os.kernel_version |
+| Name Of OS | os.name |
+| Rooted | os.rooted |
+| Version | os.version |
+| Version | os.version |
 
 ## Modules
 Here's some modules they use. (gotten from the sentry request)

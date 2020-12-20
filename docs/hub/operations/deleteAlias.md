@@ -8,7 +8,6 @@ Remove a nickname.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
-> mutation
 ```graphql
 mutation deleteAlias($friendId: String!) {
   Friends {

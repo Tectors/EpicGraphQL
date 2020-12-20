@@ -8,7 +8,6 @@ Status about a service, that is/isn't in kairos.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
-> query
 ```graphql
 query GetStatusPerService($namespace: String!, $kairosId: String!, $fortniteId: String!) {
   ContentControl {

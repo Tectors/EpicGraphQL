@@ -8,7 +8,6 @@ Update user settings. (ect. kairos)
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
-> mutation
 ```graphql
 mutation UpdateUserSetting($value: String!, $key: String!) {
   UserSettings {

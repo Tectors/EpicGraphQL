@@ -8,7 +8,6 @@ Subscribe to your friend.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
-> mutation
 ```graphql
 mutation SubscribeToFriend($friendID: String!) {
   PresenceV2 {

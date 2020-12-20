@@ -8,7 +8,6 @@ Description here, manual action needed.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
-> mutation
 ```graphql
 mutation SetFriendRequestNotificationSettings($value: NotificationSettingsInput!) {
   Friends {

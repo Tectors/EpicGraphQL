@@ -8,7 +8,6 @@ Last time a user was online.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
-> query
 ```graphql
 query GetLastOnlineSummary($namespace: String!) {
   PresenceV2 {

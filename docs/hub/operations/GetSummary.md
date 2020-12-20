@@ -8,7 +8,6 @@ Summary of all friend requests including outgoing requests, current friends, blo
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
-> query
 ```graphql
 query GetSummary {
   Friends {

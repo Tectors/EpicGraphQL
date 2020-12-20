@@ -8,7 +8,6 @@ Get a specific setting that is from you.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
-> query
 ```graphql
 query GetMySettingOption($key: String!) {
   UserSettings {

@@ -8,7 +8,6 @@ If the Eula was accepted.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
-> query
 ```graphql
 query EulaAccepted($locale: String!, $accountId: String!, $id: String!) {
   Eula {

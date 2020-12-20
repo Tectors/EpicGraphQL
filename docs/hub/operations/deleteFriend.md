@@ -8,7 +8,6 @@ Remove/Decline a friend/request.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
-> mutation
 ```graphql
 mutation deleteFriend($friendId: String!) {
   Friends {

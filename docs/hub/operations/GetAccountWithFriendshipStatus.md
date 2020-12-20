@@ -8,7 +8,6 @@ Friendship status, could be used as a username lookup.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
-> query
 ```graphql
 query GetAccountWithFriendshipStatus {
   Account {

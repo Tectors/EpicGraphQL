@@ -8,7 +8,6 @@ Notification settings.
 | https://graphql.epicgames.com/partyhub/graphql | POST |
 
 ## Query
-> query
 ```graphql
 query GetNotificationSettings($namespace: String!) {
   PartySettings {
