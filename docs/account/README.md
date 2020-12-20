@@ -7,6 +7,7 @@ Past or new GraphQL url and methods.
 | URL | METHOD |
 | - | - |
 | https://graphql.epicgames.com/graphql | POST |
+
 [Check the operations folder to get a list of ways to use this post request.](https://github.com/Tectors/EpicGraphql/blob/main/docs/account/operations)
 
 ## Operations
