@@ -37,8 +37,8 @@ mutation setAlias($alias: String!, $friendId: String!) {
 ```json
 {
    "variables": {
-      "alias": "",
-      "friendId": ""
+      "friendId": "",
+      "alias": ""
    },
    "query": "mutation setAlias($friendId: String!, $alias: String!) { Friends { __typename setAlias(friendId: $friendId, alias: $alias) { __typename success } } }"
 }

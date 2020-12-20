@@ -35,7 +35,11 @@ mutation SetSubscriptionSettings($setting: SubscriptionSettingsInput!) {
 ```json
 {
    "variables": {
-      "setting": {}
+      "setting": {
+         "broadcast": {
+            "enabled": "boolean"
+         }
+      }
    },
    "query": "mutation SetSubscriptionSettings($setting: SubscriptionSettingsInput!) { PresenceV2 { __typename modifySubscriptionSettings(namespace: \"_\", value: $setting) { __typename success } } }"
 }

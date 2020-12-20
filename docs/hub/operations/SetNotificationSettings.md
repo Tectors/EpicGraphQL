@@ -56,9 +56,17 @@ mutation SetNotificationSettings($friendRequestNotificationSettings: Notificatio
 ```json
 {
    "variables": {
-      "friendRequestNotificationSettings": {},
-      "partyNotificationSettings": {},
-      "namespace": ""
+      "namespace": "",
+      "partyNotificationSettings": {
+         "offline": {
+            "suppress_all": "boolean"
+         }
+      },
+      "friendRequestNotificationSettings": {
+         "offline": {
+            "suppress_all": "boolean"
+         }
+      }
    },
    "query": "mutation SetNotificationSettings($namespace: String!, $partyNotificationSettings: NotificationSettingsInput!, $friendRequestNotificationSettings: NotificationSettingsInput!) { PartySettings { __typename setNotificationSettings(namespace: $namespace, value: $partyNotificationSettings) { __typename offline { __typename suppress_all } success status } } Friends { __typename setNotificationSettings(data: $friendRequestNotificationSettings) { __typename offline { __typename suppress_all } success status } } }"
 }

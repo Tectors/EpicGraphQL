@@ -40,7 +40,11 @@ mutation SetFriendRequestNotificationSettings($value: NotificationSettingsInput!
 ```json
 {
    "variables": {
-      "value": {}
+      "value": {
+         "offline": {
+            "suppress_all": "boolean"
+         }
+      }
    },
    "query": "mutation SetFriendRequestNotificationSettings($value: NotificationSettingsInput!) { Friends { __typename setNotificationSettings(data: $value) { __typename offline { __typename suppress_all } success status } } }"
 }

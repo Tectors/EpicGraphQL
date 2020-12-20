@@ -42,8 +42,12 @@ mutation SetPartyNotificationSettings($value: NotificationSettingsInput!, $names
 ```json
 {
    "variables": {
-      "value": {},
-      "namespace": ""
+      "namespace": "",
+      "value": {
+         "offline": {
+            "suppress_all": "boolean"
+         }
+      }
    },
    "query": "mutation SetPartyNotificationSettings($namespace: String!, $value: NotificationSettingsInput!) { PartySettings { __typename setNotificationSettings(namespace: $namespace, value: $value) { __typename offline { __typename suppress_all } success status } } }"
 }

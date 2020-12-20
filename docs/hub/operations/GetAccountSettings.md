@@ -47,8 +47,8 @@ This GraphQL seems to include the key property, here's some ideas of what it cou
 ```json
 {
    "variables": {
-      "accountIds": [],
-      "key": ""
+      "key": "",
+      "accountIds": []
    },
    "query": "query GetAccountSettings($key: String!, $accountIds: [String]!) { UserSettings { __typename setting(key:$key, accountIds:$accountIds) { __typename value accountId } } }"
 }
