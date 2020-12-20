@@ -1,15 +1,13 @@
 # Party Hub (Fortnite)
 An documentation about the *Fortnite Party Hub* app.
 
-## Kairos
-Information about kairos.
-
 ## API
 Past or new GraphQL url and methods.
 
 | URL | METHOD |
 | - | - |
 | https://graphql.epicgames.com/partyhub/graphql | POST |
+[Check the operations folder to get a list of ways to use this post request.](https://github.com/Tectors/EpicGraphql/blob/main/docs/hub/operations)
 
 ## Avatars
 A list of avatars is located at [here](https://cdn2.unrealengine.com/Kairos/data/avatars.json), but it is very outdated but the app seems to still use it to this day.

@@ -1,6 +1,6 @@
 # GetAccountWithFriendshipStatus
 
-Friendship status.
+Friendship status, could be used as a username lookup.
 
 ## Request
 | URL | METHOD |
