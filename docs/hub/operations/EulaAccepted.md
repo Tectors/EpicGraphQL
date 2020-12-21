@@ -1,6 +1,6 @@
 # EulaAccepted
 
-If the Eula was accepted.
+If a eula was accepted. (Does not work on fortnite tokens, beware)
 
 ## Request
 | URL | METHOD |
@@ -13,9 +13,7 @@ query EulaAccepted($locale: String!, $accountId: String!, $id: String!) {
   Eula {
     hasAccountAccepted(locale: $locale, accountId: $accountId, id: $id) {
      accepted
-     __typename
     }
-   __typename
   }
 }
 ```
@@ -23,15 +21,15 @@ query EulaAccepted($locale: String!, $accountId: String!, $id: String!) {
 ## Variables
 ```json
 {
-   "locale": "",
    "accountId": "",
+   "locale": "",
    "id": ""
 }
 ```
 | VARIABLES | DESCRIPTION | TYPE |
 | - | - | - |
-| locale | Short-hand language. | STRING |
 | accountId | An account id. | STRING |
+| locale | Short-hand language. | STRING |
 | id | An ID of sort. | STRING |
 
 ## Payload
@@ -39,9 +37,9 @@ query EulaAccepted($locale: String!, $accountId: String!, $id: String!) {
 {
    "variables": {
       "id": "",
-      "accountId": "",
-      "locale": ""
+      "locale": "",
+      "accountId": ""
    },
-   "query": "query EulaAccepted($id:String!, $accountId:String!, $locale:String!) { Eula { __typename hasAccountAccepted(id: $id, accountId: $accountId, locale: $locale) { __typename accepted } } }"
+   "query": "query EulaAccepted($id: String!, $accountId:String!, $locale:String!) { Eula { hasAccountAccepted(id: $id, accountId: $accountId, locale: $locale) { accepted } } }"
 }
 ```

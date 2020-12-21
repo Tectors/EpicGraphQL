@@ -1,6 +1,6 @@
 # FriendsGetSummary
 
-Description here, manual action needed.
+Get a summary of your friends.
 
 ## Request
 | URL | METHOD |

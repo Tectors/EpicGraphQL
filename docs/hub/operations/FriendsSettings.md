@@ -1,6 +1,6 @@
 # FriendsSettings
 
-Description here, manual action needed.
+Friends notification settings.
 
 ## Request
 | URL | METHOD |

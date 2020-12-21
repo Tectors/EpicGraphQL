@@ -1,6 +1,6 @@
 # SetPartyNotificationSettings
 
-Description here, manual action needed.
+Set party notifications.
 
 ## Request
 | URL | METHOD |

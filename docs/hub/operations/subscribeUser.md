@@ -1,6 +1,6 @@
 # subscribeUser
 
-Description here, manual action needed.
+Subscribe to an user.
 
 ## Request
 | URL | METHOD |

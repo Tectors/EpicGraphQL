@@ -1,6 +1,6 @@
 # dismissFriendSuggestion
 
-Description here, manual action needed.
+Dismiss a friend suggestion.
 
 ## Request
 | URL | METHOD |

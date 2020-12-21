@@ -1,6 +1,6 @@
 # unSubscribeUser
 
-Description here, manual action needed.
+UnSubscribe to an user.
 
 ## Request
 | URL | METHOD |

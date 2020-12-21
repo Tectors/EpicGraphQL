@@ -1,6 +1,6 @@
 # SetNotificationSettings
 
-Description here, manual action needed.
+Set party and friend requests notifications in one request!
 
 ## Request
 | URL | METHOD |

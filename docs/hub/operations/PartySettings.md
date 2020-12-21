@@ -1,6 +1,6 @@
 # PartySettings
 
-Description here, manual action needed.
+Party notification settings.
 
 ## Request
 | URL | METHOD |
@@ -62,6 +62,6 @@ mutation PartySettings($value2: NotificationSettingsInput!, $value1: Notificatio
          }
       }
    },
-   "query": "mutation PartySettings ($namespace: String, $value1: NotificationSettingsInput!,$value2: NotificationSettingsInput!) { PartySettings { setNotificationSettings(namespace: $namespace, value: $value1) { suppress_all success } } Friends { setNotificationSettings(data: $value2) { offline { suppress_all } success status } } }"
+   "query": "mutation PartySettings($namespace: String, $value1: NotificationSettingsInput!,$value2: NotificationSettingsInput!) { PartySettings { setNotificationSettings(namespace: $namespace, value: $value1) { suppress_all success } } Friends { setNotificationSettings(data: $value2) { offline { suppress_all } success status } } }"
 }
 ```

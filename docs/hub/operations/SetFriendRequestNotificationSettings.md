@@ -1,6 +1,6 @@
 # SetFriendRequestNotificationSettings
 
-Description here, manual action needed.
+Set friend requests notifications.
 
 ## Request
 | URL | METHOD |

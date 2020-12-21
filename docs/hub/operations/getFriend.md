@@ -1,6 +1,6 @@
 # getFriend
 
-Description here, manual action needed.
+Get friend by friend ID.
 
 ## Request
 | URL | METHOD |

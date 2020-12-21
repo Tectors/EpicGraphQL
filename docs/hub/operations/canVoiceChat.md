@@ -1,6 +1,6 @@
 # canVoiceChat
 
-Description here, manual action needed.
+Able to use voice chat in namespace.
 
 ## Request
 | URL | METHOD |

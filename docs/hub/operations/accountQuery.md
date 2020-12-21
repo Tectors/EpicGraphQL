@@ -1,6 +1,6 @@
 # accountQuery
 
-Description here, manual action needed.
+Details about an account.
 
 ## Request
 | URL | METHOD |

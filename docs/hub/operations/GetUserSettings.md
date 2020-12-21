@@ -1,6 +1,6 @@
 # GetUserSettings
 
-Description here, manual action needed.
+User settings from you.
 
 ## Request
 | URL | METHOD |

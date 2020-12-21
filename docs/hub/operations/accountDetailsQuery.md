@@ -1,6 +1,6 @@
 # accountDetailsQuery
 
-Description here, manual action needed.
+Details about accounts using only account ids.
 
 ## Request
 | URL | METHOD |
