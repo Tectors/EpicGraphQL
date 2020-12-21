@@ -1,4 +1,5 @@
 # EulaAccepted
+*Sheesh, this is the 41 operation created.*
 
 If a eula was accepted. (Does not work on fortnite tokens, beware)
 

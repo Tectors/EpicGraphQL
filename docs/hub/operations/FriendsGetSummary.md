@@ -1,4 +1,5 @@
 # FriendsGetSummary
+*Sheesh, this is the 29 operation created.*
 
 Get a summary of your friends.
 

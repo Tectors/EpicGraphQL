@@ -1,4 +1,5 @@
 # SubscribeToFriend
+*Sheesh, this is the 24 operation created.*
 
 Subscribe to your friend.
 

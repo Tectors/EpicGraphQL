@@ -1,4 +1,5 @@
 # SetFriendRequestNotificationSettings
+*Sheesh, this is the 26 operation created.*
 
 Set friend requests notifications.
 

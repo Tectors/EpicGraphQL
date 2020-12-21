@@ -1,4 +1,5 @@
 # getMySocialBanSummary
+*Sheesh, this is the 19 operation created.*
 
 Ban history.
 

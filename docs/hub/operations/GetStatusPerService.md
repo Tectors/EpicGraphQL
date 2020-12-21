@@ -1,4 +1,5 @@
 # GetStatusPerService
+*Sheesh, this is the 8 operation created.*
 
 Status about a service, that is/isn't in kairos.
 

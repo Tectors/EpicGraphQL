@@ -1,4 +1,5 @@
 # SetPartyNotificationSettings
+*Sheesh, this is the 27 operation created.*
 
 Set party notifications.
 

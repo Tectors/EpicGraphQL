@@ -1,4 +1,5 @@
 # deleteFriend
+*Sheesh, this is the 11 operation created.*
 
 Remove/Decline a friend/request.
 

@@ -1,4 +1,5 @@
 # GetSubscriptionSettings
+*Sheesh, this is the 7 operation created.*
 
 All of the subscribed data. (ect. Friend notifications)
 

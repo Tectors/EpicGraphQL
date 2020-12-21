@@ -1,4 +1,5 @@
 # SetNotificationSettings
+*Sheesh, this is the 25 operation created.*
 
 Set party and friend requests notifications in one request!
 

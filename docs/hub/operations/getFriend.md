@@ -1,4 +1,5 @@
 # getFriend
+*Sheesh, this is the 28 operation created.*
 
 Get friend by friend ID.
 

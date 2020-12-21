@@ -1,4 +1,5 @@
 # subscribeUser
+*Sheesh, this is the 30 operation created.*
 
 Subscribe to an user.
 

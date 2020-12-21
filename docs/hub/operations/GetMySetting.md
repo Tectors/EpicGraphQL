@@ -1,4 +1,5 @@
 # GetMySetting
+*Sheesh, this is the 6 operation created.*
 
 Get a Kairos setting.
 

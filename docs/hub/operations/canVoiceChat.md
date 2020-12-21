@@ -1,4 +1,5 @@
 # canVoiceChat
+*Sheesh, this is the 32 operation created.*
 
 Able to use voice chat in namespace.
 

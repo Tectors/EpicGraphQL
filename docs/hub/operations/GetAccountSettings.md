@@ -1,4 +1,5 @@
 # GetAccountSettings
+*Sheesh, this is the 2 operation created.*
 
 Get Kairos ect.. settings from any user.
 

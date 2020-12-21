@@ -1,4 +1,5 @@
 # GetAccountWithFriendshipStatus
+*Sheesh, this is the 9 operation created.*
 
 Friendship status, could be used as a username lookup.
 
