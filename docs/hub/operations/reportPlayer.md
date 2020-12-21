@@ -1,5 +1,7 @@
 # reportPlayer
 
+**I AM NOT RESPONSIBLE IF YOUR ACCOUNT GETS BANNED FOR EXPLOTING**
+
 Uhm, how did you find this?
 
 ## Request

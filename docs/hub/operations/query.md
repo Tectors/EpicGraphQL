@@ -23,36 +23,7 @@ query {
   }
 }
 ```
-## Payload
-```json
-{
-   "variables": {},
-   "query": "query { Account { myAccount { id displayName email country externalAuths { externalDisplayName type } } }, Fortnite { myProfile { id } } }"
-}
-```
 
-# Account & Fortnite Profile
-```graphql
-query {
-  Fortnite {
-    myProfile {
-     id
-    }
-  }
-  Account {
-    myAccount {
-      externalAuths {
-       type
-       externalDisplayName
-      }
-     country
-     email
-     displayName
-     id
-    }
-  }
-}
-```
 ## Payload
 ```json
 {
@@ -72,6 +43,7 @@ query {
   }
 }
 ```
+
 ## Payload
 ```json
 {
@@ -98,6 +70,7 @@ query {
   }
 }
 ```
+
 ## Payload
 ```json
 {
