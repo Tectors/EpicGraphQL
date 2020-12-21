@@ -44,7 +44,7 @@ mutation SetPartyNotificationSettings($value: NotificationSettingsInput!, $names
       "namespace": "",
       "value": {
          "offline": {
-            "suppress_all": "boolean"
+            "suppress_all": Boolean
          }
       }
    },

@@ -1,7 +1,5 @@
 # reportPlayer
 
-**I AM NOT RESPONSIBLE IF YOUR ACCOUNT GETS BANNED FOR EXPLOTING**
-
 Uhm, how did you find this?
 
 ## Request
@@ -62,8 +60,8 @@ mutation reportPlayer($blockedUserRequested: Boolean!, $markedAsKnown: Boolean!,
       "offenderPlatform": "",
       "reporterPlatform": "",
       "details": "",
-      "markedAsKnown": "boolean",
-      "blockedUserRequested": "boolean"
+      "markedAsKnown": Boolean,
+      "blockedUserRequested": Boolean
    },
    "query": "mutation reportPlayer($reporterAccountId: String!, $offenderAccountId: String!, $reason: String!, $partyId: String!, $offenderPlatform: String!, $reporterPlatform: String!, $details: String!, $markedAsKnown: Boolean!, $blockedUserRequested: Boolean!) { Fortnite { __typename reportPlayer(report: {reporterAccountId: $reporterAccountId, offenderAccountId: $offenderAccountId, reason: $reason, partyId: $partyId, offenderPlatform: $offenderPlatform, reporterPlatform: $reporterPlatform, details: $details, markedAsKnown: $markedAsKnown, blockedUserRequested: $blockedUserRequested, subGameName: \"Kairos\"}) { __typename success status errorCode errorMessage } } }"
 }

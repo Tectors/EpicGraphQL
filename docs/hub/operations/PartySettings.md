@@ -48,17 +48,17 @@ mutation PartySettings($value2: NotificationSettingsInput!, $value1: Notificatio
    "variables": {
       "value": {
          "offline": {
-            "suppress_all": "boolean"
+            "suppress_all": Boolean
          }
       },
       "value1": {
          "offline": {
-            "suppress_all": "boolean"
+            "suppress_all": Boolean
          }
       },
       "value2": {
          "offline": {
-            "suppress_all": "boolean"
+            "suppress_all": Boolean
          }
       }
    },

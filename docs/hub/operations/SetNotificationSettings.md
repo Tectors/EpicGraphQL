@@ -58,12 +58,12 @@ mutation SetNotificationSettings($friendRequestNotificationSettings: Notificatio
       "namespace": "",
       "partyNotificationSettings": {
          "offline": {
-            "suppress_all": "boolean"
+            "suppress_all": Boolean
          }
       },
       "friendRequestNotificationSettings": {
          "offline": {
-            "suppress_all": "boolean"
+            "suppress_all": Boolean
          }
       }
    },

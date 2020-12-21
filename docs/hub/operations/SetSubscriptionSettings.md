@@ -36,7 +36,7 @@ mutation SetSubscriptionSettings($setting: SubscriptionSettingsInput!) {
    "variables": {
       "setting": {
          "broadcast": {
-            "enabled": "boolean"
+            "enabled": Boolean
          }
       }
    },

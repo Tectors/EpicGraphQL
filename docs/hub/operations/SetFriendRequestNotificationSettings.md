@@ -41,7 +41,7 @@ mutation SetFriendRequestNotificationSettings($value: NotificationSettingsInput!
    "variables": {
       "value": {
          "offline": {
-            "suppress_all": "boolean"
+            "suppress_all": Boolean
          }
       }
    },
