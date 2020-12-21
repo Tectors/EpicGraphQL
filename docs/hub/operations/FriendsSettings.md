@@ -1,5 +1,5 @@
 # FriendsSettings
-*Sheesh, this is the 36 operation created.*
+*Sheesh, this is the 41 operation created.*
 
 Friends notification settings.
 

@@ -1,6 +1,41 @@
 # query
 These are query operations without a name.
 
+# Fortnite Profile Data
+```graphql
+query {
+  Fortnite {
+    myProfile {
+      backpack {
+       templateId
+      }
+      character {
+        attributes {
+          variants {
+           owned
+           channel
+           active
+          }
+         level
+         item_seen
+         favorite
+        }
+       templateId
+      }
+     id
+    }
+  }
+}
+```
+
+## Payload
+```json
+{
+   "variables": {},
+   "query": "query { Fortnite { myProfile { id character { templateId attributes { favorite item_seen level variants { active channel owned } } } backpack { templateId } } } }"
+}
+```
+
 # Account & Fortnite Profile
 ```graphql
 query {

@@ -1,5 +1,5 @@
 # GetEula
-*Sheesh, this is the 39 operation created.*
+*Sheesh, this is the 47 operation created.*
 
 Get an eula by id and locale.
 

@@ -43,7 +43,6 @@ You've found the documentation, check below for the table of contents.
   - [accountQuery](https://github.com/Tectors/EpicGraphql/blob/main/docs/hub/operations/accountQuery.md)
   - [GetUserSettings](https://github.com/Tectors/EpicGraphql/blob/main/docs/hub/operations/GetUserSettings.md)
   - [FriendsSettings](https://github.com/Tectors/EpicGraphql/blob/main/docs/hub/operations/FriendsSettings.md)
-  - [PartySettings](https://github.com/Tectors/EpicGraphql/blob/main/docs/hub/operations/PartySettings.md)
   - [dismissFriendSuggestion](https://github.com/Tectors/EpicGraphql/blob/main/docs/hub/operations/dismissFriendSuggestion.md)
   - [GetEula](https://github.com/Tectors/EpicGraphql/blob/main/docs/hub/operations/GetEula.md)
   - [AcceptEula](https://github.com/Tectors/EpicGraphql/blob/main/docs/hub/operations/AcceptEula.md)
