@@ -60,6 +60,22 @@ The only known gifs, also some ones that I've found are the dancing emotes.
 | [Wiggle](https://cdn2.unrealengine.com/Kairos/gifs/Wiggle_opt.gif) |
 | [Llama Bell](https://cdn2.unrealengine.com/Kairos/gifs/LlamaBell_opt.gif) |
 
+We actually created a bunch of gifs our selfs, check below. (Some of these are helped/created by [@InTheShadeYT](https://twitter.com/InTheShadeYT))
+
+| EMOTE |
+| - |
+| [Boom Box](https://github.com/Tectors/EpicGraphQL/blob/main/docs/hub/gifs/BoomBox.gif) |
+| [Dance Moves](https://github.com/Tectors/EpicGraphQL/blob/main/docs/hub/gifs/DanceMoves.gif) |
+| [Deep End](https://github.com/Tectors/EpicGraphQL/blob/main/docs/hub/gifs/DeepEnd.gif) |
+| [Floss](https://github.com/Tectors/EpicGraphQL/blob/main/docs/hub/gifs/Floss.gif) |
+| [Tidy](https://github.com/Tectors/EpicGraphQL/blob/main/docs/hub/gifs/Tidy.gif) |
+| [True Heart](https://github.com/Tectors/EpicGraphQL/blob/main/docs/hub/gifs/TrueHeart.gif) |
+| [Wizard](https://github.com/Tectors/EpicGraphQL/blob/main/docs/hub/gifs/Wizard.gif) |
+| [Smooth Moves](https://github.com/Tectors/EpicGraphQL/blob/main/docs/hub/gifs/SmoothMoves.gif) |
+| [Victory Von Doom](https://github.com/Tectors/EpicGraphQL/blob/main/docs/hub/gifs/VictoryVonDoom.gif) |
+| [Scenario](https://github.com/Tectors/EpicGraphQL/blob/main/docs/hub/gifs/Scenario.gif) |
+| [Planetary Vibe](https://github.com/Tectors/EpicGraphQL/blob/main/docs/hub/gifs/PlanetaryVibe.gif) |
+
 ## App Identifiers
 This list will be updated if there is any more.
 | IDENTIFIER |
