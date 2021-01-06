@@ -13,7 +13,7 @@ Works the same as the normal request with POST, though check Authorization for h
 ```graphql
 {
     Groups {
-        groups(namespace: \"fortnite\") {
+        groups(namespace: namespace) {
             mode
             name
             owner
@@ -38,10 +38,92 @@ Works the same as the normal request with POST, though check Authorization for h
 }
 ```
 
+### Variables
+
+Just replace the **\"namespace\"**, due to this request unable to have variables for some reason.
+
+```json
+{
+    "namespace": ""
+}
+```
+
+| VARIABLES | DESCRIPTION | TYPE |
+| - | - | - |
+| namespace | The short/full name of the game. (eg. fortnite) | String |
+
 ### Payload
 ```json
 {
-   "query": "{ Groups { groups(namespace: \"fortnite\") { mode name owner revision size namespace enabled description groupId members { isOwner account { name id displayName } joinedAt accountId } } } }"
+   "query": "{ Groups { groups(namespace: \"namespace\") { mode name owner revision size namespace enabled description groupId members { isOwner account { name id displayName } joinedAt accountId } } } }"
+}
+```
+
+### Create Group
+
+```graphql
+{
+    Groups {
+        groups(namespace: namespace) {
+            mode
+            name
+            owner
+            revision
+            size
+            namespace
+            enabled
+            description
+            groupId
+            members {
+                isOwner
+                account {
+                    name
+                    id
+                    displayName
+                }
+                joinedAt
+                accountId
+            }
+        }
+    }
+}
+```
+
+### Variables
+
+Just replace the **\"namespace\"**, due to this request unable to have variables for some reason.
+
+```json
+{
+    "namespace": ""
+}
+```
+
+| VARIABLES | DESCRIPTION | TYPE |
+| - | - | - |
+| namespace | The short/full name of the game. (eg. fortnite) | String |
+| createGroupRequest | Information about the group your creating. | Object |
+
+### createGroupRequest Variables
+```json
+{
+    "name": "",
+    "description": "",
+    "motto": ""
+}
+```
+
+| VARIABLES | DESCRIPTION | TYPE |
+| - | - | - |
+| namespace | The short/full name of the game. (eg. fortnite) | String |
+| description | Description about the group you're making. | String |
+| name | Name of group. | String |
+| motto | Reason of making the group???? (Unknown) | String |
+
+### Payload
+```json
+{
+   "query": "mutation { Groups { createGroup(namespace: \"namespace\", createGroupRequest: {name: \"name\", description: \"description\", motto: \"motto\"}) { name id createdAt } } }"
 }
 ```
 
