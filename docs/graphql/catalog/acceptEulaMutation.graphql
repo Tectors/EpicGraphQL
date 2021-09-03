@@ -1,0 +1,13 @@
+mutation acceptEulaMutation($eulaId: String!, $accountId: String!, $version: Int!, $locale: String!) {
+  Eula {
+    acceptEula(
+      id: $eulaId
+      accountId: $accountId
+      locale: $locale
+      version: $version
+    ) {
+      key
+      accepted
+    }
+  }
+}

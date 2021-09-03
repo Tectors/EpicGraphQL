@@ -1,0 +1,11 @@
+mutation updateSettingMutation($identity: String!, $settingKey: String!, $settingValue: Boolean!) {
+  Communication {
+    updateSetting(
+      identity: $identity
+      settingKey: $settingKey
+      settingValue: $settingValue
+    ) {
+      success
+    }
+  }
+}

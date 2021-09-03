@@ -1,0 +1,19 @@
+query getNs($namespace: String!){
+    Catalog {
+        catalogNs(namespace: $namespace) {
+            ageGating {
+                age
+                country
+            }
+            accountAuthorized
+        }
+    }
+
+    ContentControl {
+        namespace(name: $namespace) {
+            result {
+                allowedToAcquire
+            }
+        }
+    }
+}

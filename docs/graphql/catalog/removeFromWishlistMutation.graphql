@@ -1,0 +1,7 @@
+mutation removeFromWishlistMutation($namespace: String!, $offerId: String!, $operation: RemoveOperation!) {
+    Wishlist {
+        removeFromWishlist(namespace: $namespace, offerId: $offerId, operation: $operation) {
+            success
+        }
+    }
+}

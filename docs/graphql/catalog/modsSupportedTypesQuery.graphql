@@ -1,0 +1,10 @@
+query modsSupportedTypesQuery($sandboxId:String!) {
+    Product {
+        sandbox(sandboxId: $sandboxId) {
+            product {
+                supportedTypes
+                isModMarketEnabled(sandboxId: $sandboxId)
+            }
+        }
+    }
+}

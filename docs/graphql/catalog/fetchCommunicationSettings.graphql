@@ -1,0 +1,10 @@
+query fetchCommunicationSettings($identity: String!, $settingKeyPrefix: String!) {
+  Communication {
+    settings(identity: $identity, settingKeyPrefix: $settingKeyPrefix) {
+      settings {
+        settingKey
+        settingValue
+      }
+    }
+  }
+}

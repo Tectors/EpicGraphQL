@@ -1,0 +1,86 @@
+mutation addWishlistMutation($namespace: String!, $offerId: String!, $country:String!, $locale:String) {
+    Wishlist {
+        addToWishlist(namespace: $namespace, offerId: $offerId) {
+            wishlistItem {
+                id,
+                order,
+                created,
+                offerId,
+                updated,
+                namespace,
+                isFirstTime
+
+offer {
+    productSlug
+    urlSlug
+    title
+    id
+    namespace
+    offerType
+    expiryDate
+    status
+    isCodeRedemptionOnly
+    description
+    effectiveDate
+    keyImages {
+        type
+        url
+    }
+    seller {
+        id
+        name
+    }
+    productSlug
+    urlSlug
+    items {
+        id
+        namespace
+    }
+    customAttributes {
+        key
+        value
+    }
+    catalogNs {
+        mappings(pageType: "productHome") {
+            pageSlug
+            pageType
+        }
+    }
+    offerMappings {
+        pageSlug
+        pageType
+    }
+    categories {
+        path
+    }
+    price(country: $country) {
+        totalPrice {
+            discountPrice
+            originalPrice
+            voucherDiscount
+            discount
+            fmtPrice(locale: $locale) {
+                originalPrice
+                discountPrice
+                intermediatePrice
+            }
+            currencyCode
+            currencyInfo {
+                decimals
+                symbol
+            }
+        }
+        lineOffers {
+            appliedRules {
+                id
+                endDate
+            }
+        }
+    }
+}
+
+            }
+            success
+        }
+    }
+}

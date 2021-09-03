@@ -1,0 +1,160 @@
+query getToast($country: String!, $locale: String) {
+    Wishlist {
+        wishlistToast {
+            offers {
+                releaseCycle {
+                    namespace
+                    offerId
+                    currentStatus
+                    previousStatus
+
+offer {
+    productSlug
+    urlSlug
+    title
+    id
+    namespace
+    offerType
+    expiryDate
+    status
+    isCodeRedemptionOnly
+    description
+    effectiveDate
+    keyImages {
+        type
+        url
+    }
+    seller {
+        id
+        name
+    }
+    productSlug
+    urlSlug
+    items {
+        id
+        namespace
+    }
+    customAttributes {
+        key
+        value
+    }
+    catalogNs {
+        mappings(pageType: "productHome") {
+            pageSlug
+            pageType
+        }
+    }
+    offerMappings {
+        pageSlug
+        pageType
+    }
+    categories {
+        path
+    }
+    price(country: $country) {
+        totalPrice {
+            discountPrice
+            originalPrice
+            voucherDiscount
+            discount
+            fmtPrice(locale: $locale) {
+                originalPrice
+                discountPrice
+                intermediatePrice
+            }
+            currencyCode
+            currencyInfo {
+                decimals
+                symbol
+            }
+        }
+        lineOffers {
+            appliedRules {
+                id
+                endDate
+            }
+        }
+    }
+}
+
+                }
+                onSale {
+                    namespace
+                    offerId
+                    promotionRuleId
+                    saleExpirationDate
+
+offer {
+    productSlug
+    urlSlug
+    title
+    id
+    namespace
+    offerType
+    expiryDate
+    status
+    isCodeRedemptionOnly
+    description
+    effectiveDate
+    keyImages {
+        type
+        url
+    }
+    seller {
+        id
+        name
+    }
+    productSlug
+    urlSlug
+    items {
+        id
+        namespace
+    }
+    customAttributes {
+        key
+        value
+    }
+    catalogNs {
+        mappings(pageType: "productHome") {
+            pageSlug
+            pageType
+        }
+    }
+    offerMappings {
+        pageSlug
+        pageType
+    }
+    categories {
+        path
+    }
+    price(country: $country) {
+        totalPrice {
+            discountPrice
+            originalPrice
+            voucherDiscount
+            discount
+            fmtPrice(locale: $locale) {
+                originalPrice
+                discountPrice
+                intermediatePrice
+            }
+            currencyCode
+            currencyInfo {
+                decimals
+                symbol
+            }
+        }
+        lineOffers {
+            appliedRules {
+                id
+                endDate
+            }
+        }
+    }
+}
+
+                }
+            }
+        }
+    }
+}
