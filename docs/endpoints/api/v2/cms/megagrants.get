@@ -1,0 +1,466 @@
+GET https://www.unrealengine.com/api/v2/en-US/cms/megagrants HTTP/2.0
+Host: www.unrealengine.com
+
+X-xsrf-token: Removed
+Cookie: Removed
+X-requested-with: XMLHttpRequest
+Accept-encoding: gzip, deflate, br
+Referer: https://www.unrealengine.com/en-US/megagrants
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Accept: application/json, text/plain, */*
+Accept-language: en-US,en;q=0.9
+
+Response: 200 HTTP/2.0
+
+{
+    "_activeDate": "2019-02-22T19:58:36.230Z",
+    "_id": "68cfb933-5ec0-40be-8426-916bd31d8b5a",
+    "_images_": [
+        ""
+    ],
+    "_locale": "en-US",
+    "_metaTags": "<meta name=\"description\" content=\"Epic Games has committed $100 million in MegaGrants for you to do amazing things with Unreal Engine enhancing the community experience. Learn more today.\">\n<meta property=\"og:description\" content=\"Epic Games has committed $100 million in MegaGrants for you to do amazing things with Unreal Engine or enhancing open-source capabilities for the 3D graphics community. Learn more today.\">\n<meta name=\"twitter:description\" content=\"Epic Games has committed $100 million in MegaGrants for you to do amazing things with Unreal Engine or enhancing open-source capabilities for the 3D graphics community. Learn more today.\">\n<meta name=\"keywords\" content=\"game engine,best game engine,unreal engine 4,epic megagrants, MegaGrants, mega grants, dev grants, mega grants, indie game fund, indie game funding, game dev funding, game funding, game fund, game project funding, Unreal fund, UE fund, UE funding, 3D tool development, 3D open source\">\n<meta name=\"robots\" content=\"index,follow\">\n<meta property=\"og:title\" content=\"Epic MegaGrants Funds Creators Using UE or Enhancing the Open Source Community\">\n<meta property=\"twitter:title\" content=\"Unreal Engine | Epic MegaGrants\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:url\" content=\"http://www.unrealengine.com/megagrants\">\n<meta property=\"og:image\" content=\"https://cdn2.unrealengine.com/Unreal+Engine%2Fmegagrants%2FFEATURE_EpicMegaGrants_Allahya-1920x960-323bc3cabac689f9da9fe06bdc0735a157ded521.jpg\">\n<meta property=\"twitter:image\" content=\"https://cdn2.unrealengine.com/Unreal+Engine%2Fmegagrants%2FFEATURE_EpicMegaGrants_Allahya-1920x960-323bc3cabac689f9da9fe06bdc0735a157ded521.jpg\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta property=\"twitter:site\" content=\"@UnrealEngine\">\n<meta name=\"twitter:hashTags\" content=\"#ue4 #UnrealEngine #EpicGames\">\n<title>Epic MegaGrants | Apply For Funding to Enhance the UE Open Source Community</title>\n<meta name=\"twitter:title\" content=\"Epic MegaGrants Funds Creators Using UE or Enhancing the Open Source Community\">\n<meta name=\"twitter:image\" content=\"https://cdn2.unrealengine.com/Unreal+Engine%2Fmegagrants%2FFEATURE_EpicMegaGrants_Allahya-1920x960-323bc3cabac689f9da9fe06bdc0735a157ded521.jpg\">",
+    "_noIndex": false,
+    "_slug": "megagrants",
+    "_templateName": "megagrants",
+    "_title": "Unreal Engine | Epic MegaGrants",
+    "_urlPattern": "/megagrants",
+    "anchor": "apply",
+    "form": {
+        "_type": "Marketo Form Group List",
+        "fieldGroups": [
+            {
+                "_type": "Marketo Form Group",
+                "fields": [
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "input",
+                        "id": "firstName",
+                        "initHidden": false,
+                        "label": "First Name",
+                        "maxLength": 0,
+                        "omit": false,
+                        "readonly": false,
+                        "type": "text",
+                        "validationArray": [
+                            "required"
+                        ]
+                    },
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "input",
+                        "id": "lastName",
+                        "initHidden": false,
+                        "label": "Last Name",
+                        "maxLength": 0,
+                        "omit": false,
+                        "readonly": false,
+                        "type": "text",
+                        "validationArray": [
+                            "required"
+                        ]
+                    },
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "input",
+                        "id": "email",
+                        "initHidden": false,
+                        "label": "Email",
+                        "maxLength": 0,
+                        "omit": false,
+                        "readonly": false,
+                        "type": "text",
+                        "validationArray": [
+                            ""
+                        ]
+                    },
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "select",
+                        "id": "CountryCode",
+                        "initHidden": false,
+                        "label": "Country / Region",
+                        "omit": false,
+                        "options": "https://cdn3.unrealengine.com/Unreal+Engine%2Fmegagrants%2Fcountriesv2-7084ff8313df85808fc0b42ff365dbc47e9acca1.json",
+                        "readonly": false,
+                        "validationArray": [
+                            "required"
+                        ]
+                    },
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "select",
+                        "id": "Industry__c",
+                        "initHidden": false,
+                        "label": "Industry",
+                        "omit": false,
+                        "options": "https://cdn3.unrealengine.com/Unreal+Engine%2Flead-fallback%2Findustries-27d1241e91803a564bcc2c3412ebcdc34b63e294.json",
+                        "readonly": false,
+                        "validationArray": [
+                            "required"
+                        ]
+                    }
+                ],
+                "id": "nameGroup",
+                "label": "Personal",
+                "type": "vertical"
+            },
+            {
+                "_type": "Marketo Form Group",
+                "fields": [
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "input",
+                        "id": "Company_Team__c",
+                        "initHidden": false,
+                        "label": "I am applying for my company / team (I am not an individual)",
+                        "omit": false,
+                        "readonly": false,
+                        "type": "checkbox"
+                    },
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "input",
+                        "id": "company",
+                        "initHidden": true,
+                        "label": "Company/Team Name",
+                        "maxLength": 0,
+                        "omit": false,
+                        "readonly": false,
+                        "type": "text",
+                        "validationArray": [
+                            "required"
+                        ]
+                    },
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "input",
+                        "id": "title",
+                        "initHidden": true,
+                        "label": "Position",
+                        "maxLength": 0,
+                        "omit": false,
+                        "readonly": false,
+                        "type": "text",
+                        "validationArray": [
+                            "required"
+                        ]
+                    },
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "select",
+                        "id": "Company_Team_Size__c",
+                        "initHidden": true,
+                        "label": "Company/Team Size",
+                        "omit": false,
+                        "options": "https://cdn3.unrealengine.com/ue-megagrants-teamsize-362016265.json",
+                        "readonly": false,
+                        "type": "text"
+                    }
+                ],
+                "id": "companyGroup",
+                "label": "Company / Institution",
+                "type": "vertical"
+            },
+            {
+                "_type": "Marketo Form Group",
+                "fields": [
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "input",
+                        "id": "Project_Title__c",
+                        "initHidden": false,
+                        "label": "Project Name",
+                        "maxLength": 0,
+                        "omit": false,
+                        "readonly": false,
+                        "type": "text",
+                        "validationArray": [
+                            "required"
+                        ]
+                    },
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "input",
+                        "id": "website",
+                        "initHidden": false,
+                        "label": "Website",
+                        "maxLength": 0,
+                        "omit": false,
+                        "readonly": false,
+                        "type": "text",
+                        "validationArray": [
+                            "url"
+                        ]
+                    },
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "input",
+                        "id": "Project_video_Link__c",
+                        "initHidden": false,
+                        "label": "Project Video",
+                        "maxLength": 0,
+                        "omit": false,
+                        "readonly": false,
+                        "type": "text",
+                        "validationArray": [
+                            "url"
+                        ]
+                    },
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "input",
+                        "id": "Project_Build_Link__c",
+                        "initHidden": false,
+                        "label": "Link to project build",
+                        "maxLength": 0,
+                        "omit": false,
+                        "readonly": false,
+                        "type": "text",
+                        "validationArray": [
+                            "url"
+                        ]
+                    },
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "select",
+                        "id": "Project_Type__c",
+                        "initHidden": false,
+                        "label": "Project Type",
+                        "omit": false,
+                        "options": "https://cdn3.unrealengine.com/Unreal+Engine%2Fmegagrants%2Fprojects-ce7b0af2ad3e8fbef1e11c9c4424f701abd7d6a2.json",
+                        "readonly": false,
+                        "validationArray": [
+                            "required"
+                        ]
+                    },
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "textarea",
+                        "id": "Grant_Project_Description__c",
+                        "initHidden": false,
+                        "label": "Describe your project",
+                        "maxLength": 0,
+                        "omit": false,
+                        "readonly": false,
+                        "type": "text",
+                        "validationArray": [
+                            "required"
+                        ]
+                    },
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "textarea",
+                        "id": "Project_Plan__c",
+                        "initHidden": false,
+                        "label": "Describe your next steps and plan to develop your project",
+                        "maxLength": 0,
+                        "omit": false,
+                        "readonly": false,
+                        "type": "text",
+                        "validationArray": [
+                            "required"
+                        ]
+                    },
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "select-multi",
+                        "id": "Target_Platforms__c",
+                        "initHidden": false,
+                        "label": "Target platforms for your project",
+                        "omit": false,
+                        "options": "https://cdn3.unrealengine.com/Unreal+Engine%2Fmegagrants%2Fplatforms-grouped-e2a42f51051d028b623c12bf5600f5e3c5aa197a.json",
+                        "readonly": false,
+                        "type": "text",
+                        "validationArray": [
+                            "required"
+                        ]
+                    }
+                ],
+                "id": "projectGroup",
+                "label": "Project",
+                "type": "vertical"
+            },
+            {
+                "_type": "Marketo Form Group",
+                "fields": [
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "input",
+                        "id": "Requesting_Specific_Amount__c",
+                        "initHidden": false,
+                        "label": "I am requesting a particular amount of funding",
+                        "omit": false,
+                        "readonly": false,
+                        "type": "checkbox"
+                    },
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "input",
+                        "id": "Amount_Requested__c",
+                        "initHidden": true,
+                        "label": "How much funding (US Dollars) are you requesting?",
+                        "maxLength": 0,
+                        "omit": false,
+                        "readonly": false,
+                        "type": "text",
+                        "validationArray": [
+                            ""
+                        ]
+                    },
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "textarea",
+                        "id": "Funds_Usage_Details__c",
+                        "initHidden": true,
+                        "label": "If over $25,000 (US Dollars) please describe how you plan to use your funds",
+                        "maxLength": 0,
+                        "omit": false,
+                        "readonly": false,
+                        "type": "text"
+                    }
+                ],
+                "id": "fundingGroup",
+                "label": "Funding",
+                "type": "vertical"
+            },
+            {
+                "_type": "Marketo Form Group",
+                "fields": [
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "input",
+                        "id": "client_magicLeapHardware",
+                        "initHidden": false,
+                        "label": "I am requesting Magic Leap One hardware",
+                        "omit": false,
+                        "readonly": false,
+                        "type": "checkbox"
+                    },
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "input",
+                        "id": "client_amdRyzen",
+                        "initHidden": false,
+                        "label": "I am requesting AMD Ryzen\u00e2\u201e\u00a2 7 3800X hardware",
+                        "omit": false,
+                        "readonly": false,
+                        "type": "checkbox"
+                    },
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "textarea",
+                        "id": "Amount_Hardware_Units__c",
+                        "initHidden": true,
+                        "label": "Describe the hardware you would like to request and how they'll benefit your project and goals",
+                        "maxLength": 0,
+                        "omit": false,
+                        "readonly": false,
+                        "type": "text",
+                        "validationArray": [
+                            "required"
+                        ]
+                    }
+                ],
+                "id": "hardwareGroup",
+                "label": "Hardware Request",
+                "type": "vertical"
+            },
+            {
+                "_type": "Marketo Form Group",
+                "fields": [
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "input",
+                        "id": "Beyond_Prototype_Phase__c",
+                        "initHidden": false,
+                        "label": "My project is at or beyond the prototype phase",
+                        "omit": false,
+                        "readonly": false,
+                        "type": "checkbox"
+                    },
+                    {
+                        "_type": "Marketo Form Field",
+                        "component": "input",
+                        "id": "globalEmailOptIn",
+                        "initHidden": false,
+                        "label": "I\u00e2\u20ac\u2122d like to receive news, surveys, and special offers from Unreal Engine and Epic Games.",
+                        "omit": false,
+                        "readonly": false,
+                        "type": "checkbox"
+                    }
+                ],
+                "id": "prototypeGroup",
+                "type": "vertical"
+            }
+        ],
+        "loadingImg": "https://cdn2.unrealengine.com/ue-loading-charcoal-50b21f079938.gif",
+        "messages": {
+            "_type": "Marketo Message Overrides",
+            "failureMsg": "The form submission failed. This may be due to a high volume of submissions. Please double check all fields, wait a moment, and try again."
+        }
+    },
+    "header": {
+        "_type": "MegaGrants - Header",
+        "background": {
+            "_type": "Background",
+            "content": [
+                "https://cdn2.unrealengine.com/Unreal+Engine%2Fmegagrants%2FFEATURE_EpicMegaGrants_Allahya-1920x960-323bc3cabac689f9da9fe06bdc0735a157ded521.jpg"
+            ],
+            "type": "image"
+        },
+        "buttonLabel": "Read the FAQ",
+        "buttonLink": "faq?active=devgrants",
+        "propTitle": "Epic ",
+        "subTitle": "Make amazing things",
+        "title": "MegaGrants"
+    },
+    "introDesc": "Epic Games has committed $100 million to support game developers, enterprise professionals, media and entertainment creators, students, educators, and tool developers doing amazing things with Unreal Engine or enhancing open-source capabilities for the 3D graphics community. Show us your projects and you could earn a financial grant to help fuel your success!",
+    "introTitle": "What are Epic MegaGrants?",
+    "lastModified": "2021-07-22T17:29:46.801Z",
+    "nextDescription": "<p dir=\"ltr\">Interested in applying? Visit our <a href=\"/faq?active=devgrants\" target=\"_blank\">FAQ</a> to get the details on each component of Epic MegaGrants.<br />\nWhen you're ready, use the form below to submit your application.</p>\n",
+    "nextHeading": "What's next",
+    "otherDesc": "Are you making something awesome, but aren\u00e2\u20ac\u2122t sure which category it falls under? Please apply.",
+    "pageSlugParam": "megagrants",
+    "projectHeading": "Funding for all kinds of creative and technological work ",
+    "projectSlides": {
+        "_type": "MegaGrants - Project Slides",
+        "slides": [
+            {
+                "_type": "MegaGrants - Project Slide",
+                "credit": "System Era Softworks",
+                "desc": "We love supporting UE4 game developers of all sizes with funds to make their projects a success. You can also apply for a grant to fund transitioning your existing or in-development game to UE4.",
+                "image": "https://cdn2.unrealengine.com/Unreal+Engine%2Fmegagrants%2FEpicMegaGrants_Mock_GAMES-1920x1080-b1ec6adc674f732198bb815971b7e1d7bedfae87.jpg",
+                "title": "Game Developers"
+            },
+            {
+                "_type": "MegaGrants - Project Slide",
+                "credit": "Kite & Lightning",
+                "desc": "Individuals or organizations working on a film, broadcast, live event, or location-based entertainment project are eligible and encouraged to apply for funding.",
+                "image": "https://cdn2.unrealengine.com/Unreal+Engine%2Fmegagrants%2FEpicMegaGrants_Mock_ENTERPRISE-1920x1080-d6d90d5eb6e3379c7d43c70abd066cad78625490.jpg",
+                "title": "Media & Entertainment"
+            },
+            {
+                "_type": "MegaGrants - Project Slide",
+                "credit": "REINVR",
+                "desc": "<p dir=\"ltr\">If you are working on an innovative enterprise project using UE4, whether a visualization, simulation, design, interactive application, or VR/MR/AR project for architecture, automotive, manufacturing, or other non-game industry, you can apply for a grant to earn funding.</p>\n",
+                "image": "https://cdn2.unrealengine.com/Unreal+Engine%2Fmegagrants%2F2019_AEC_REINVR_Unit_C_02-1790x1007-90a2dd9b84f128f9c7b0d0b8a32f1df45f111a87.png",
+                "title": "Enterprise"
+            },
+            {
+                "_type": "MegaGrants - Project Slide",
+                "credit": "Students of the National Yunlin University of Science and Technology ",
+                "desc": "Earn funding for Unreal Engine research, curriculum, and student projects. We also provide grants for schools implementing Unreal Engine into classrooms and programs.",
+                "image": "https://cdn2.unrealengine.com/Unreal+Engine%2Fmegagrants%2FEpicMegaGrants_Mock_STUDENTS-1920x1080-b160804e8c0dca4240509af7d5ae0eac81c1c1b1.jpg",
+                "title": "Education"
+            },
+            {
+                "_type": "MegaGrants - Project Slide",
+                "credit": "Theia",
+                "desc": "Developing a software tool that integrates with UE4? Creating open-source tools or enhancing the capabilities of open-source software to benefit the 3D graphics community? We love supporting open projects that solve tough problems or improve workflows.",
+                "image": "https://cdn2.unrealengine.com/Unreal+Engine%2Fmegagrants%2FEpicMegaGrants_Mock_TOOLS-1920x1080-337189e775adcd5e0f8a27b361d30461f0036527.jpg",
+                "title": "Tool & Open-Source Developers"
+            }
+        ]
+    }
+}

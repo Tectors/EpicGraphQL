@@ -1,0 +1,363 @@
+GET https://www.epicgames.com/account/v2/eula/acceptance-history HTTP/2.0
+Host: www.epicgames.com
+
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Accept: application/json, text/plain, */*
+Accept-language: en-US,en;q=0.9
+X-xsrf-token: Removed
+Accept-encoding: gzip, deflate, br
+Referer: https://www.epicgames.com/account/eula-history
+Cookie: Removed
+
+Response: 200 HTTP/2.0
+
+{
+    "data": [
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "fn-xb1-267695549",
+            "locale": "en",
+            "responseTimestamp": "2019-05-04T20:53:20.630Z",
+            "revision": 0,
+            "title": "Fortnite\u00c2\u00ae End User License Agreement",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/fn-xb1-267695549/en/v2/r1/d20a359b9677a4b41210212c77cdbe5a.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "s14_blackwidowcup_rules",
+            "locale": "en",
+            "responseTimestamp": "2020-11-11T23:12:22.592Z",
+            "revision": 0,
+            "title": "Black Widow Cup - Official Rules",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/s14_blackwidowcup_rules/en/v1/r2/e59a044b09e9a4be686ad6d84ab0dffe.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "ue_non_games",
+            "locale": "en",
+            "responseTimestamp": "2020-01-13T20:04:56.052Z",
+            "revision": 0,
+            "title": "Unreal\u00c2\u00ae Engine End User License Agreement For Creators",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/ue_non_games/en/v1/r5/a75627263980a4d2764fa2afa0a4529f.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "fn",
+            "locale": "en",
+            "responseTimestamp": "2019-07-08T23:40:51.713Z",
+            "revision": 0,
+            "title": "Fortnite\u00c2\u00ae End User License Agreement",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/fn/en/v5/r1/b30404cb21be275dc3d10ed8accd0684.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "description": "Affiliate Code of Conduct",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "affiliate",
+            "locale": "en",
+            "responseTimestamp": "2019-04-06T16:58:02.011Z",
+            "revision": 0,
+            "title": "Affiliate Code of Conduct",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/affiliate/en/v2/r1/f3c1de9a0cc2fe807fbcda6538f60e8b.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "description": "Chapter 2 - Season 3 Daily Trios Cup Official Rules",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "s13_dailycup_trios_rules",
+            "locale": "en",
+            "responseTimestamp": "2020-07-25T22:10:18.443Z",
+            "revision": 0,
+            "title": "Fortnite Daily Trios Cups: Chapter 2 Season 3 Official Rules",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/s13_dailycup_trios_rules/en/v2/r2/4f987257b95d13ca9257dcac99d4c9b0.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "affiliate_agreement",
+            "locale": "en",
+            "responseTimestamp": "2019-04-06T16:58:02.011Z",
+            "revision": 0,
+            "title": "Affiliate Agreement",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/affiliate_agreement/en/v3/r1/58ccd311cad60a2385d8c448c50f98e6.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "s14_lachlan_rules",
+            "locale": "en",
+            "responseTimestamp": "2020-11-09T00:05:26.926Z",
+            "revision": 0,
+            "title": "Lachlan's Pickaxe Frenzy Official Rules",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/s14_lachlan_rules/en/v1/r2/dd20af642f0aada1cbec4d77e10c40d5.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "s15_lazar_rules",
+            "locale": "en",
+            "responseTimestamp": "2021-03-03T23:57:39.582Z",
+            "revision": 0,
+            "title": "Lazar and Fresh's Super Knockback Cup",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/s15_lazar_rules/en/v1/r2/587858628167ca683ced4c1923a97101.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "fn-ps4-CUSA07022_00",
+            "locale": "en",
+            "responseTimestamp": "2019-03-16T16:11:27.632Z",
+            "revision": 0,
+            "title": "Fortnite\u00c2\u00ae End User License Agreement",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/fn-ps4-CUSA07022_00/en/v3/r5/338e0cd22f75a2430388b04d2589a8dc.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "FortniteMobileAndroid-Samsung",
+            "locale": "en",
+            "responseTimestamp": "2019-04-10T00:16:51.257Z",
+            "revision": 0,
+            "title": "Fortnite\u00c2\u00ae End User License Agreement",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/FortniteMobileAndroid-Samsung/en/v3/r2/02f99b7cc1972c32d3d07a900499589a.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "s13_galaxy_cup_rules",
+            "locale": "en",
+            "responseTimestamp": "2020-07-25T23:34:57.431Z",
+            "revision": 0,
+            "title": "Galaxy Cup Official Rules",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/s13_galaxy_cup_rules/en/v1/r2/e1f58c542ed7d1b50d087173dc723191.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "s15_grefg_solo_rules",
+            "locale": "en",
+            "responseTimestamp": "2021-01-15T23:49:03.698Z",
+            "revision": 0,
+            "title": "GrefG's Floor is Lava - Solo Official Rules",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/s15_grefg_solo_rules/en/v1/r2/8f56b0e3ca0b345e0b6e5aea68da41c7.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "description": "Epic Online Services Developer Agreement",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "eos_developer_agreement",
+            "locale": "en",
+            "orgId": "o-wqk69uxm5jw8gfzv5e3fc4px3wyt88",
+            "responseTimestamp": "2020-08-30T00:03:32.492Z",
+            "revision": 0,
+            "title": "Epic Online Services Developer Agreement",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/eos_developer_agreement/en/v1/r4/b5f51487f8aa736142b6334cda1197e0.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "s14_ghostridercup_rules",
+            "locale": "en",
+            "responseTimestamp": "2020-11-04T23:00:05.640Z",
+            "revision": 0,
+            "title": "Ghost Rider Cup Official Rules",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/s14_ghostridercup_rules/en/v1/r2/871b2a07a892ea9b55c448aaefc31cb7.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "rocket_league",
+            "locale": "en",
+            "responseTimestamp": "2021-02-03T21:45:23.713Z",
+            "revision": 0,
+            "title": "Rocket League EULA",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/rocket_league/en/v1/r3/ed940e9ad8db6f69ef3e1587b7b7662f.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "s13_freefortnite_cup_rules",
+            "locale": "en",
+            "responseTimestamp": "2020-08-24T01:08:46.884Z",
+            "revision": 0,
+            "title": "#FreeFortnite Cup Official Rules",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/s13_freefortnite_cup_rules/en/v1/r2/95dd777558d1c5ebcbe2c496003b1619.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "s14_venomcup_rules",
+            "locale": "en",
+            "responseTimestamp": "2020-11-18T21:15:42.576Z",
+            "revision": 0,
+            "title": "Venom Cup - Official Rules",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/s14_venomcup_rules/en/v1/r2/f1fb62c568eaeae8311947bcb3280a52.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "FortniteMobileAndroid",
+            "locale": "en",
+            "responseTimestamp": "2019-09-28T23:08:07.068Z",
+            "revision": 0,
+            "title": "Fortnite\u00c2\u00ae End User License Agreement",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/FortniteMobileAndroid/en/v2/r2/325b2631672d7a459fcde5a065e5844f.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "s15_grefg_squads_rules",
+            "locale": "en",
+            "responseTimestamp": "2021-01-15T02:24:46.077Z",
+            "revision": 0,
+            "title": "GrefG's Floor is Lava - Squads Official Rules",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/s15_grefg_squads_rules/en/v1/r2/14e8791c9a6799a138e6cd3cbdb9e67e.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "description": "Service Addendum for Standard Services",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "eos_standard_services",
+            "locale": "en",
+            "orgId": "o-wqk69uxm5jw8gfzv5e3fc4px3wyt88",
+            "responseTimestamp": "2020-08-30T00:03:32.420Z",
+            "revision": 0,
+            "title": "Service Addendum for Standard Services",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/eos_standard_services/en/v2/r4/23e75ccf62bf5b1e372239795407c550.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "ue_games",
+            "locale": "en",
+            "responseTimestamp": "2021-04-30T18:18:44.790Z",
+            "revision": 0,
+            "title": "Unreal\u00c2\u00ae Engine End User License Agreement For Publishing",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/ue_games/en/v2/r2/a516ce765bc8e4ee7daa81a71ec09aae.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "description": "PC EULA for the time being until proper PS4 EULA is delivered",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "fn-ps4-CUSA07022_00",
+            "locale": "ko",
+            "responseTimestamp": "2018-11-17T18:04:17.580Z",
+            "revision": 0,
+            "title": "\u00ed\u00ac\u00ed\u0160\u00b8\u00eb\u201a\u02dc\u00ec\u00b4\u00ed\u0160\u00b8\u00c2\u00ae \u00ec\u00b5\u0153\u00ec\u00a2\u2026\u00ec\u00b4\u00ec\u0161\u00a9\u00ec\u017e \u00eb\u00bc\u00ec\u00b4\u00ec\u201e\u00a0\u00ec\u0160\u00a4\u00ea\u00b3\u201e\u00ec\u2022\u00bd",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/fn-ps4-CUSA07022_00/ko/v2/r1/b2b1fd601045b32c515cae0e1725d0ca.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "s14_daredevilcup_rules",
+            "locale": "en",
+            "responseTimestamp": "2020-10-15T00:57:32.186Z",
+            "revision": 0,
+            "title": "Daredevil Cup - Official Rules",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/s14_daredevilcup_rules/en/v1/r2/49cff3a624b66479b9b5ccaa9091add1.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "fn-0x010025400aece000",
+            "locale": "en",
+            "responseTimestamp": "2019-06-23T23:02:45.050Z",
+            "revision": 0,
+            "title": "Fortnite\u00c2\u00ae End User License Agreement",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/fn-0x010025400aece000/en/v2/r1/cc4029576bfc0f7cdcbf33ba3d72501a.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "description": "Store EULA",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "egstore",
+            "locale": "en",
+            "responseTimestamp": "2021-02-03T01:42:02.980Z",
+            "revision": 0,
+            "title": "Epic Games Store End User License Agreement",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/egstore/en/v3/r1/05bdd7338f5ffb236fdb042a42ce2e3a.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "s11_switchcup_rules",
+            "locale": "en",
+            "responseTimestamp": "2019-11-03T05:26:51.144Z",
+            "revision": 0,
+            "title": "Fortnite Switch Cup Japan: Chapter 2 Season 1 Official Rules",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/s11_switchcup_rules/en/v1/r2/9d57f8f4a3ae7a7f71f7caeb9b14bbb4.pdf",
+            "version": 0
+        },
+        {
+            "accepted": true,
+            "accountId": "aa37163afe244d3e8a991e0cc71955d6",
+            "identityId": "aa37163afe244d3e8a991e0cc71955d6",
+            "key": "s17_ltm_rules",
+            "locale": "en",
+            "responseTimestamp": "2021-07-18T00:10:13.979Z",
+            "revision": 0,
+            "title": "Chapter 2 Season 7 - LTM Tournament Official Rules",
+            "url": "https://cdn1.epicgames.com/eulatracking-download/s17_ltm_rules/en/v1/r1/a96ab22c4748e5c02193cb96e228aed7.pdf",
+            "version": 0
+        }
+    ],
+    "message": "",
+    "success": true
+}

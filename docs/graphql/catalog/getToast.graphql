@@ -51,6 +51,11 @@ offer {
     categories {
         path
     }
+    tags {
+        id
+        groupName
+        name
+    }
     price(country: $country) {
         totalPrice {
             discountPrice
@@ -126,6 +131,11 @@ offer {
     }
     categories {
         path
+    }
+    tags {
+        id
+        groupName
+        name
     }
     price(country: $country) {
         totalPrice {

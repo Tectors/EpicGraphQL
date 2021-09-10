@@ -1,0 +1,72 @@
+GET https://www.unrealengine.com/api/v2/en-US/feed/content-types HTTP/2.0
+Host: www.unrealengine.com
+Referer: https://www.unrealengine.com/en-US/
+
+X-xsrf-token: Removed
+Cookie: Removed
+X-requested-with: XMLHttpRequest
+Accept-encoding: gzip, deflate, br
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Accept: application/json, text/plain, */*
+Accept-language: en-US,en;q=0.9
+
+Response: 200 HTTP/2.0
+
+[
+    {
+        "_type": "Feed Source",
+        "disableFilter": false,
+        "hexColor": "#51aa8f",
+        "label": "Interview",
+        "labelPlural": "Interviews",
+        "slug": "developer-interviews"
+    },
+    {
+        "_type": "Feed Source",
+        "disableFilter": false,
+        "hexColor": "#c47624",
+        "label": "Tech Blog",
+        "labelPlural": "Tech Blogs",
+        "slug": "tech-blog"
+    },
+    {
+        "_type": "Feed Source",
+        "disableFilter": false,
+        "hexColor": "#00adef",
+        "label": "News",
+        "labelPlural": "News",
+        "slug": "blog"
+    },
+    {
+        "_type": "Feed Source",
+        "disableFilter": false,
+        "hexColor": "#b71c80",
+        "label": "Event",
+        "labelPlural": "Events",
+        "slug": "events"
+    },
+    {
+        "_type": "Feed Source",
+        "disableFilter": false,
+        "hexColor": "#bc9a43",
+        "label": "Spotlight",
+        "labelPlural": "Spotlights",
+        "slug": "spotlights"
+    },
+    {
+        "_type": "Feed Source",
+        "disableFilter": true,
+        "hexColor": "#7b57a1",
+        "label": "Trending",
+        "labelPlural": "Trending",
+        "slug": "trending"
+    },
+    {
+        "_type": "Feed Source",
+        "disableFilter": true,
+        "hexColor": "#327a64",
+        "label": "Program",
+        "labelPlural": "Programs",
+        "slug": "programs"
+    }
+]

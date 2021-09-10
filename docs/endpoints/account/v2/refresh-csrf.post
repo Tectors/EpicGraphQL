@@ -1,0 +1,18 @@
+POST https://www.epicgames.com/account/v2/refresh-csrf HTTP/2.0
+Host: www.epicgames.com
+Origin: https://www.epicgames.com
+
+Referer: https://www.epicgames.com/account/subscriptions
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Accept-language: en-US,en;q=0.9
+Content-length: 0
+Cookie: Removed
+Accept: application/json, text/plain, */*
+X-xsrf-token: Removed
+Accept-encoding: gzip, deflate, br
+
+Response: 200 HTTP/2.0
+
+{
+    "success": true
+}

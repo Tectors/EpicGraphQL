@@ -1,0 +1,1698 @@
+GET https://www.epicgames.com/fortnite/en-US/api/cosplay/archive?page=2&ordering=date-descending HTTP/2.0
+Host: www.epicgames.com
+
+X-xsrf-token: Removed
+Cookie: Removed
+X-requested-with: XMLHttpRequest
+Accept-encoding: gzip, deflate, br
+Referer: https://www.epicgames.com/fortnite/en-US/cosplay/archive?page=2
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Accept: application/json, text/plain, */*
+Accept-language: en-US,en;q=0.9
+
+Response: 200 HTTP/2.0
+
+{
+    "_activeDate": "2021-02-04T09:09:25.988Z",
+    "_id": "36a21a8b-5c59-4833-8a10-7e8bcf094111",
+    "_images_": [
+        ""
+    ],
+    "_locale": "en-US",
+    "_metaTags": "<meta name=\"description\" content=\"See all the Fortnite Cosplay Papercraft masks and mini-foldables that are available for downloading. From various seasons and holidays.\">\n<title>The Fortnite Cosplay Papercraft Mask and Mini-Foldable Archive - Fortnite</title>\n<meta property=\"og:title\" content=\"See All the Fortnite Cosplay Papercraft Masks and Mini-Foldables for Download\">\n<meta property=\"og:description\" content=\"See all the Fortnite Cosplay Papercraft masks and mini-foldables that are available for downloading. From various seasons and holidays. Start folding and showing off your Fortnite spirit!\">\n<meta name=\"twitter:title\" content=\"See All the Fortnite Cosplay Papercraft Masks and Mini-Foldables for Download\">\n<meta name=\"twitter:description\" content=\"See all the Fortnite Cosplay Papercraft masks and mini-foldables that are available for downloading. From various seasons and holidays. Start folding and showing off your Fortnite spirit!\">\n<meta property=\"og:image\" content=\"https://cdn2.unrealengine.com/archive-meta-image-2400x1258-cbcaa5df037c.png\">\n<meta name=\"twitter:image\" content=\"https://cdn2.unrealengine.com/archive-meta-image-2400x1258-cbcaa5df037c.png\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">",
+    "_noIndex": false,
+    "_ordering": "date-descending",
+    "_pageNumber": "2",
+    "_pageSize": 0,
+    "_slug": "archive",
+    "_templateName": "cosplay-archive",
+    "_title": "Archive",
+    "_totalItemsCount": 0,
+    "_urlPattern": "/cosplay/archive",
+    "header": "Archive",
+    "hero": {
+        "_type": "Cosplay - Archive Hero",
+        "backgroundGradient": {
+            "_type": "Cosplay - Background gradient",
+            "from": "#23CBE5",
+            "to": "#115da5"
+        },
+        "featureImage": {
+            "_type": "Cosplay - Image",
+            "desktopImage": "https://cdn2.unrealengine.com/overview-evergreen-2021-hero-feature-900x900-991bc94e4da8.png",
+            "mobileImage": "https://cdn2.unrealengine.com/hero-feature-mobile-500x700-cd0dcb999dba.png",
+            "tabletImage": "https://cdn2.unrealengine.com/overview-evergreen-2021-hero-feature-tablet-900x900-5478b0962ace.png"
+        },
+        "header": "",
+        "subheader": ""
+    },
+    "items": [
+        {
+            "_activeDate": "2021-01-11T13:53:07.655Z",
+            "_id": "df2c4169-e260-49b1-951c-b52e462d891b",
+            "_images_": [
+                ""
+            ],
+            "_locale": "en-US",
+            "_metaTags": "<title>Cuddle King Cosplay Papercraft Mini-Foldable - Fortnite</title>\n<meta name=\"description\" content=\"Download the Fortnite Cuddle King Cosplay Papercraft mini-foldable. Then follow the easy steps and fold your perfect Fortnite Cuddle King mini-foldable.\">\n<meta property=\"og:image\" content=\"https://cdn2.unrealengine.com/cuddleking-minifoldable-meta-1200x628-1200x628-f3e3a1b5d73c.png\">\n<meta name=\"twitter:image\" content=\"https://cdn2.unrealengine.com/cuddleking-minifoldable-meta-1200x628-1200x628-f3e3a1b5d73c.png\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta property=\"og:title\" content=\"Cuddle King Cosplay Papercraft Mini-Foldable - Fortnite\">\n<meta name=\"twitter:title\" content=\"Cuddle King Cosplay Papercraft Mini-Foldable - Fortnite\">\n<meta property=\"og:description\" content=\"Download the Fortnite Cuddle King Cosplay Papercraft mini-foldable. Then follow the easy steps and fold your perfect Fortnite Cuddle King mini-foldable.\">\n<meta name=\"twitter:description\" content=\"Download the Fortnite Cuddle King Cosplay Papercraft mini-foldable. Then follow the easy steps and fold your perfect Fortnite Cuddle King mini-foldable.\">",
+            "_noIndex": false,
+            "_slug": "cuddle-king-minifoldable",
+            "_templateName": "cosplay-foldable-detail-page",
+            "_title": "Cuddle King minifoldable",
+            "_urlPattern": "/cosplay/cuddle-king-minifoldable",
+            "accentColor": "#FDEF6A",
+            "archive": {
+                "_type": "Cosplay - Archive Info",
+                "difficulty": "1",
+                "image": "https://cdn2.unrealengine.com/cuddleking-meta-1200x628-27e116131207.jpg",
+                "publishedAt": "2021-02-14T13:36:00.000Z"
+            },
+            "archiveLink": {
+                "_type": "Cosplay - Archive Link",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#20EEF8 ",
+                    "to": "#06499E"
+                },
+                "ctaText": "Explore the Archive",
+                "header": "Wanna see more?",
+                "image": {
+                    "_type": "Responsive Image",
+                    "desktopImage": "https://cdn2.unrealengine.com/overview-evergreen-2021-archive-feature-900x900-6b79cced9c76.png",
+                    "mobileImage": "https://cdn2.unrealengine.com/overview-evergreen-2021-archive-feature-mobile-500x700-d27cb221f38b.png",
+                    "tabletImage": "https://cdn2.unrealengine.com/overview-evergreen-2021-archive-feature-tablet-900x900-8b4da8c491e0.png"
+                }
+            },
+            "carousel": {
+                "_type": "Cosplay - Mask Carousel",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#e64056",
+                    "to": "#000000"
+                },
+                "cta": {
+                    "_type": "Cosplay - Download button",
+                    "link": "https://cdn2.unrealengine.com/king-mini-fold-en-4194a2938231.pdf",
+                    "text": "Download"
+                },
+                "description": "Love rules all.",
+                "difficulty": "very easy",
+                "header": "Cuddle King",
+                "images": [
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Cuddle King Mini-Foldable",
+                        "desktopImage": "https://cdn2.unrealengine.com/cuddleking-minifoldable-carousel-1-600x700-0cdfe1a05375.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/cuddleking-minifoldable-carousel-mobile-1-425x930-1083b6936b88.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/cuddleking-minifoldable-carousel-tablet-1-600x700-ef945df2e2d1.png"
+                    },
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Cuddle King Mini-Foldable",
+                        "desktopImage": "https://cdn2.unrealengine.com/cuddleking-minifoldable-carousel-2-600x700-506c082ab846.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/cuddleking-minifoldable-carousel-mobile-2-425x930-5f2d4a9bb36e.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/cuddleking-minifoldable-carousel-tablet-2-600x700-ea7e032a5bc0.png"
+                    },
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Cuddle King Mini-Foldable",
+                        "desktopImage": "https://cdn2.unrealengine.com/cuddleking-minifoldable-carousel-3-600x700-bbd14764eba3.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/cuddleking-minifoldable-carousel-mobile-3-425x930-26dd1c034d90.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/cuddleking-minifoldable-carousel-tablet-3-600x700-f6e66dfd0e36.png"
+                    }
+                ],
+                "time": "40-60 Minutes",
+                "type": "Paper"
+            },
+            "explore": {
+                "_type": "Cosplay - General Explore Section",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#000000",
+                    "to": "#e64056"
+                },
+                "cta": {
+                    "_type": "Fortnite - Common CTA Config",
+                    "ctaLink": "/cosplay",
+                    "ctaString": "Explore",
+                    "disabled": false,
+                    "isCtaLinkExternal": false,
+                    "textOnly": false
+                },
+                "header": "Explore masks",
+                "image": {
+                    "_type": "Cosplay - Image",
+                    "altText": "Fortnite Papercraft Valentines 2021",
+                    "desktopImage": "https://cdn2.unrealengine.com/overview-valentines-2021-hero-feature-900x900-63a762964d17.png",
+                    "mobileImage": "https://cdn2.unrealengine.com/overview-valentines-2021-hero-feature-mobilev2-500x940-a4fd1f2f2f82.png",
+                    "tabletImage": "https://cdn2.unrealengine.com/overview-valentines-2021-hero-feature-tablet-900x900-8b39184b10b8.png"
+                },
+                "type": "Masks"
+            },
+            "exploreFoldables": {
+                "_type": "Cosplay - Explore List",
+                "masks": [
+                    {
+                        "_type": "Cosplay - Explore Item",
+                        "backgroundGradient": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#e64056",
+                            "to": "#FDEF6A"
+                        },
+                        "cta": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/cosplay/cuddle-team-leader-minifoldable",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "description": "Hugs for everyone.",
+                        "image": {
+                            "_type": "Cosplay - Image",
+                            "altText": "Cuddle Team Leader Mini-Foldable",
+                            "desktopImage": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-explore-fullwidth-750x750-f3519d32b6d9.png",
+                            "mobileImage": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-explore-fullwidth-mobile-425x740-20c18d7f6791.png",
+                            "tabletImage": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-explore-fullwidth-tablet-750x750-d434bc63ec98.png"
+                        },
+                        "name": "Cuddle Team Leader",
+                        "type": "paper"
+                    },
+                    {
+                        "_type": "Cosplay - Explore Item",
+                        "backgroundGradient": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#e64056",
+                            "to": "#FDEF6A"
+                        },
+                        "cta": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/cosplay/love-ranger-minifoldable",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "description": "Aim for the heart.",
+                        "image": {
+                            "_type": "Cosplay - Image",
+                            "altText": "Love Ranger Mini-Foldable Explore",
+                            "desktopImage": "https://cdn2.unrealengine.com/loveranger-minifoldable-explore-fullwidth-750x750-47ae909929fa.png",
+                            "mobileImage": "https://cdn2.unrealengine.com/loveranger-minifoldable-explore-fullwidth-mobile-425x740-bda81328e442.png",
+                            "tabletImage": "https://cdn2.unrealengine.com/loveranger-minifoldable-explore-fullwidth-tablet-750x750-e64b7f1e50dd.png"
+                        },
+                        "name": "Love Ranger",
+                        "type": "paper"
+                    }
+                ]
+            },
+            "hero": {
+                "_type": "Cosplay - Details Hero Section",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#e64056",
+                    "to": "#FDEF6A"
+                },
+                "hashtag": "#myFNpapercraft",
+                "header": "Cuddle king mini foldable",
+                "image": {
+                    "_type": "Cosplay - Image",
+                    "altText": "Cuddle King Mini-Foldable Hero",
+                    "desktopImage": "https://cdn2.unrealengine.com/cuddleking-minifoldable-hero-640x580-92be492a1989.png",
+                    "mobileImage": "https://cdn2.unrealengine.com/cuddleking-minifoldable-hero-mobile-425x768-e3904e995dde.png",
+                    "tabletImage": "https://cdn2.unrealengine.com/cuddleking-minifoldable-hero-tablet-768x550-cd7aceffae2b.png"
+                }
+            },
+            "howItWorks": {
+                "_type": "Cosplay - How it works",
+                "color": "#06499E",
+                "header": "How it Works",
+                "steps": [
+                    {
+                        "_type": "Cosplay - How it works step",
+                        "alt": "CHOOSE YOUR CHARACTER",
+                        "description": "Pick from this great selection!",
+                        "image": "https://cdn2.unrealengine.com/howitworks-1-768x434-663ebdef9a94.png",
+                        "title": "CHOOSE YOUR CHARACTER"
+                    },
+                    {
+                        "_type": "Cosplay - How it works step",
+                        "alt": "DOWNLOAD THE TEMPLATE",
+                        "description": "<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\n</style>\nDownload the PDF, get the right tools for the job, and follow the instructions.",
+                        "image": "https://cdn2.unrealengine.com/howitworks-2-768x434-d22ba6652b03.png",
+                        "title": "DOWNLOAD THE TEMPLATE"
+                    },
+                    {
+                        "_type": "Cosplay - How it works step",
+                        "alt": "BUILD AND SHARE",
+                        "description": "<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\n</style>\nSpread the creativity and post to your social media with #myFNpapercraft",
+                        "image": "https://cdn2.unrealengine.com/howitworks-3-768x434-57f4694dd536.png",
+                        "title": "BUILD AND SHARE"
+                    }
+                ],
+                "subheader": "3 easy steps to level up your Collection:"
+            },
+            "isArchived": true,
+            "lastModified": "2021-03-18T13:04:59.723Z",
+            "name": "Cuddle King Minifoldable",
+            "socialShare": {
+                "_type": "Fortnite - Social Share Config",
+                "label": "Share",
+                "providers": [
+                    ""
+                ]
+            }
+        },
+        {
+            "_activeDate": "2021-01-11T13:53:07.655Z",
+            "_id": "783b0754-fc63-4622-a972-1a59fd5bccde",
+            "_images_": [
+                ""
+            ],
+            "_locale": "en-US",
+            "_metaTags": "<title>Cuddle Team Leader Cosplay Papercraft Mini-Foldable - Fortnite</title>\n<meta name=\"description\" content=\"Download the Fortnite Cuddle Team Leader Cosplay Papercraft mini-foldable. Then follow the easy steps and fold your perfect Fortnite Cuddle Team Leader mini-foldable.\">\n<meta property=\"og:image\" content=\"https://cdn2.unrealengine.com/cuddleking-minifoldable-meta-1200x628-1200x628-f3e3a1b5d73c.png\">\n<meta name=\"twitter:image\" content=\"https://cdn2.unrealengine.com/cuddleking-minifoldable-meta-1200x628-1200x628-f3e3a1b5d73c.png\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta property=\"og:title\" content=\"Cuddle Team Leader Cosplay Papercraft Mini-Foldable - Fortnite\">\n<meta name=\"twitter:title\" content=\"Cuddle Team Leader Cosplay Papercraft Mini-Foldable - Fortnite\">\n<meta property=\"og:description\" content=\"Download the Fortnite Cuddle Team Leader Cosplay Papercraft mini-foldable. Then follow the easy steps and fold your perfect Fortnite Cuddle Team Leader mini-foldable.\">\n<meta name=\"twitter:description\" content=\"Download the Fortnite Cuddle Team Leader Cosplay Papercraft mini-foldable. Then follow the easy steps and fold your perfect Fortnite Cuddle Team Leader mini-foldable.\">",
+            "_noIndex": false,
+            "_slug": "cuddle-team-leader-minifoldable",
+            "_templateName": "cosplay-foldable-detail-page",
+            "_title": "Cuddle Team Leader minifoldable",
+            "_urlPattern": "/cosplay/cuddle-team-leader-minifoldable",
+            "accentColor": "#FDEF6A",
+            "archive": {
+                "_type": "Cosplay - Archive Info",
+                "difficulty": "1",
+                "image": "https://cdn2.unrealengine.com/cuddleteam-meta-1200x628-e2df51514df4.jpg",
+                "publishedAt": "2021-02-14T13:36:00.000Z"
+            },
+            "archiveLink": {
+                "_type": "Cosplay - Archive Link",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#20EEF8 ",
+                    "to": "#06499E"
+                },
+                "ctaText": "Explore the Archive",
+                "header": "Wanna see more?",
+                "image": {
+                    "_type": "Responsive Image",
+                    "desktopImage": "https://cdn2.unrealengine.com/overview-evergreen-2021-archive-feature-900x900-6b79cced9c76.png",
+                    "mobileImage": "https://cdn2.unrealengine.com/overview-evergreen-2021-archive-feature-mobile-500x700-d27cb221f38b.png",
+                    "tabletImage": "https://cdn2.unrealengine.com/overview-evergreen-2021-archive-feature-tablet-900x900-8b4da8c491e0.png"
+                }
+            },
+            "carousel": {
+                "_type": "Cosplay - Mask Carousel",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#e64056",
+                    "to": "#000000"
+                },
+                "cta": {
+                    "_type": "Cosplay - Download button",
+                    "link": "https://cdn2.unrealengine.com/cuddle-mini-fold-en-fe98a6cd0c85.pdf",
+                    "text": "Download"
+                },
+                "description": "Hugs for everyone.",
+                "difficulty": "very easy",
+                "header": "Cuddle Team Leader ",
+                "images": [
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Cuddle Team Leader Mini-Foldable",
+                        "desktopImage": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-carousel-1-600x700-c4ddf8f23ebe.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-carousel-mobile-1-425x930-d20cd7e6194c.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-carousel-tablet-1-600x700-ec5f81b083cb.png"
+                    },
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Cuddle Team Leader Mini-Foldable",
+                        "desktopImage": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-carousel-2-600x700-074a8a7b3012.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-carousel-mobile-2-425x930-41f7f7310be5.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-carousel-tablet-2-600x700-b3d8f7dd2ba4.png"
+                    },
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Cuddle Team Leader Mini-Foldable",
+                        "desktopImage": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-carousel-3-600x700-1b6b4d52fdeb.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-carousel-mobile-3-425x930-bdf588b0e061.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-carousel-tablet-3-600x700-90d2c16e4640.png"
+                    }
+                ],
+                "time": "40-60 Minutes",
+                "type": "Paper"
+            },
+            "explore": {
+                "_type": "Cosplay - General Explore Section",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#000000",
+                    "to": "#e64056"
+                },
+                "cta": {
+                    "_type": "Fortnite - Common CTA Config",
+                    "ctaLink": "/cosplay",
+                    "ctaString": "Explore",
+                    "disabled": false,
+                    "isCtaLinkExternal": false,
+                    "textOnly": false
+                },
+                "header": "Explore masks",
+                "image": {
+                    "_type": "Cosplay - Image",
+                    "altText": "Fortnite Papercraft Valentines 2021",
+                    "desktopImage": "https://cdn2.unrealengine.com/overview-valentines-2021-hero-feature-900x900-63a762964d17.png",
+                    "mobileImage": "https://cdn2.unrealengine.com/overview-valentines-2021-hero-feature-mobilev2-500x940-a4fd1f2f2f82.png",
+                    "tabletImage": "https://cdn2.unrealengine.com/overview-valentines-2021-hero-feature-tablet-900x900-8b39184b10b8.png"
+                },
+                "type": "Masks"
+            },
+            "exploreFoldables": {
+                "_type": "Cosplay - Explore List",
+                "masks": [
+                    {
+                        "_type": "Cosplay - Explore Item",
+                        "backgroundGradient": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#e64056",
+                            "to": "#FDEF6A"
+                        },
+                        "cta": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/cosplay/cuddle-king-minifoldable",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "description": "Love rules all.",
+                        "image": {
+                            "_type": "Cosplay - Image",
+                            "altText": "Cuddle King Mini-Foldable Explore",
+                            "desktopImage": "https://cdn2.unrealengine.com/cuddleking-minifoldable-explore-fullwidth-750x750-0bc84bed226a.png",
+                            "mobileImage": "https://cdn2.unrealengine.com/cuddleking-minifoldable-explore-mobile-1-425x740-2b2c1b2d10c6.png",
+                            "tabletImage": "https://cdn2.unrealengine.com/cuddleking-minifoldable-explore-fullwidth-tablet-750x750-985ead3f55c8.png"
+                        },
+                        "name": "Cuddle King",
+                        "type": "paper"
+                    },
+                    {
+                        "_type": "Cosplay - Explore Item",
+                        "backgroundGradient": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#e64056",
+                            "to": "#FDEF6A"
+                        },
+                        "cta": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/cosplay/love-ranger-minifoldable",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "description": "Aim for the heart.",
+                        "image": {
+                            "_type": "Cosplay - Image",
+                            "altText": "Love Ranger Mini-Foldable Explore",
+                            "desktopImage": "https://cdn2.unrealengine.com/loveranger-minifoldable-explore-fullwidth-750x750-47ae909929fa.png",
+                            "mobileImage": "https://cdn2.unrealengine.com/loveranger-minifoldable-explore-fullwidth-mobile-425x740-bda81328e442.png",
+                            "tabletImage": "https://cdn2.unrealengine.com/loveranger-minifoldable-explore-fullwidth-tablet-750x750-e64b7f1e50dd.png"
+                        },
+                        "name": "Love Ranger",
+                        "type": "paper"
+                    }
+                ]
+            },
+            "hero": {
+                "_type": "Cosplay - Details Hero Section",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#e64056",
+                    "to": "#FDEF6A"
+                },
+                "hashtag": "#myFNpapercraft",
+                "header": "Cuddle Team Leader mini foldable",
+                "image": {
+                    "_type": "Cosplay - Image",
+                    "altText": "Cuddle Team Leader Mini-Foldable",
+                    "desktopImage": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-hero-640x580-c79157ecd3b4.png",
+                    "mobileImage": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-hero-mobile-425x768-ed0e2fb06d58.png",
+                    "tabletImage": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-hero-tablet-768x550-eca27434bccb.png"
+                }
+            },
+            "howItWorks": {
+                "_type": "Cosplay - How it works",
+                "color": "#06499E",
+                "header": "How it Works",
+                "steps": [
+                    {
+                        "_type": "Cosplay - How it works step",
+                        "alt": "CHOOSE YOUR CHARACTER",
+                        "description": "Pick from this great selection!",
+                        "image": "https://cdn2.unrealengine.com/howitworks-1-768x434-663ebdef9a94.png",
+                        "title": "CHOOSE YOUR CHARACTER"
+                    },
+                    {
+                        "_type": "Cosplay - How it works step",
+                        "alt": "DOWNLOAD THE TEMPLATE",
+                        "description": "<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\n</style>\nDownload the PDF, get the right tools for the job, and follow the instructions.",
+                        "image": "https://cdn2.unrealengine.com/howitworks-2-768x434-d22ba6652b03.png",
+                        "title": "DOWNLOAD THE TEMPLATE"
+                    },
+                    {
+                        "_type": "Cosplay - How it works step",
+                        "alt": "BUILD AND SHARE",
+                        "description": "<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\n</style>\nSpread the creativity and post to your social media with #myFNpapercraft",
+                        "image": "https://cdn2.unrealengine.com/howitworks-3-768x434-57f4694dd536.png",
+                        "title": "BUILD AND SHARE"
+                    }
+                ],
+                "subheader": "3 easy steps to level up your Collection:"
+            },
+            "isArchived": true,
+            "lastModified": "2021-02-23T15:19:22.572Z",
+            "name": "Cuddle Team Leader Minifoldable",
+            "socialShare": {
+                "_type": "Fortnite - Social Share Config",
+                "label": "Share",
+                "providers": [
+                    ""
+                ]
+            }
+        },
+        {
+            "_activeDate": "2021-01-11T13:53:07.655Z",
+            "_id": "5e690769-bd1e-4e19-81f7-35788580e7e8",
+            "_images_": [
+                ""
+            ],
+            "_locale": "en-US",
+            "_metaTags": "<title>Love Ranger Cosplay Papercraft Mini-Foldable - Fortnite</title>\n<meta name=\"description\" content=\"Download the Fortnite Love Ranger Cosplay Papercraft mini-foldable. Then follow the easy steps and fold your perfect Fortnite Love Ranger mini-foldable.\">\n<meta property=\"og:image\" content=\"https://cdn2.unrealengine.com/cuddleking-minifoldable-meta-1200x628-1200x628-f3e3a1b5d73c.png\">\n<meta name=\"twitter:image\" content=\"https://cdn2.unrealengine.com/cuddleking-minifoldable-meta-1200x628-1200x628-f3e3a1b5d73c.png\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta property=\"og:title\" content=\"Love Ranger Cosplay Papercraft Mini-Foldable - Fortnite\">\n<meta name=\"twitter:title\" content=\"Love Ranger Cosplay Papercraft Mini-Foldable - Fortnite\">\n<meta property=\"og:description\" content=\"Download the Fortnite Love Ranger Cosplay Papercraft mini-foldable. Then follow the easy steps and fold your perfect Fortnite Love Ranger mini-foldable.\">\n<meta name=\"twitter:description\" content=\"Download the Fortnite Love Ranger Cosplay Papercraft mini-foldable. Then follow the easy steps and fold your perfect Fortnite Love Ranger mini-foldable.\">",
+            "_noIndex": false,
+            "_slug": "love-ranger-minifoldable",
+            "_templateName": "cosplay-foldable-detail-page",
+            "_title": "love ranger minifoldable",
+            "_urlPattern": "/cosplay/love-ranger-minifoldable",
+            "accentColor": "#FDEF6A",
+            "archive": {
+                "_type": "Cosplay - Archive Info",
+                "difficulty": "1",
+                "image": "https://cdn2.unrealengine.com/loveranger-meta-1200x628-a2b75eef306d.jpg",
+                "publishedAt": "2021-02-14T13:36:00.000Z"
+            },
+            "archiveLink": {
+                "_type": "Cosplay - Archive Link",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#20EEF8 ",
+                    "to": "#06499E"
+                },
+                "ctaText": "Explore the Archive",
+                "header": "Wanna see more?",
+                "image": {
+                    "_type": "Responsive Image",
+                    "desktopImage": "https://cdn2.unrealengine.com/overview-evergreen-2021-archive-feature-900x900-6b79cced9c76.png",
+                    "mobileImage": "https://cdn2.unrealengine.com/overview-evergreen-2021-archive-feature-mobile-500x700-d27cb221f38b.png",
+                    "tabletImage": "https://cdn2.unrealengine.com/overview-evergreen-2021-archive-feature-tablet-900x900-8b4da8c491e0.png"
+                }
+            },
+            "carousel": {
+                "_type": "Cosplay - Mask Carousel",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#e64056",
+                    "to": "#000000"
+                },
+                "cta": {
+                    "_type": "Cosplay - Download button",
+                    "link": "https://cdn2.unrealengine.com/love-ranger-mini-fold-en-dcd85f5e9c16.pdf",
+                    "text": "Download"
+                },
+                "description": "Aim for the heart.",
+                "difficulty": "very easy",
+                "header": "Love Ranger",
+                "images": [
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Love Ranger Mini-Foldable",
+                        "desktopImage": "https://cdn2.unrealengine.com/loveranger-minifoldable-carousel-1-600x700-cd40e52e66c1.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/loveranger-minifoldable-carousel-mobile-1-425x930-d7297a6c9446.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/loveranger-minifoldable-carousel-tablet-1-600x700-00ede78cfd3a.png"
+                    },
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Love Ranger Mini-Foldable",
+                        "desktopImage": "https://cdn2.unrealengine.com/loveranger-minifoldable-carousel-2-600x700-a060884dd5d5.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/loveranger-minifoldable-carousel-mobile-2-425x930-10cd2228ff85.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/loveranger-minifoldable-carousel-tablet-2-600x700-270af7807f59.png"
+                    },
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Love Ranger Mini-Foldable",
+                        "desktopImage": "https://cdn2.unrealengine.com/loveranger-minifoldable-carousel-3-600x700-c7bb32fb4128.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/loveranger-minifoldable-carousel-mobile-3-425x930-04c0810c3f75.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/loveranger-minifoldable-carousel-tablet-3-600x700-eac2c5b7ac12.png"
+                    }
+                ],
+                "time": "40-60 Minutes",
+                "type": "Paper"
+            },
+            "explore": {
+                "_type": "Cosplay - General Explore Section",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#000000",
+                    "to": "#e64056"
+                },
+                "cta": {
+                    "_type": "Fortnite - Common CTA Config",
+                    "ctaLink": "/cosplay",
+                    "ctaString": "Explore",
+                    "disabled": false,
+                    "isCtaLinkExternal": false,
+                    "textOnly": false
+                },
+                "header": "Explore masks",
+                "image": {
+                    "_type": "Cosplay - Image",
+                    "altText": "Fortnite Papercraft Valentines 2021",
+                    "desktopImage": "https://cdn2.unrealengine.com/overview-valentines-2021-hero-feature-900x900-63a762964d17.png",
+                    "mobileImage": "https://cdn2.unrealengine.com/overview-valentines-2021-hero-feature-mobilev2-500x940-a4fd1f2f2f82.png",
+                    "tabletImage": "https://cdn2.unrealengine.com/overview-valentines-2021-hero-feature-tablet-900x900-8b39184b10b8.png"
+                },
+                "type": "Masks"
+            },
+            "exploreFoldables": {
+                "_type": "Cosplay - Explore List",
+                "masks": [
+                    {
+                        "_type": "Cosplay - Explore Item",
+                        "backgroundGradient": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#e64056",
+                            "to": "#FDEF6A"
+                        },
+                        "cta": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/cosplay/cuddle-team-leader-minifoldable",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "description": "Hugs for everyone.",
+                        "image": {
+                            "_type": "Cosplay - Image",
+                            "altText": "Cuddle Team Leader Mini-Foldable",
+                            "desktopImage": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-explore-fullwidth-750x750-f3519d32b6d9.png",
+                            "mobileImage": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-explore-fullwidth-mobile-425x740-20c18d7f6791.png",
+                            "tabletImage": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-explore-fullwidth-tablet-750x750-d434bc63ec98.png"
+                        },
+                        "name": "Cuddle Team Leader",
+                        "type": "paper"
+                    },
+                    {
+                        "_type": "Cosplay - Explore Item",
+                        "backgroundGradient": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#e64056",
+                            "to": "#FDEF6A"
+                        },
+                        "cta": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/cosplay/cuddle-king-minifoldable",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "description": "Love rules all.",
+                        "image": {
+                            "_type": "Cosplay - Image",
+                            "altText": "Cuddle King Mini-Foldable",
+                            "desktopImage": "https://cdn2.unrealengine.com/cuddleking-minifoldable-explore-fullwidth-750x750-0bc84bed226a.png",
+                            "mobileImage": "https://cdn2.unrealengine.com/cuddleking-minifoldable-explore-mobile-1-425x740-2b2c1b2d10c6.png",
+                            "tabletImage": "https://cdn2.unrealengine.com/cuddleking-minifoldable-explore-fullwidth-tablet-750x750-985ead3f55c8.png"
+                        },
+                        "name": "Cuddle King",
+                        "type": "paper"
+                    }
+                ]
+            },
+            "hero": {
+                "_type": "Cosplay - Details Hero Section",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#e64056",
+                    "to": "#FDEF6A"
+                },
+                "hashtag": "#myFNpapercraft",
+                "header": "Love ranger mini foldable",
+                "image": {
+                    "_type": "Cosplay - Image",
+                    "altText": "LoveRanger Mini-Foldable",
+                    "desktopImage": "https://cdn2.unrealengine.com/loveranger-minifoldable-hero-640x580-a61e02936d2a.png",
+                    "mobileImage": "https://cdn2.unrealengine.com/loveranger-minifoldable-hero-mobile-425x768-802cebf0cf9e.png",
+                    "tabletImage": "https://cdn2.unrealengine.com/loveranger-minifoldable-hero-tablet-768x550-d8a387ee23eb.png"
+                }
+            },
+            "howItWorks": {
+                "_type": "Cosplay - How it works",
+                "color": "#06499E",
+                "header": "How it Works",
+                "steps": [
+                    {
+                        "_type": "Cosplay - How it works step",
+                        "alt": "Choose your Character",
+                        "description": "Pick from this great selection!",
+                        "image": "https://cdn2.unrealengine.com/howitworks-1-768x434-663ebdef9a94.png",
+                        "title": "CHOOSE YOUR CHARACTER"
+                    },
+                    {
+                        "_type": "Cosplay - How it works step",
+                        "alt": "Download the Template",
+                        "description": "<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\n</style>\nDownload the PDF, get the right tools for the job, and follow the instructions.",
+                        "image": "https://cdn2.unrealengine.com/howitworks-2-768x434-d22ba6652b03.png",
+                        "title": "DOWNLOAD THE TEMPLATE"
+                    },
+                    {
+                        "_type": "Cosplay - How it works step",
+                        "alt": "Build and Share",
+                        "description": "<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\n</style>\nSpread the creativity and post to your social media with #myFNpapercraft",
+                        "image": "https://cdn2.unrealengine.com/howitworks-3-768x434-57f4694dd536.png",
+                        "title": "BUILD AND SHARE"
+                    }
+                ],
+                "subheader": "3 easy steps to level up your creativity"
+            },
+            "isArchived": true,
+            "lastModified": "2021-02-23T14:26:29.505Z",
+            "name": "Love Ranger Minifoldable",
+            "socialShare": {
+                "_type": "Fortnite - Social Share Config",
+                "label": "Share",
+                "providers": [
+                    ""
+                ]
+            }
+        },
+        {
+            "_activeDate": "2020-12-16T14:28:27.254Z",
+            "_id": "caa27821-4b8c-46c2-87ca-93aab571df1b",
+            "_images_": [
+                ""
+            ],
+            "_locale": "en-US",
+            "_metaTags": "<title>Wild Card Cosplay Papercraft Mask - Fortnite</title>\n<meta name=\"description\" content=\"Download the Fortnite Wild Card Cosplay Papercraft mask. Then follow the easy steps and fold your perfect Fortnite Wild Card mask.\">\n<meta property=\"og:title\" content=\"Wild Card Cosplay Papercraft Mask - Fortnite\">\n<meta property=\"og:description\" content=\"Download the Fortnite Wild Card Cosplay Papercraft mask. Then follow the easy steps and fold your perfect Fortnite Wild Card mask.\">\n<meta property=\"og:image\" content=\"https://cdn2.unrealengine.com/wildcard-mask-meta-bg-1200x628-1200x628-4bebae2dbf0b.png\">\n<meta name=\"twitter:description\" content=\"Download the Fortnite Wild Card Cosplay Papercraft mask. Then follow the easy steps and fold your perfect Fortnite Wild Card mask.\">\n<meta name=\"twitter:title\" content=\"Wild Card Cosplay Papercraft Mask - Fortnite\">\n<meta name=\"twitter:image\" content=\"https://cdn2.unrealengine.com/wildcard-mask-meta-bg-1200x628-1200x628-4bebae2dbf0b.png\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"hero-image-alt\" content=\"Cosplay: Wild Card mask. by meta\">",
+            "_noIndex": false,
+            "_slug": "wild-card",
+            "_templateName": "cosplay-mask-detail-page",
+            "_title": "wild-card",
+            "_urlPattern": "/cosplay/wild-card",
+            "accentColor": "#FDEF6A",
+            "archive": {
+                "_type": "Cosplay - Archive Info",
+                "difficulty": "2",
+                "image": "https://cdn2.unrealengine.com/wildcard-mask-meta-bg-1200x628-1200x628-4bebae2dbf0b.png",
+                "publishedAt": "2021-02-14T13:35:14.986Z"
+            },
+            "archiveLink": {
+                "_type": "Cosplay - Archive Link",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#23CBE5",
+                    "to": "#115da5"
+                },
+                "ctaText": "Explore the archive",
+                "header": "Wanna see more?",
+                "image": {
+                    "_type": "Responsive Image",
+                    "desktopImage": "https://cdn2.unrealengine.com/overview-evergreen-2021-archive-feature-900x900-8b1781b6a0fd.png",
+                    "mobileImage": "https://cdn2.unrealengine.com/overview-evergreen-2021-archive-feature-mobile-500x500-1613552645566-500x500-9115909dfc28.png",
+                    "tabletImage": "https://cdn2.unrealengine.com/overview-evergreen-2021-archive-feature-tablet-900x900-a05b1f507463.png"
+                }
+            },
+            "carousel": {
+                "_type": "Cosplay - Mask Carousel",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#b0255d",
+                    "to": "#FDEF6A"
+                },
+                "cta": {
+                    "_type": "Cosplay - Download button",
+                    "link": "https://cdn2.unrealengine.com/wildcard-colour-mask-en-bd2593d54063.pdf",
+                    "text": "Download"
+                },
+                "description": "CHOOSE YOUR MASK, PRINT AND ASSEMBLE, AND OFF YOU GO.",
+                "difficulty": "Easy",
+                "header": "Ready-to-go",
+                "images": [
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Wildcard Mask",
+                        "desktopImage": "https://cdn2.unrealengine.com/wildcard-mask-carousel-1-550x660-a70ac4ea6061.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/wildcard-mask-carousel-mobile-1-425x930-d77dfe163411.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/wildcard-mask-carousel-tablet-1-768x910-3492268663f6.png"
+                    },
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Wildcard Mask",
+                        "desktopImage": "https://cdn2.unrealengine.com/wildcard-mask-carousel-2-550x660-6ce4982e6565.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/wildcard-mask-carousel-mobile-2-425x930-2e56ff37a204.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/wildcard-mask-carousel-tablet-2-768x910-201f56e6d131.png"
+                    },
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Wildcard Mask",
+                        "desktopImage": "https://cdn2.unrealengine.com/wildcard-mask-carousel-3-550x660-3cbcbe4ea8d7.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/wildcard-mask-carousel-mobile-3-425x930-7fce7a4cc7e9.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/wildcard-mask-carousel-tablet-3-768x910-1f26c8dba119.png"
+                    },
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Wildcard Mask",
+                        "desktopImage": "https://cdn2.unrealengine.com/wildcard-mask-carousel-4-550x660-bad92e4fec6c.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/wildcard-mask-carousel-mobile-4-425x930-e2089f501b1c.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/wildcard-mask-carousel-tablet-5-768x910-370d59257476.png"
+                    },
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Wildcard Mask",
+                        "desktopImage": "https://cdn2.unrealengine.com/wildcard-mask-carousel-6-550x660-05f5f8665512.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/wildcard-mask-carousel-mobile-6-425x930-7f286e372e4b.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/wildcard-mask-carousel-tablet-6-768x910-9465062787a8.png"
+                    }
+                ],
+                "time": "About 1.5 hours",
+                "type": "Paper"
+            },
+            "download": {
+                "_type": "Cosplay - Mask Download",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#e64056",
+                    "to": "#B0255C"
+                },
+                "cta": {
+                    "_type": "Cosplay - Download button",
+                    "link": "https://cdn2.unrealengine.com/wildcard-mask-en-fb55306680b1.pdf",
+                    "text": "Download"
+                },
+                "description": "CHOOSE YOUR MASK PATTERN, THEN PRINT, ASSEMBLE, AND PERSONALIZE TO YOUR LIKING.",
+                "difficulty": "Easy",
+                "header": "Make-The-Mask-Your-Own",
+                "image": {
+                    "_type": "Cosplay - Image",
+                    "altText": "Wildcard Mask Download",
+                    "desktopImage": "https://cdn2.unrealengine.com/wildcard-mask-download-512x520-2b8f018e0653.png",
+                    "mobileImage": "https://cdn2.unrealengine.com/wildcard-mask-download-mobile-425x930-8a3a15058054.png",
+                    "tabletImage": "https://cdn2.unrealengine.com/wildcard-mask-download-tablet-768x950-f176660b53dd.png"
+                },
+                "time": "About 1.5 hours",
+                "type": "Cardboard"
+            },
+            "foldables": {
+                "_type": "Cosplay - Foldables Carousel section",
+                "carousel": [
+                    {
+                        "_type": "Cosplay - Foldables Carousel Item",
+                        "background": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#000000",
+                            "to": "#e64056"
+                        },
+                        "description": "Hugs for everyone.",
+                        "difficulty": "very easy",
+                        "image": {
+                            "_type": "Cosplay - Non-responsive image",
+                            "alt": "Cuddle Team Leader Mini-Foldable 1",
+                            "src": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-explore-700x900-7caccdc3c8bb.png"
+                        },
+                        "link": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/cosplay/cuddle-team-leader-minifoldable",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "name": "Cuddle Team Leader",
+                        "thumbnail": {
+                            "_type": "Cosplay - Non-responsive image",
+                            "alt": "Cuddle Team Leader Mini-Foldable Thumbnail",
+                            "src": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-thumbnail-75x75-dacd9246af5c.png"
+                        },
+                        "time": "40-60 minutes"
+                    },
+                    {
+                        "_type": "Cosplay - Foldables Carousel Item",
+                        "background": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#000000",
+                            "to": "#e64056"
+                        },
+                        "description": "Love rules all.",
+                        "difficulty": "very easy",
+                        "image": {
+                            "_type": "Cosplay - Non-responsive image",
+                            "alt": "Cuddle King Mini-Foldable",
+                            "src": "https://cdn2.unrealengine.com/cuddleking-minifoldable-explore-700x900-d897f6318a80.png"
+                        },
+                        "link": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/cosplay/cuddle-king-minifoldable",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "name": "Cuddle King",
+                        "thumbnail": {
+                            "_type": "Cosplay - Non-responsive image",
+                            "alt": "Cuddle King Mini-Foldable Thumbnail",
+                            "src": "https://cdn2.unrealengine.com/cuddleking-minifoldable-thumbnail-75x75-161e13301496.png"
+                        },
+                        "time": "40-60 minutes"
+                    },
+                    {
+                        "_type": "Cosplay - Foldables Carousel Item",
+                        "background": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#000000",
+                            "to": "#e64056"
+                        },
+                        "description": "Aim for the heart.",
+                        "difficulty": "very easy",
+                        "image": {
+                            "_type": "Cosplay - Non-responsive image",
+                            "alt": "Love Ranger Mini-Foldable",
+                            "src": "https://cdn2.unrealengine.com/loveranger-minifoldable-explore-700x900-7c3fcfafa792.png"
+                        },
+                        "link": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/cosplay/love-ranger-minifoldable",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "name": "Love Ranger",
+                        "thumbnail": {
+                            "_type": "Cosplay - Non-responsive image",
+                            "alt": "LoveRanger Mini-Foldable Thumbnail",
+                            "src": "https://cdn2.unrealengine.com/loveranger-minifoldable-thumbnail-75x75-ad27a8022ead.png"
+                        },
+                        "time": "40-60 minutes"
+                    }
+                ],
+                "header": "Mini foldable papercraft",
+                "subheader": "Choose from our lovely selection of mini-foldable figures: Cuddle Team Leader, Cuddle King, and Love Ranger. Select a figure to bring into the fold or assemble all three! Perfect as a decoration or Valentine's gift.",
+                "type": "Mini-foldables"
+            },
+            "hero": {
+                "_type": "Cosplay - Details Hero Section",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#000000",
+                    "to": "#e64056"
+                },
+                "hashtag": "#myFNpapercraft",
+                "header": "Wild Card Mask",
+                "image": {
+                    "_type": "Cosplay - Image",
+                    "altText": "Wildcard Mask",
+                    "desktopImage": "https://cdn2.unrealengine.com/wildcard-mask-hero-640x580-e63efbc2ce2c.png",
+                    "mobileImage": "https://cdn2.unrealengine.com/wildcard-mask-hero-mobile-425x768-ba250e19ca99.png",
+                    "tabletImage": "https://cdn2.unrealengine.com/wildcard-mask-hero-tablet-768x550-006b5108a9b3.png"
+                }
+            },
+            "howItWorks": {
+                "_type": "Cosplay - How it works",
+                "color": "#06499E",
+                "header": "How it Works",
+                "steps": [
+                    {
+                        "_type": "Cosplay - How it works step",
+                        "alt": "Choose your Character",
+                        "description": "Pick from this great selection!",
+                        "image": "https://cdn2.unrealengine.com/howitworks-1-768x434-663ebdef9a94.png",
+                        "title": "CHOOSE YOUR CHARACTER"
+                    },
+                    {
+                        "_type": "Cosplay - How it works step",
+                        "alt": "Download the Template",
+                        "description": "Download the PDF, get the right tools for the job, and follow the instructions.",
+                        "image": "https://cdn2.unrealengine.com/howitworks-2-768x434-d22ba6652b03.png",
+                        "title": "DOWNLOAD THE TEMPLATE"
+                    },
+                    {
+                        "_type": "Cosplay - How it works step",
+                        "alt": "Build and Share",
+                        "description": "Spread the creativity and post to your social media with #myFNpapercraft",
+                        "image": "https://cdn2.unrealengine.com/howitworks-3-768x434-57f4694dd536.png",
+                        "title": "BUILD AND SHARE"
+                    }
+                ],
+                "subheader": "3 easy steps to level up your Collection:"
+            },
+            "isArchived": true,
+            "lastModified": "2021-02-23T14:24:36.232Z",
+            "masks": {
+                "_type": "Cosplay - Explore List",
+                "masks": [
+                    {
+                        "_type": "Cosplay - Explore Item",
+                        "backgroundGradient": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#000000",
+                            "to": "#e64056"
+                        },
+                        "cta": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/fortnite/cosplay/lovethorn",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "description": "Dangerous love.",
+                        "image": {
+                            "_type": "Cosplay - Image",
+                            "altText": "Lovethorn Mask",
+                            "desktopImage": "https://cdn2.unrealengine.com/lovethorn-mask-explore-700x900-c3b733e9eb42.png",
+                            "mobileImage": "https://cdn2.unrealengine.com/lovethorn-mask-explore-mobile-425x740-25cef2dd29aa.png",
+                            "tabletImage": "https://cdn2.unrealengine.com/lovethorn-mask-explore-tablet-750x750-c2f4d7150638.png"
+                        },
+                        "name": "Lovethorn",
+                        "type": "Mask"
+                    },
+                    {
+                        "_type": "Cosplay - Explore Item",
+                        "backgroundGradient": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#FDEF6A",
+                            "to": "#b0255d"
+                        },
+                        "cta": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/fortnite/cosplay/heartbreaker",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "description": "It's not you, it's him.",
+                        "image": {
+                            "_type": "Cosplay - Image",
+                            "altText": "Heartbreaker Mask",
+                            "desktopImage": "https://cdn2.unrealengine.com/heartbreaker-mask-explore-700x900-864cc220276f.png",
+                            "mobileImage": "https://cdn2.unrealengine.com/heartbreaker-mask-explore-mobile-425x740-fff83fcbed31.png",
+                            "tabletImage": "https://cdn2.unrealengine.com/heartbreaker-mask-explore-tablet-750x750-f79a118597f4.png"
+                        },
+                        "name": "Heartbreaker",
+                        "type": "Mask"
+                    }
+                ]
+            },
+            "name": "Wild Card Mask ",
+            "socialShare": {
+                "_type": "Fortnite - Social Share Config",
+                "label": "Share",
+                "providers": [
+                    ""
+                ]
+            }
+        },
+        {
+            "_activeDate": "2020-12-16T14:28:27.254Z",
+            "_id": "030bb31d-6aef-402a-b6f1-d185bb59bcc3",
+            "_images_": [
+                ""
+            ],
+            "_locale": "en-US",
+            "_metaTags": "<title>Lovethorn Cosplay Papercraft Mask - Fortnite</title>\n<meta name=\"description\" content=\"Download the Fortnite Lovethorn Cosplay Papercraft mask. Then follow the easy steps and fold your perfect Fortnite Lovethorn mask.\">\n<meta property=\"og:title\" content=\"Lovethorn Cosplay Papercraft Mask - Fortnite\">\n<meta property=\"og:description\" content=\"Download the Fortnite Lovethorn Cosplay Papercraft mask. Then follow the easy steps and fold your perfect Fortnite Lovethorn mask.\">\n<meta property=\"og:image\" content=\"https://cdn2.unrealengine.com/lovethorn-mask-meta-bg-1200x628-1200x628-a060a4040862.png\">\n<meta name=\"twitter:description\" content=\"Download the Fortnite Lovethorn Cosplay Papercraft mask. Then follow the easy steps and fold your perfect Fortnite Lovethorn mask.\">\n<meta name=\"twitter:title\" content=\"Lovethorn Cosplay Papercraft Mask - Fortnite\">\n<meta name=\"twitter:image\" content=\"https://cdn2.unrealengine.com/lovethorn-mask-meta-bg-1200x628-1200x628-a060a4040862.png\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"hero-image-alt\" content=\"Cosplay: Wild Card mask. by meta\">",
+            "_noIndex": false,
+            "_slug": "lovethorn",
+            "_templateName": "cosplay-mask-detail-page",
+            "_title": "lovethorn",
+            "_urlPattern": "/cosplay/lovethorn",
+            "accentColor": "#FDEF6A",
+            "archive": {
+                "_type": "Cosplay - Archive Info",
+                "difficulty": "4",
+                "image": "https://cdn2.unrealengine.com/lovethorn-mask-meta-bg-1200x628-1200x628-a060a4040862.png",
+                "publishedAt": "2021-02-14T13:35:00.000Z"
+            },
+            "archiveLink": {
+                "_type": "Cosplay - Archive Link",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#20EEF8 ",
+                    "to": "#06499E"
+                },
+                "ctaText": "Explore the Archive",
+                "header": "Wanna see more?",
+                "image": {
+                    "_type": "Responsive Image",
+                    "desktopImage": "https://cdn2.unrealengine.com/overview-evergreen-2021-archive-feature-900x900-6b79cced9c76.png",
+                    "mobileImage": "https://cdn2.unrealengine.com/overview-evergreen-2021-archive-feature-mobile-500x700-d27cb221f38b.png",
+                    "tabletImage": "https://cdn2.unrealengine.com/overview-evergreen-2021-archive-feature-tablet-900x900-8b4da8c491e0.png"
+                }
+            },
+            "carousel": {
+                "_type": "Cosplay - Mask Carousel",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#b0255d",
+                    "to": "#FDEF6A"
+                },
+                "cta": {
+                    "_type": "Cosplay - Download button",
+                    "link": "https://cdn2.unrealengine.com/lovethorn-colour-mask-en-c61a472985b4.pdf",
+                    "text": "Download"
+                },
+                "description": "CHOOSE YOUR MASK, PRINT AND ASSEMBLE, AND OFF YOU GO.",
+                "difficulty": "Hard",
+                "header": "Ready-to-go",
+                "images": [
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Lovethorn Mask",
+                        "desktopImage": "https://cdn2.unrealengine.com/lovethorn-mask-carousel-1-550x660-f51e24e12274.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/lovethorn-mask-carousel-mobile-1-425x930-a05981be2fe4.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/lovethorn-mask-carousel-tablet-1-768x910-fb93e669aa17.png"
+                    },
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Lovethorn Mask",
+                        "desktopImage": "https://cdn2.unrealengine.com/lovethorn-mask-carousel-2-550x660-d7aa8583dd59.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/lovethorn-mask-carousel-mobile-2-425x930-513a314842bd.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/lovethorn-mask-carousel-tablet-2-768x910-e4030876dce3.png"
+                    },
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Lovethorn Mask",
+                        "desktopImage": "https://cdn2.unrealengine.com/lovethorn-mask-carousel-3-550x660-2aac118660c3.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/lovethorn-mask-carousel-mobile-3-425x930-0c4db8fb5062.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/lovethorn-mask-carousel-tablet-3-768x910-9cb8886baac3.png"
+                    },
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Lovethorn Mask",
+                        "desktopImage": "https://cdn2.unrealengine.com/lovethorn-mask-carousel-4-550x660-053fe1b30bb8.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/lovethorn-mask-carousel-mobile-4-425x930-23bd61ccbea1.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/lovethorn-mask-carousel-tablet-5-768x910-1d4050165dbb.png"
+                    },
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Lovethorn Mask",
+                        "desktopImage": "https://cdn2.unrealengine.com/lovethorn-mask-carousel-6-550x660-d62fd8000684.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/lovethorn-mask-carousel-mobile-6-425x930-2f8c6616fef2.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/lovethorn-mask-carousel-tablet-6-768x910-abf25c729a23.png"
+                    }
+                ],
+                "time": "About 3 hours",
+                "type": "Paper"
+            },
+            "download": {
+                "_type": "Cosplay - Mask Download",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#B0255C",
+                    "to": "#e64056"
+                },
+                "cta": {
+                    "_type": "Cosplay - Download button",
+                    "link": "https://cdn2.unrealengine.com/lovethorn-mask-en-de684f9f69d0.pdf",
+                    "text": "Download"
+                },
+                "description": "CHOOSE YOUR MASK PATTERN, THEN PRINT, ASSEMBLE, AND PERSONALIZE TO YOUR LIKING.",
+                "difficulty": "Hard",
+                "header": "Make-The-Mask-Your-Own",
+                "image": {
+                    "_type": "Cosplay - Image",
+                    "altText": "Lovethorn Mask Download",
+                    "desktopImage": "https://cdn2.unrealengine.com/lovethorn-mask-download-512x520-0eff5f97573e.png",
+                    "mobileImage": "https://cdn2.unrealengine.com/lovethorn-mask-download-mobile-425x930-8b0fffbc3a2d.png",
+                    "tabletImage": "https://cdn2.unrealengine.com/lovethorn-mask-download-tablet-768x950-8c2dd8057d2e.png"
+                },
+                "time": "About 3 hours",
+                "type": "Cardboard"
+            },
+            "foldables": {
+                "_type": "Cosplay - Foldables Carousel section",
+                "carousel": [
+                    {
+                        "_type": "Cosplay - Foldables Carousel Item",
+                        "background": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#000000",
+                            "to": "#e64056"
+                        },
+                        "description": "Hugs for everyone.",
+                        "difficulty": "very easy",
+                        "image": {
+                            "_type": "Cosplay - Non-responsive image",
+                            "alt": "Cuddle Team Leader Mini-Foldable 1",
+                            "src": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-explore-700x900-7caccdc3c8bb.png"
+                        },
+                        "link": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/cosplay/cuddle-team-leader-minifoldable",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "name": "Cuddle Team Leader",
+                        "thumbnail": {
+                            "_type": "Cosplay - Non-responsive image",
+                            "alt": "Cuddle Team Leader Mini-Foldable Thumbnail",
+                            "src": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-thumbnail-75x75-dacd9246af5c.png"
+                        },
+                        "time": "40-60 minutes"
+                    },
+                    {
+                        "_type": "Cosplay - Foldables Carousel Item",
+                        "background": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#000000",
+                            "to": "#e64056"
+                        },
+                        "description": "Love rules all.",
+                        "difficulty": "very easy",
+                        "image": {
+                            "_type": "Cosplay - Non-responsive image",
+                            "alt": "Cuddle King Mini-Foldable",
+                            "src": "https://cdn2.unrealengine.com/cuddleking-minifoldable-explore-700x900-d897f6318a80.png"
+                        },
+                        "link": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/cosplay/cuddle-king-minifoldable",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "name": "Cuddle King",
+                        "thumbnail": {
+                            "_type": "Cosplay - Non-responsive image",
+                            "alt": "Cuddle King Mini-Foldable Thumbnail",
+                            "src": "https://cdn2.unrealengine.com/cuddleking-minifoldable-thumbnail-75x75-161e13301496.png"
+                        },
+                        "time": "40-60 minutes"
+                    },
+                    {
+                        "_type": "Cosplay - Foldables Carousel Item",
+                        "background": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#000000",
+                            "to": "#e64056"
+                        },
+                        "description": "Aim for the heart.",
+                        "difficulty": "very easy",
+                        "image": {
+                            "_type": "Cosplay - Non-responsive image",
+                            "alt": "Love Ranger Mini-Foldable",
+                            "src": "https://cdn2.unrealengine.com/loveranger-minifoldable-explore-700x900-7c3fcfafa792.png"
+                        },
+                        "link": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/cosplay/love-ranger-minifoldable",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "name": "Love Ranger",
+                        "thumbnail": {
+                            "_type": "Cosplay - Non-responsive image",
+                            "alt": "LoveRanger Mini-Foldable Thumbnail",
+                            "src": "https://cdn2.unrealengine.com/loveranger-minifoldable-thumbnail-75x75-ad27a8022ead.png"
+                        },
+                        "time": "40-60 minutes"
+                    }
+                ],
+                "header": "Mini foldable papercraft",
+                "subheader": "Choose from our lovely selection of mini-foldable figures: Cuddle Team Leader, Cuddle King, and Love Ranger. Select a figure to bring into the fold or assemble all three! Perfect as a decoration or Valentine's gift.",
+                "type": "Mini-foldables"
+            },
+            "hero": {
+                "_type": "Cosplay - Details Hero Section",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#000000",
+                    "to": "#e64056"
+                },
+                "hashtag": "#myFNpapercraft",
+                "header": "Lovethorn Mask",
+                "image": {
+                    "_type": "Cosplay - Image",
+                    "altText": "Lovethorn",
+                    "desktopImage": "https://cdn2.unrealengine.com/lovethorn-mask-hero-640x580-d401f15e5a82.png",
+                    "mobileImage": "https://cdn2.unrealengine.com/lovethorn-mask-hero-mobile-425x768-b13794014cd1.png",
+                    "tabletImage": "https://cdn2.unrealengine.com/lovethorn-mask-hero-tablet-768x550-cd3302b6635a.png"
+                }
+            },
+            "howItWorks": {
+                "_type": "Cosplay - How it works",
+                "color": "#06499E",
+                "header": "How it Works",
+                "steps": [
+                    {
+                        "_type": "Cosplay - How it works step",
+                        "alt": "Choose your Character",
+                        "description": "Pick from this great selection!",
+                        "image": "https://cdn2.unrealengine.com/howitworks-1-768x434-663ebdef9a94.png",
+                        "title": "CHOOSE YOUR CHARACTER"
+                    },
+                    {
+                        "_type": "Cosplay - How it works step",
+                        "alt": "Download the Template",
+                        "description": "Download the PDF, get the right tools for the job, and follow the instructions.",
+                        "image": "https://cdn2.unrealengine.com/howitworks-2-768x434-d22ba6652b03.png",
+                        "title": "DOWNLOAD THE TEMPLATE"
+                    },
+                    {
+                        "_type": "Cosplay - How it works step",
+                        "alt": "Build and Share",
+                        "description": "Spread the creativity and post to your social media with #myFNpapercraft",
+                        "image": "https://cdn2.unrealengine.com/howitworks-3-768x434-57f4694dd536.png",
+                        "title": "BUILD AND SHARE"
+                    }
+                ],
+                "subheader": "3 easy steps to level up your Collection:"
+            },
+            "isArchived": true,
+            "lastModified": "2021-02-23T14:25:53.579Z",
+            "masks": {
+                "_type": "Cosplay - Explore List",
+                "masks": [
+                    {
+                        "_type": "Cosplay - Explore Item",
+                        "backgroundGradient": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#000000",
+                            "to": "#e64056"
+                        },
+                        "cta": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/fortnite/cosplay/heartbreaker",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "description": "It's not you, it's him.",
+                        "image": {
+                            "_type": "Cosplay - Image",
+                            "altText": "Heartbreaker Mask",
+                            "desktopImage": "https://cdn2.unrealengine.com/heartbreaker-mask-explore-700x900-864cc220276f.png",
+                            "mobileImage": "https://cdn2.unrealengine.com/heartbreaker-mask-explore-mobile-425x740-fff83fcbed31.png",
+                            "tabletImage": "https://cdn2.unrealengine.com/heartbreaker-mask-explore-tablet-750x750-f79a118597f4.png"
+                        },
+                        "name": "Heartbreaker",
+                        "type": "Mask"
+                    },
+                    {
+                        "_type": "Cosplay - Explore Item",
+                        "backgroundGradient": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#FDEF6A",
+                            "to": "#b0255d"
+                        },
+                        "cta": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/fortnite/cosplay/wild-card",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "description": "Take your chance.",
+                        "image": {
+                            "_type": "Cosplay - Image",
+                            "altText": "Wildcard Mask",
+                            "desktopImage": "https://cdn2.unrealengine.com/wildcard-mask-explore-700x900-fba9ebc64e43.png",
+                            "mobileImage": "https://cdn2.unrealengine.com/wildcard-mask-explore-mobile-425x740-0c558bbf13e1.png",
+                            "tabletImage": "https://cdn2.unrealengine.com/wildcard-mask-explore-tablet-750x750-d1550c0381f2.png"
+                        },
+                        "name": "Wild Card",
+                        "type": "Mask"
+                    }
+                ]
+            },
+            "name": "Lovethorn Mask",
+            "socialShare": {
+                "_type": "Fortnite - Social Share Config",
+                "label": "Share",
+                "providers": [
+                    ""
+                ]
+            }
+        },
+        {
+            "_activeDate": "2020-12-16T14:28:27.254Z",
+            "_id": "de00680d-3e20-4df9-9b81-57b4fa6d9e7a",
+            "_images_": [
+                ""
+            ],
+            "_locale": "en-US",
+            "_metaTags": "<title>Heartbreaker Cosplay Papercraft Mask - Fortnite</title>\n<meta name=\"description\" content=\"Download the Fortnite Heartbreaker Cosplay Papercraft mask. Then follow the easy steps and fold your perfect Fortnite Heartbreaker mask.\">\n<meta property=\"og:title\" content=\"Heartbreaker Cosplay Papercraft Mask - Fortnite\">\n<meta property=\"og:description\" content=\"Download the Fortnite Heartbreaker Cosplay Papercraft mask. Then follow the easy steps and fold your perfect Fortnite Heartbreaker mask.\">\n<meta property=\"og:image\" content=\"https://cdn2.unrealengine.com/heartbreaker-mask-meta-bg-1200x628-1200x628-295ea6b0328f.png\">\n<meta name=\"twitter:description\" content=\"Download the Fortnite Heartbreaker Cosplay Papercraft mask. Then follow the easy steps and fold your perfect Fortnite Heartbreaker mask.\">\n<meta name=\"twitter:title\" content=\"Heartbreaker Cosplay Papercraft Mask - Fortnite\">\n<meta name=\"twitter:image\" content=\"https://cdn2.unrealengine.com/heartbreaker-mask-meta-bg-1200x628-1200x628-295ea6b0328f.png\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n",
+            "_noIndex": false,
+            "_slug": "heartbreaker",
+            "_templateName": "cosplay-mask-detail-page",
+            "_title": "heartbreaker",
+            "_urlPattern": "/cosplay/heartbreaker",
+            "accentColor": "#FDEF6A",
+            "archive": {
+                "_type": "Cosplay - Archive Info",
+                "difficulty": "5",
+                "image": "https://cdn2.unrealengine.com/heartbreaker-mask-meta-bg-1200x628-1200x628-295ea6b0328f.png",
+                "publishedAt": "2021-02-14T13:35:00.000Z"
+            },
+            "archiveLink": {
+                "_type": "Cosplay - Archive Link",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#20EEF8 ",
+                    "to": "#06499E"
+                },
+                "ctaText": "Explore the Archive",
+                "header": "Wanna see more?",
+                "image": {
+                    "_type": "Responsive Image",
+                    "desktopImage": "https://cdn2.unrealengine.com/overview-evergreen-2021-archive-feature-900x900-6b79cced9c76.png",
+                    "mobileImage": "https://cdn2.unrealengine.com/overview-evergreen-2021-archive-feature-mobile-500x700-d27cb221f38b.png",
+                    "tabletImage": "https://cdn2.unrealengine.com/overview-evergreen-2021-archive-feature-tablet-900x900-8b4da8c491e0.png"
+                }
+            },
+            "carousel": {
+                "_type": "Cosplay - Mask Carousel",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#b0255d",
+                    "to": "#FDEF6A"
+                },
+                "cta": {
+                    "_type": "Cosplay - Download button",
+                    "link": "https://cdn2.unrealengine.com/heartbreaker-colour-mask-en-1b2a89bed05c.pdf",
+                    "text": "Download"
+                },
+                "description": "CHOOSE YOUR MASK, PRINT AND ASSEMBLE, AND OFF YOU GO.",
+                "difficulty": "Very Hard",
+                "header": "Ready-to-go",
+                "images": [
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Heartbreaker Mask",
+                        "desktopImage": "https://cdn2.unrealengine.com/heartbreaker-mask-carousel-1-550x660-026322e9ba15.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/heartbreaker-mask-carousel-mobile-1-425x930-1cedd8214a09.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/heartbreaker-mask-carousel-tablet-1-768x910-19dcc7195992.png"
+                    },
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Heartbreaker Mask",
+                        "desktopImage": "https://cdn2.unrealengine.com/heartbreaker-mask-carousel-2-550x660-ce657a14237b.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/heartbreaker-mask-carousel-mobile-2-425x930-eff5990e5cde.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/heartbreaker-mask-carousel-tablet-2-768x910-eb1099739f3a.png"
+                    },
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Heartbreaker Mask",
+                        "desktopImage": "https://cdn2.unrealengine.com/heartbreaker-mask-carousel-3-550x660-4f408e8512ca.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/heartbreaker-mask-carousel-mobile-3-425x930-3c45ddf69c32.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/heartbreaker-mask-carousel-tablet-3-768x910-4b742d14b989.png"
+                    },
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Heartbreaker Mask",
+                        "desktopImage": "https://cdn2.unrealengine.com/heartbreaker-mask-carousel-4-550x660-38ba85c3b8dc.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/heartbreaker-mask-carousel-mobile-4-425x930-523024666693.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/heartbreaker-mask-carousel-tablet-5-768x910-e14512f44804.png"
+                    },
+                    {
+                        "_type": "Cosplay - Image",
+                        "altText": "Heartbreaker Mask",
+                        "desktopImage": "https://cdn2.unrealengine.com/heartbreaker-mask-carousel-6-550x660-8b740be9d728.png",
+                        "mobileImage": "https://cdn2.unrealengine.com/heartbreaker-mask-carousel-mobile-6-425x930-96d0d4cddba0.png",
+                        "tabletImage": "https://cdn2.unrealengine.com/heartbreaker-mask-carousel-tablet-6-768x910-268deed29994.png"
+                    }
+                ],
+                "time": "About 5 hours",
+                "type": "Paper"
+            },
+            "download": {
+                "_type": "Cosplay - Mask Download",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#B0255C",
+                    "to": "#e64056"
+                },
+                "cta": {
+                    "_type": "Cosplay - Download button",
+                    "link": "https://cdn2.unrealengine.com/heartbreaker-mask-en-9898e94bbcf0.pdf",
+                    "text": "Download"
+                },
+                "description": "CHOOSE YOUR MASK PATTERN, THEN PRINT, ASSEMBLE, AND PERSONALIZE TO YOUR LIKING.",
+                "difficulty": "Very Hard",
+                "header": "Make-The-Mask-Your-Own",
+                "image": {
+                    "_type": "Cosplay - Image",
+                    "altText": "Heartbreaker Mask",
+                    "desktopImage": "https://cdn2.unrealengine.com/heartbreaker-mask-download-512x520-ca02b5406038.png",
+                    "mobileImage": "https://cdn2.unrealengine.com/heartbreaker-mask-download-mobile-425x930-963ef913e47f.png",
+                    "tabletImage": "https://cdn2.unrealengine.com/heartbreaker-mask-download-tablet-768x950-56faf30091ed.png"
+                },
+                "time": "About 5 hours",
+                "type": "Cardboard"
+            },
+            "foldables": {
+                "_type": "Cosplay - Foldables Carousel section",
+                "carousel": [
+                    {
+                        "_type": "Cosplay - Foldables Carousel Item",
+                        "background": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#000000",
+                            "to": "#e64056"
+                        },
+                        "description": "Hugs for everyone.",
+                        "difficulty": "very easy",
+                        "image": {
+                            "_type": "Cosplay - Non-responsive image",
+                            "alt": "Cuddle Team Leader Mini-Foldable 1",
+                            "src": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-explore-700x900-7caccdc3c8bb.png"
+                        },
+                        "link": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/cosplay/cuddle-team-leader-minifoldable",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "name": "Cuddle Team Leader",
+                        "thumbnail": {
+                            "_type": "Cosplay - Non-responsive image",
+                            "alt": "Cuddle Team Leader Mini-Foldable Thumbnail",
+                            "src": "https://cdn2.unrealengine.com/cuddleteamleader-minifoldable-thumbnail-75x75-dacd9246af5c.png"
+                        },
+                        "time": "40-60 minutes"
+                    },
+                    {
+                        "_type": "Cosplay - Foldables Carousel Item",
+                        "background": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#000000",
+                            "to": "#e64056"
+                        },
+                        "description": "Love rules all.",
+                        "difficulty": "very easy",
+                        "image": {
+                            "_type": "Cosplay - Non-responsive image",
+                            "alt": "Cuddle King Mini-Foldable",
+                            "src": "https://cdn2.unrealengine.com/cuddleking-minifoldable-explore-700x900-d897f6318a80.png"
+                        },
+                        "link": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/cosplay/cuddle-king-minifoldable",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "name": "Cuddle King",
+                        "thumbnail": {
+                            "_type": "Cosplay - Non-responsive image",
+                            "alt": "Cuddle King Mini-Foldable Thumbnail",
+                            "src": "https://cdn2.unrealengine.com/cuddleking-minifoldable-thumbnail-75x75-161e13301496.png"
+                        },
+                        "time": "40-60 minutes"
+                    },
+                    {
+                        "_type": "Cosplay - Foldables Carousel Item",
+                        "background": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#000000",
+                            "to": "#e64056"
+                        },
+                        "description": "Aim for the heart.",
+                        "difficulty": "very easy",
+                        "image": {
+                            "_type": "Cosplay - Non-responsive image",
+                            "alt": "Love Ranger Mini-Foldable",
+                            "src": "https://cdn2.unrealengine.com/loveranger-minifoldable-explore-700x900-7c3fcfafa792.png"
+                        },
+                        "link": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/cosplay/love-ranger-minifoldable",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "name": "Love Ranger",
+                        "thumbnail": {
+                            "_type": "Cosplay - Non-responsive image",
+                            "alt": "LoveRanger Mini-Foldable Thumbnail",
+                            "src": "https://cdn2.unrealengine.com/loveranger-minifoldable-thumbnail-75x75-ad27a8022ead.png"
+                        },
+                        "time": "40-60 minutes"
+                    }
+                ],
+                "header": "Mini foldable papercraft",
+                "subheader": "Choose from our lovely selection of mini-foldable figures: Cuddle Team Leader, Cuddle King, and Love Ranger. Select a figure to bring into the fold or assemble all three! Perfect as a decoration or Valentine's gift.",
+                "type": "Mini-foldables"
+            },
+            "hero": {
+                "_type": "Cosplay - Details Hero Section",
+                "background": {
+                    "_type": "Cosplay - Background gradient",
+                    "from": "#000000",
+                    "to": "#e64056"
+                },
+                "hashtag": "#myFNpapercraft",
+                "header": "Heartbreaker Mask",
+                "image": {
+                    "_type": "Cosplay - Image",
+                    "altText": "Heartbreaker Mask",
+                    "desktopImage": "https://cdn2.unrealengine.com/heartbreaker-mask-hero-640x580-44a83e03c49e.png",
+                    "mobileImage": "https://cdn2.unrealengine.com/heartbreaker-mask-hero-mobile-425x768-002b6c853577.png",
+                    "tabletImage": "https://cdn2.unrealengine.com/heartbreaker-mask-hero-tablet-768x550-52fcdad30be5.png"
+                }
+            },
+            "howItWorks": {
+                "_type": "Cosplay - How it works",
+                "color": "#06499E",
+                "header": "How it Works",
+                "steps": [
+                    {
+                        "_type": "Cosplay - How it works step",
+                        "alt": "Choose your Character",
+                        "description": "Pick from this great selection!",
+                        "image": "https://cdn2.unrealengine.com/howitworks-1-768x434-663ebdef9a94.png",
+                        "title": "CHOOSE YOUR CHARACTER"
+                    },
+                    {
+                        "_type": "Cosplay - How it works step",
+                        "alt": "Download the Template",
+                        "description": "<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\n</style>\nDownload the PDF, get the right tools for the job, and follow the instructions.",
+                        "image": "https://cdn2.unrealengine.com/howitworks-2-768x434-d22ba6652b03.png",
+                        "title": "DOWNLOAD THE TEMPLATE"
+                    },
+                    {
+                        "_type": "Cosplay - How it works step",
+                        "alt": "Build and Share",
+                        "description": "<style type=\"text/css\"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}-->\n</style>\nSpread the creativity and post to your social media with #myFNpapercraft",
+                        "image": "https://cdn2.unrealengine.com/howitworks-3-768x434-57f4694dd536.png",
+                        "title": "BUILD AND SHARE"
+                    }
+                ],
+                "subheader": "3 easy steps to level up your Collection:"
+            },
+            "isArchived": true,
+            "lastModified": "2021-03-15T13:56:14.691Z",
+            "masks": {
+                "_type": "Cosplay - Explore List",
+                "masks": [
+                    {
+                        "_type": "Cosplay - Explore Item",
+                        "backgroundGradient": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#000000",
+                            "to": "#e64056"
+                        },
+                        "cta": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/fortnite/cosplay/lovethorn",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "description": "Dangerous love.",
+                        "image": {
+                            "_type": "Cosplay - Image",
+                            "altText": "Lovethorn Mask",
+                            "desktopImage": "https://cdn2.unrealengine.com/lovethorn-mask-explore-700x900-c3b733e9eb42.png",
+                            "mobileImage": "https://cdn2.unrealengine.com/lovethorn-mask-explore-mobile-425x740-25cef2dd29aa.png",
+                            "tabletImage": "https://cdn2.unrealengine.com/lovethorn-mask-explore-tablet-750x750-c2f4d7150638.png"
+                        },
+                        "name": "Lovethorn",
+                        "type": "Mask"
+                    },
+                    {
+                        "_type": "Cosplay - Explore Item",
+                        "backgroundGradient": {
+                            "_type": "Cosplay - Background gradient",
+                            "from": "#FDEF6A",
+                            "to": "#b0255d"
+                        },
+                        "cta": {
+                            "_type": "Fortnite - Common CTA Config",
+                            "ctaLink": "/fortnite/cosplay/wild-card",
+                            "ctaString": "Explore",
+                            "disabled": false,
+                            "isCtaLinkExternal": false,
+                            "textOnly": false
+                        },
+                        "description": "Take your chance.",
+                        "image": {
+                            "_type": "Cosplay - Image",
+                            "altText": "Wildcard Mask",
+                            "desktopImage": "https://cdn2.unrealengine.com/wildcard-mask-explore-700x900-fba9ebc64e43.png",
+                            "mobileImage": "https://cdn2.unrealengine.com/wildcard-mask-explore-mobile-425x740-0c558bbf13e1.png",
+                            "tabletImage": "https://cdn2.unrealengine.com/wildcard-mask-explore-tablet-750x750-d1550c0381f2.png"
+                        },
+                        "name": "Wild Card",
+                        "type": "Mask"
+                    }
+                ]
+            },
+            "name": "Heartbreaker Mask ",
+            "socialShare": {
+                "_type": "Fortnite - Social Share Config",
+                "label": "Share",
+                "providers": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "itemsPerPage": 0,
+    "lastModified": "2021-03-04T15:45:43.436Z",
+    "orderingLabels": {
+        "_type": "Cosplay - Archive Ordering Labels",
+        "dateAscending": "Oldest first",
+        "dateDescending": "Newest first",
+        "difficultyAscending": "Easy to hard",
+        "difficultyDescending": "Hard to easy",
+        "easy": "Easy",
+        "hard": "Hard",
+        "medium": "Medium",
+        "veryEasy": "Very Easy",
+        "veryHard": "Very Hard"
+    },
+    "subheader": "Browse our great collection of masks, pick up your tools and have fun building!"
+}

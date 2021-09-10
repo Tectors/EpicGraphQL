@@ -1,0 +1,28 @@
+POST https://www.epicgames.com/account/v2/ajax/redemption/validate-redemption-code HTTP/2.0
+Host: www.epicgames.com
+Referer: https://www.epicgames.com/account/code-redemption
+
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Accept: application/json, text/plain, */*
+Accept-language: en-US,en;q=0.9
+X-csrf-token: [object Object]
+Origin: https://www.epicgames.com
+X-requested-with: XMLHttpRequest
+X-xsrf-token: Removed
+Content-type: application/x-www-form-urlencoded
+Accept-encoding: gzip, deflate, br
+Content-length: 69
+Cookie: Removed
+
+redeem-code=a&flow_id=account_management_prod&flow_name=&solve_token=
+
+Response: 200 HTTP/2.0
+
+{
+    "error": "epic.account.management.v2.code_redemption.validate.failure",
+    "isErrorCode": true,
+    "isSuccess": false,
+    "message": "errors.com.epicgames.coderedemption.code_not_found",
+    "numericErrorCode": 0,
+    "success": false
+}

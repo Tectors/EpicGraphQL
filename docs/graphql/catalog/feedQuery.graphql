@@ -1,0 +1,42 @@
+query feedQuery($locale: String!, $countryCode: String) {
+  TransientStream {
+    myTransientFeed(countryCode: $countryCode, locale: $locale) {
+      id
+      activity {
+        ... on LinkAccountActivity {
+          type
+          created_at
+          platforms
+        }
+        ... on SuggestedFriendsActivity {
+          type
+          created_at
+          platform
+          suggestions {
+            epicId
+            epicDisplayName
+            platformFullName
+            platformAvatar
+          }
+        }
+        ... on IncomingInvitesActivity {
+          type
+          created_at
+          invites {
+            epicId
+            epicDisplayName
+          }
+        }
+        ... on RecentPlayersActivity {
+          type
+          created_at
+          players {
+            epicId
+            epicDisplayName
+            playedGameName
+          }
+        }
+      }
+    }
+  }
+}

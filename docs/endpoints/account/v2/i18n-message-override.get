@@ -1,0 +1,27 @@
+GET https://www.epicgames.com/account/v2/i18n-message-override?locale=en-US HTTP/2.0
+Host: www.epicgames.com
+
+X-requested-with: XMLHttpRequest
+Referer: https://www.epicgames.com/account/subscriptions
+X-csrf-token: null
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Accept-language: en-US,en;q=0.9
+Cookie: Removed
+Accept: application/json, text/plain, */*
+X-xsrf-token: Removed
+Content-type: application/json;charset=utf-8
+Accept-encoding: gzip, deflate, br
+
+Response: 200 HTTP/2.0
+
+{
+    "data": {
+        "authorize.epicid.scope.basic_profile": "display name, linked account display names, language preference",
+        "epic.account.management.email_delivery_unreachable.modal.verify_email.description": "An email has been sent to {0} with a link to verify your email. Please be patient as this may take a few minutes. If you don\u00e2\u20ac\u2122t receive the email after a few minutes, please check your spam folder or click below to re-send the email.",
+        "epic.com.epicgames.content_controls.forgot_pin.description": "Please confirm that you would like to start the process to reset your Parental Control PIN. An email with instructions will be sent shortly",
+        "epic.com.epicgames.content_controls.manage_settings.description.require_pin_on_purchases": "Always require a PIN for purchases",
+        "errors.com.epicgames.validation.invalid_matching_display_name": "Please enter a matching display name"
+    },
+    "locale": "en-US",
+    "success": true
+}

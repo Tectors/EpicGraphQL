@@ -1,0 +1,51 @@
+GET https://store-content-ipv4.ak.epicgames.com/api/en-US/content/blog/september-savings-epic-deal-alert-grab-nioh-2-the-complete-edition-on-sale-get-2-armor-sets HTTP/2.0
+Host: store-content-ipv4.ak.epicgames.com
+
+Referer: https://www.epicgames.com/store/en-US/news/september-savings-epic-deal-alert-grab-nioh-2-the-complete-edition-on-sale-get-2-armor-sets
+Origin: https://www.epicgames.com
+X-requested-with: XMLHttpRequest
+Accept-encoding: gzip, deflate, br
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Accept: application/json, text/plain, */*
+Accept-language: en-US,en;q=0.9
+
+Response: 200 HTTP/2.0
+
+{
+    "_id": "02d99e14-dde2-450e-9e93-3a0537849d27",
+    "_images_": [
+        "https://cdn2.unrealengine.com/september-savings-epic-deal-1920x1080-5bc71631c0b2.jpg"
+    ],
+    "_locale": "en-US",
+    "_metaTags": "<meta property=\"og:title\" content=\"Purchase Nioh 2 - The Complete Edition, Save 20% and Receive Two Armor Sets\">\n<meta name=\"twitter:title\" content=\"Purchase Nioh 2 - The Complete Edition, Save 20% and Receive Two Armor Sets\">\n<meta property=\"og:description\" content=\"Take advantage of our Epic Deal now to receive two armor sets for Nioh 2. Plus, claim Nioh:The Complete Edition now for free!\">\n<meta name=\"twitter:description\" content=\"Take advantage of our Epic Deal now to receive two armor sets for Nioh 2. Plus, claim Nioh:The Complete Edition now for free!\">",
+    "_noIndex": false,
+    "_title": "September Savings Epic Deal Alert: Grab Nioh 2  The Complete Edition On Sale & Get 2 Armor Sets!",
+    "_type": "Common Post",
+    "_urlPattern": "/blog/september-savings-epic-deal-alert-grab-nioh-2-the-complete-edition-on-sale-get-2-armor-sets",
+    "author": "",
+    "cat": "Launcher",
+    "content": "<h2><span style=\"font-size:18px\"><strong>Unleash Devastating Power - In Style, Of Course</strong></span></h2>\n\n<p><span style=\"font-size:16px\"><em>Death is a certainty. But until that time, unleash your darkness and fight to survive in the world of Nioh 2.</em></span><br />\n<img alt=\"Nioh 2 The Complete Edition 20 Percent Off\" src=\"https://cdn2.unrealengine.com/nioh-2-the-complete-edition-20-percent-off-1920x1080-84543b33d0cf.jpg\" style=\"height:auto; width:auto\" /><span style=\"font-size:16px\"><a href=\"/store/en-US/p/nioh-2-the-complete-edition\" target=\"_blank\"><strong>Nioh 2: The Complete Edition</strong></a>, the epic sequel to the acclaimed masocore action RPG, is now available on the Epic Games Store and 20% off for a limited time.<br />\n<br />\nPurchase the game during our September Savings event and receive the <strong>Sohaya Deserter Garb</strong> &amp; the <strong>Ornate Gold Armor</strong> sets - currently unavailable anywhere else!&nbsp;</span><br />\n<img alt=\"September Savings Epic Deal Nioh 2\" src=\"https://cdn2.unrealengine.com/september-savings-epic-deal-nioh-2-1920x1080-fd0314f842d8.jpg\" style=\"height:auto; width:auto\" /><br />\n<em><span style=\"font-size:14px\">Offer available from September 9, 2021 (11:00 AM Eastern) through September 23, 2021 (11:00 AM Eastern).</span></em></p>\n\n<h2><span style=\"font-size:18px\"><strong>New to Nioh? Good News!&nbsp;</strong></span></h2>\n\n<p><span style=\"font-size:16px\">Surprise! We just announced that <strong><a href=\"/store/en-US/p/nioh-the-complete-edition\" target=\"_blank\">Nioh: The Complete Edition</a></strong> is available for free this week on the Epic Games Store alongside <a href=\"/store/en-US/p/sheltered\" target=\"_blank\"><strong>Sheltered</strong></a>.&nbsp;<br />\n<br />\n<em>Sharpen your blade and defy death as you battle through Japan\u00e2\u20ac\u2122s tumultuous Sengoku period as the masterless samurai, William. Fight for life and honor against brutal warlords and supernatural Yokai demons in an era ravaged by warring states and dark, malevolent forces.</em></span><br />\n<img alt=\"Nioh The Complete Edition Free\" src=\"https://cdn2.unrealengine.com/nioh-the-complete-edition-free-1920x1080-9b9374a6431a.jpg\" style=\"height:auto; width:auto\" /><span style=\"font-size:16px\"><em>Combining historical events with dark fantasy and folklore, this intense action RPG adventure will test your skills and patience to overcome the multitude of fearsome enemies using an arsenal of weaponry and magic.</em></span><br />\n<img alt=\"Nioh The Complete Edition Battle\" src=\"https://cdn2.unrealengine.com/nioh-the-complete-edition-battle-1920x1080-fb885dd8d45d.jpg\" style=\"height:auto; width:auto\" /><span style=\"font-size:16px\"><a href=\"/store/en-US/free-games\" target=\"_blank\">Claim Nioh: The Complete Edition for free</a> until September 16, 2021 at 11:00 AM Eastern, and it\u00e2\u20ac\u2122s yours to keep.&nbsp;</span><br />\n<br />\n<span style=\"font-size:16px\">Enjoy, everyone! We\u00e2\u20ac\u2122ll see you in the Dark Realm.&nbsp;</span><br />\n<br />\n<br />\n<span style=\"font-size:16px\">Until then, be sure to follow us on social for all things Epic Games Store:<br />\n<br />\n<strong><a href=\"https://www.facebook.com/epicgames\">Facebook</a></strong> | <strong><a href=\"https://twitter.com/epicgames\">Twitter</a></strong> | <strong><a href=\"https://www.instagram.com/epicgames\">Instagram</a></strong> | <strong><a href=\"https://www.youtube.com/channel/UC5Qk8mWBwtMyEj7iQQYRk1A\">YouTube</a></strong></span></p>\n<br />\n&nbsp;",
+    "contentTypeSticky": false,
+    "date": "2021-09-09T15:00:00.000Z",
+    "enableLightbox": false,
+    "hasSocialWidget": false,
+    "lastModified": "2021-09-09T15:30:18.281Z",
+    "noTopImage": false,
+    "short": "Save 20% on Nioh 2 - The Complete Edition and receive the Sohaya Deserter Garb and the Ornate Gold Armor Set with our latest Epic Deal!",
+    "slug": "september-savings-epic-deal-alert-grab-nioh-2-the-complete-edition-on-sale-get-2-armor-sets",
+    "socialWidget": {
+        "_type": "Standalone Social Widget",
+        "cta": {
+            "_type": "Rift Tour CTA",
+            "theme": {
+                "_type": "Rift Tour CTA Theme"
+            }
+        }
+    },
+    "sticky": true,
+    "title": "September Savings Epic Deal Alert: Grab Nioh 2: The Complete Edition On Sale & Get 2 Armor Sets!",
+    "trending": false,
+    "trendingImage": "https://cdn2.unrealengine.com/september-savings-epic-deal-1920x1080-5bc71631c0b2.jpg",
+    "url": "/blog/september-savings-epic-deal-alert-grab-nioh-2-the-complete-edition-on-sale-get-2-armor-sets",
+    "urlPattern": "/blog/september-savings-epic-deal-alert-grab-nioh-2-the-complete-edition-on-sale-get-2-armor-sets"
+}

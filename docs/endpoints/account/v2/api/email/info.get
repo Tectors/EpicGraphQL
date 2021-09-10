@@ -1,0 +1,30 @@
+GET https://www.epicgames.com/account/v2/api/email/info HTTP/2.0
+Host: www.epicgames.com
+
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Accept: application/json, text/plain, */*
+Accept-language: en-US,en;q=0.9
+X-requested-with: XMLHttpRequest
+X-xsrf-token: Removed
+X-csrf-token: null
+Accept-encoding: gzip, deflate, br
+Content-type: application/json;charset=utf-8
+Referer: https://www.epicgames.com/account/personal
+Cookie: Removed
+
+Response: 200 HTTP/2.0
+
+{
+    "data": {
+        "canUpdateEmail": true,
+        "canUpdateNext": null,
+        "default": {
+            "default": true,
+            "email": "",
+            "verified": true
+        },
+        "lastEmailUpdate": null,
+        "unverified": null
+    },
+    "isSuccess": true
+}
