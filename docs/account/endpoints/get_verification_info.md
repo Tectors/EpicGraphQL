@@ -9,7 +9,7 @@ See if the account's email in question is verified.
 ## Response
 ```json
 {
-    "isSuccess":true,
-    "isAccountVerified":true
+    "isSuccess": false,
+    "isAccountVerified": false
 }
 ```

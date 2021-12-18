@@ -2,7 +2,7 @@ import json
 import os
 import textwrap
 
-path = './scripting/graphql/har.json'
+path = './scripting/graphql/tests.json'
 
 # The content of the har file
 content = json.load(open(path, 'r', errors="ignore"))

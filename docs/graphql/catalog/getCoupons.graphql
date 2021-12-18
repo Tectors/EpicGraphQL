@@ -1,6 +1,6 @@
-query getCoupons($currencyCountry: String!, $identityId: String!, $locale: String) {
+query getCoupons($currencyCountry: String!, $identityId: String!, $locale: String, $merchantGroup: String!) {
     CodeRedemption {
-        coupons(currencyCountry: $currencyCountry, identityId: $identityId, includeSalesEventInfo: true) {
+        coupons(currencyCountry: $currencyCountry, identityId: $identityId, includeSalesEventInfo: true, merchantGroup: $merchantGroup) {
             code
             codeStatus
             codeType

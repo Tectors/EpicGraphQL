@@ -1,0 +1,138 @@
+GET https://www.epicgames.com/help/api/v2/en-US/cms/ HTTP/2.0
+Host: www.epicgames.com
+
+Referer: https://www.epicgames.com/help/en-US/
+Accept-encoding: gzip, deflate, br
+Accept-language: en-US,en;q=0.9
+Cookie: Removed
+Accept: application/json, text/plain, */*
+Pragma: no-cache
+X-requested-with: XMLHttpRequest
+X-xsrf-token: Removed
+Cache-control: no-cache
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+
+Response: 200 HTTP/2.0
+
+{
+    "_activeDate": "",
+    "_id": "",
+    "_images_": [
+        ""
+    ],
+    "_locale": "",
+    "_metaTags": "",
+    "_noIndex": false,
+    "_script": "",
+    "_slug": "",
+    "_tagsMap": {},
+    "_title": "",
+    "_urlPattern": "",
+    "cmsPageMap": {
+        "/home": ""
+    },
+    "jcr:baseVersion": "",
+    "jcr:isCheckedOut": true,
+    "lastModified": "",
+    "pageSlugParam": "",
+    "sections": {
+        "_type": "",
+        "sections": [
+            {
+                "_type": "",
+                "background": {
+                    "_type": "",
+                    "content": [
+                        ""
+                    ],
+                    "type": ""
+                },
+                "btnLabel": "",
+                "btnLink": "",
+                "title": ""
+            },
+            {
+                "_type": "",
+                "background": {
+                    "_type": "",
+                    "content": [
+                        ""
+                    ],
+                    "type": ""
+                },
+                "btnLabel": "",
+                "btnLink": "",
+                "subTitle": "",
+                "title": ""
+            },
+            {
+                "_type": "",
+                "background": {
+                    "_type": "",
+                    "content": [
+                        ""
+                    ],
+                    "type": ""
+                },
+                "btnLabel": "",
+                "btnLink": "",
+                "title": ""
+            },
+            {
+                "_type": "",
+                "background": {
+                    "_type": "",
+                    "content": [
+                        ""
+                    ],
+                    "type": ""
+                },
+                "btnLabel": "",
+                "btnLink": "",
+                "title": ""
+            },
+            {
+                "_type": "",
+                "background": {
+                    "_type": "",
+                    "content": [
+                        ""
+                    ],
+                    "type": ""
+                },
+                "btnLabel": "",
+                "btnLink": "",
+                "subTitle": "",
+                "title": ""
+            },
+            {
+                "_type": "",
+                "background": {
+                    "_type": "",
+                    "content": [
+                        ""
+                    ],
+                    "type": ""
+                },
+                "btnLabel": "",
+                "btnLink": "",
+                "subTitle": "",
+                "title": ""
+            },
+            {
+                "_type": "",
+                "background": {
+                    "_type": "",
+                    "content": [
+                        ""
+                    ],
+                    "type": ""
+                },
+                "btnLabel": "",
+                "btnLink": "",
+                "subTitle": "",
+                "title": ""
+            }
+        ]
+    }
+}

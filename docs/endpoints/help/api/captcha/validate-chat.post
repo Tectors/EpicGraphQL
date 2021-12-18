@@ -1,0 +1,24 @@
+POST https://www.epicgames.com/help/api/captcha/validate-chat HTTP/2.0
+Host: www.epicgames.com
+
+Content-length: 18288
+Content-type: application/json;charset=UTF-8
+Accept: application/json, text/plain, */*
+Accept-encoding: gzip, deflate, br
+Accept-language: en-US,en;q=0.9
+Cookie: Removed
+Referer: https://www.epicgames.com/help/en-US/contact-us
+Origin: https://www.epicgames.com
+Cache-control: no-cache
+Pragma: no-cache
+X-requested-with: XMLHttpRequest
+X-xsrf-token: Removed
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+
+""
+
+Response: 200 HTTP/2.0
+
+{
+    "solved": true
+}
