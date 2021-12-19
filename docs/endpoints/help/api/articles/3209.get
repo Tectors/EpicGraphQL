@@ -1,16 +1,16 @@
 GET https://www.epicgames.com/help/api/articles/3209?translation=en-US HTTP/2.0
 Host: www.epicgames.com
+Pragma: no-cache
 
-Accept-encoding: gzip, deflate, br
 Accept-language: en-US,en;q=0.9
+Cache-control: no-cache
+X-requested-with: XMLHttpRequest
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+Accept: application/json, text/plain, */*
+Accept-encoding: gzip, deflate, br
 Cookie: Removed
 Referer: https://www.epicgames.com/help/en-US/fortnite-c75/technical-support-c118/where-can-i-find-the-fortnite-game-logs-a3209
-Accept: application/json, text/plain, */*
-Pragma: no-cache
-X-requested-with: XMLHttpRequest
 X-xsrf-token: Removed
-Cache-control: no-cache
-User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
 
 Response: 200 HTTP/2.0
 

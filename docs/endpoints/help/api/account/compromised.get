@@ -1,16 +1,16 @@
 GET https://www.epicgames.com/help/api/account/compromised HTTP/2.0
 Host: www.epicgames.com
-
-Referer: https://www.epicgames.com/help/en-US/
-Accept-encoding: gzip, deflate, br
-Accept-language: en-US,en;q=0.9
-Cookie: Removed
-Accept: application/json, text/plain, */*
 Pragma: no-cache
-X-requested-with: XMLHttpRequest
-X-xsrf-token: Removed
+
+Accept-language: en-US,en;q=0.9
 Cache-control: no-cache
+X-requested-with: XMLHttpRequest
 User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+Accept: application/json, text/plain, */*
+Cookie: Removed
+Accept-encoding: gzip, deflate, br
+Referer: https://www.epicgames.com/help/en-US/
+X-xsrf-token: Removed
 
 Response: 200 HTTP/2.0
 

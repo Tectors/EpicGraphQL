@@ -1,19 +1,19 @@
 POST https://www.epicgames.com/help/api/support/ticket HTTP/2.0
 Host: www.epicgames.com
-
-Content-type: multipart/form-data; boundary=----WebKitFormBoundary6O111NioUlY5R4zK
-Accept: application/json, text/plain, */*
-Accept-encoding: gzip, deflate, br
-Content-length: 19341
-Accept-language: en-US,en;q=0.9
-Cookie: Removed
-Referer: https://www.epicgames.com/help/en-US/contact-us
-Origin: https://www.epicgames.com
-Cache-control: no-cache
 Pragma: no-cache
+
+Accept-language: en-US,en;q=0.9
+Referer: https://www.epicgames.com/help/en-US/contact-us
+Cache-control: no-cache
 X-requested-with: XMLHttpRequest
-X-xsrf-token: Removed
 User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+Origin: https://www.epicgames.com
+Accept: application/json, text/plain, */*
+Content-type: multipart/form-data; boundary=----WebKitFormBoundary6O111NioUlY5R4zK
+Accept-encoding: gzip, deflate, br
+Cookie: Removed
+Content-length: 19341
+X-xsrf-token: Removed
 
 ""
 
