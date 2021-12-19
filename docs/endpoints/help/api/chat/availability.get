@@ -1,16 +1,16 @@
 GET https://www.epicgames.com/help/api/chat/availability?locale=en-US&source=Zd HTTP/2.0
 Host: www.epicgames.com
-Pragma: no-cache
 
-Accept-language: en-US,en;q=0.9
 Referer: https://www.epicgames.com/help/en-US/contact-us
-Cache-control: no-cache
-X-requested-with: XMLHttpRequest
 User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+Cache-control: no-cache
+Pragma: no-cache
+X-requested-with: XMLHttpRequest
 Accept: application/json, text/plain, */*
-Accept-encoding: gzip, deflate, br
-Cookie: Removed
 X-xsrf-token: Removed
+Accept-language: en-US,en;q=0.9
+Cookie: Removed
+Accept-encoding: gzip, deflate, br
 
 Response: 200 HTTP/2.0
 

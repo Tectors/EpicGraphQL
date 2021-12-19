@@ -1,16 +1,16 @@
 GET https://www.epicgames.com/help/api/alerts HTTP/2.0
 Host: www.epicgames.com
-Pragma: no-cache
 
-Accept-language: en-US,en;q=0.9
-Cache-control: no-cache
-X-requested-with: XMLHttpRequest
-User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
-Accept: application/json, text/plain, */*
 Referer: https://www.epicgames.com/help/en-US/fortnite-c75/fortnite-crew-c157/how-can-i-cancel-my-fortnite-crew-subscription-a7522
-Accept-encoding: gzip, deflate, br
-Cookie: Removed
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+Cache-control: no-cache
+Pragma: no-cache
+X-requested-with: XMLHttpRequest
+Accept: application/json, text/plain, */*
 X-xsrf-token: Removed
+Accept-language: en-US,en;q=0.9
+Cookie: Removed
+Accept-encoding: gzip, deflate, br
 
 Response: 200 HTTP/2.0
 
@@ -39,31 +39,6 @@ Response: 200 HTTP/2.0
     {
         "id": 0,
         "localizedAlerts": [
-            {
-                "content": "",
-                "locale": "",
-                "readMoreLink": ""
-            },
-            {
-                "content": "",
-                "locale": "",
-                "readMoreLink": ""
-            },
-            {
-                "content": "",
-                "locale": "",
-                "readMoreLink": ""
-            },
-            {
-                "content": "",
-                "locale": "",
-                "readMoreLink": ""
-            },
-            {
-                "content": "",
-                "locale": "",
-                "readMoreLink": ""
-            },
             {
                 "content": "",
                 "locale": "",
