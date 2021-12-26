@@ -38,7 +38,7 @@ It would use the [*graphqlWebsite*](https://github.com/MixV2/EpicResearch/blob/m
 
 Once you authorized you would be able to request anything related to the services without authorization, if authorized with the cookie which is pretty cool.
 
-## The Scary ReportPlayer Mutation
+## ReportPlayer Mutation
 There is a mutation to report a player as much as you want for any reason at all, this was used for the **Fortnite Party Hub** application for mobile but can be used if you have a token.
 
 It hasn't been used for malicious intents yet but still is very possible to cause some trouble in the community, you can report any user even a user not playing Fortnite!
