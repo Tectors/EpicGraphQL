@@ -1,12 +1,12 @@
 # Graphql
 
-Epic Games's graphql requesting service, to do actions in applications and to request data and information.
+Epic Games provides a graphql requesting service, to do actions in applications and to request data and information.
 
 You can access the graphql service using these routes:
 
-- https://graphql.epicgames.com/graphql
-- https://graphql.epicgames.com/partyhub/graphql
-- https://graphql.unrealengine.com/ue/graphql
+- [https://graphql.epicgames.com/graphql *[Main Site]*](https://graphql.epicgames.com/graphql)
+- [https://graphql.epicgames.com/partyhub/graphql *[Fortnite Party Hub]*](https://graphql.epicgames.com/partyhub/graphql)
+- [https://graphql.unrealengine.com/ue/graphql *[Unreal Engine Documentation]*](https://graphql.unrealengine.com/ue/graphql)
 
 The endpoints above have been found using the Epic Games site and Unreal Engine documentation, you can view the endpoints being sent by the sites using your browers (if included) built in network tab.
 
@@ -14,6 +14,8 @@ The endpoints above have been found using the Epic Games site and Unreal Engine 
 Authorization may-be needed for the type of request, but due to graphql you are able to requst any query including account related ones, instead you'll be facing null and empty objects.
 
 So if you had a endpoint such as a account or friend endpoint that requests for a friend, provide a graphql authorization in the header, I believe that the authorization can be anything client that is kairos or graphql related, don't quote me on that.
+
+If a error code relating to permissions and not having them occurs, make sure you are using the correct authorization client. Find the client that has the permissions for your request at [MixV2/EpicResearch](https://github.com/MixV2/EpicResearch/blob/master/docs/auth/auth_clients.md).
 
 ## Types
 First, the normal GET request which is only bt query paramters:
