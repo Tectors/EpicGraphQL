@@ -3,3 +3,15 @@ old
 har.json
 hara.json
 scripting/
+scripting/graphql/har.py
+docs/graphql/operation/searchStoreQuery_get.graphql
+docs/graphql/operation/primarySearchAutocomplete_get.graphql
+docs/graphql/operation/getStoreTagsByGroupName_get.graphql
+docs/graphql/operation/getCountryRatingSystems_get.graphql
+docs/graphql/operation/getCategories_get.graphql
+docs/graphql/operation/getCatalogOffer_get.graphql
+docs/graphql/operation/getCatalogCurrencyInfo_get.graphql
+docs/graphql/operation/getCatalogCountryInfo_get.graphql
+docs/graphql/operation/getCartItems_get.graphql
+docs/graphql/operation/fetchCommunicationSettings_get.graphql
+docs/graphql/a.graphql
