@@ -34,7 +34,7 @@ And lastly, which is the POST request that is a JSON request to the route, with 
 # History
 There has been a history of Epic Games's GraphQL for example the main page for their services has changed, it use to be a [login page for GraphQL](https://graphql.epicgames.com/) but has since been removed, you can see the old page clicking [here!](https://web.archive.org/web/20200208114405/https://graphql.epicgames.com/)
 
-It would use the [*graphqlWebsite*](https://github.com/MixV2/EpicResearch/blob/master/docs/auth/permissions/319e1527d0be4457a1067829fc0ad86e.md) to authorize and generate a token, then adding it to the cookie (i believe).
+It would use the [*graphqlWebsite*](https://github.com/MixV2/EpicResearch/blob/master/docs/auth/permissions/319e1527d0be4457a1067829fc0ad86e.md) to authorize and generate a token, then adding it to the cookie (I believe).
 
 Once you authorized you would be able to request anything related to the services without authorization, if authorized with the cookie which is pretty cool.
 
