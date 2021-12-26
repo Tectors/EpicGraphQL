@@ -10,4 +10,4 @@ Research about the [Epic Games](https://www.epicgames.com/)'s non-documented off
   *If you are willing to add anything, make sure to make a new [pull request](https://github.com/Tectors/EpicGraphQL/pulls) and I'll see what it contains and if it can be added into the documentation.*
   
   **How to do it myself?**:
-  <br> It can be done in multiple ways such as, using Developer Tools recording each request and using a [script](https://github.com/Tectors/EpicGraphQL/tree/main/scripting) or finding each request yourself, or you could download a old [Fortnite Party Hub](https://www.epicgames.com/fortnite/en-US/news/party-hub-faq) version which I have many and use a program like Fiddler to see each request.
+  <br> It can be done in multiple ways such as, using Developer Tools recording each request and using a [script](https://github.com/Tectors/EpicGraphQL/tree/main/scripting) or finding each request yourself, or you could download a old [Fortnite Party Hub](https://www.epicgames.com/fortnite/en-US/news/party-hub-faq) version which I have many and use a program like [Fiddler](https://www.telerik.com/fiddler) to see each request.
