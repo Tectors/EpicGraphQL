@@ -1,4 +1,4 @@
-# Graphql
+# GraphQL
 
 Epic Games provides a graphql requesting service, to do actions in applications and to request data and information.
 
