@@ -7,6 +7,16 @@ mutation acceptEulaMutation($eulaId: String!, $accountId: String!, $version: Int
       version: $version
     ) {
       key
+      version
+      revision
+      title
+      body
+      locale
+      createdTimestamp
+      lastModifiedTimestamp
+      agentUserName
+      status
+      custom
       accepted
     }
   }
