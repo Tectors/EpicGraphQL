@@ -1,0 +1,18 @@
+query EulaQuery($id: String!, $locale: String!, $accountId: String!) {
+    Eula {
+        hasAccountAccepted(id: $id, accountId: $accountId, locale: $locale) {
+            key
+            version
+            revision
+            title
+            body
+            locale
+            createdTimestamp
+            lastModifiedTimestamp
+            agentUserName
+            status
+            custom
+            accepted
+        }
+    }
+}
