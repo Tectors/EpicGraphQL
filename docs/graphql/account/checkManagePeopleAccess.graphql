@@ -1,6 +1,6 @@
 {
   Enterprise {
-    checkManagePeopleAccess(accountId: "", locale: "zh-CN") {
+    checkManagePeopleAccess(accountId: "", locale: "en-US") {
       hasAccess
       isLoggedIn
       nav {

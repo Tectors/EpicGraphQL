@@ -8,3 +8,9 @@ query fetchCommunicationSettings($identity: String!, $settingKeyPrefix: String!)
     }
   }
 }
+
+# Variables:
+# {
+#   "identity": "",
+#   "settingKeyPrefix": "email"
+# }
