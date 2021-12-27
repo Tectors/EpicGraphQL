@@ -10,5 +10,5 @@ mutation removeFromWishlistMutation($namespace: String!, $offerId: String!, $ope
 # {
 #   "namespace": "",
 #   "offerId": "",
-#   "operation": ""
+#   "operation": "REMOVE"
 # }

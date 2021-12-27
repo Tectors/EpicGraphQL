@@ -54,8 +54,9 @@ const censor = (parameter, safe=[
              * - _metaTags
              * - nextDescription
              * - currencyId
+             * - operation
              */
-            if (name === 'category' && name === 'sortDir' && name === 'trendingImage' && name === 'slug' && name === '_metaTags' && name === 'nextDescription' && name === 'currencyId')
+            if (name === 'category' || name === 'sortDir' || name === 'trendingImage' || name === 'slug' || name === '_metaTags' || name === 'nextDescription' || name === 'currencyId' || name === 'operation')
                 continue;
 
             parameter[name] = censor(value);
