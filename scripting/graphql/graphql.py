@@ -3,7 +3,7 @@ import os
 import urllib.parse
 import textwrap
 
-path = './scripting/graphql/ttttttt.json'
+path = './scripting/graphql/aaaaaaaa.json'
 
 # The content of the har file
 content = json.load(open(path, 'r', errors="ignore"))
@@ -31,7 +31,7 @@ def censor_properties(objecter):
         # For each property in the object
         for property in objecter.keys():
             # And set it as well as censoring it
-            if property != 'category' and property != 'sortDir' and property != 'offerId' and property != 'sandboxId' and property != 'trendingImage' and property != 'slug' and property != '_metaTags' and property != 'nextDescription' and property != 'currencyId':
+            if property != 'category' and property != 'sortDir' and property != 'trendingImage' and property != 'slug' and property != '_metaTags' and property != 'nextDescription' and property != 'currencyId':
                 objecter[property] = censor_properties(objecter[property])
     # If the property is a array
     elif objecter.__class__ is list:
@@ -71,11 +71,11 @@ for request in requests:
     url = _request['url']
 
     # NOTE: Only for GraphQL requests with graph text
-    if [_url for _url in trusted if url == _url]:
-        with open('./docs/graphql/catalog/' + parse_request_graphql(request)[1] + '.graphql', 'w') as a:
-            a.write(parse_request_graphql(request)[0])
+    # if [_url for _url in trusted if url == _url]:
+    #     with open('./docs/graphql/catalog/' + parse_request_graphql(request)[1] + '.graphql', 'w') as a:
+    #         a.write(parse_request_graphql(request)[0])
     # NOTE: Only for GraphQL that don't contain the graph text in the postData
-    elif [_url for _url in trusted if url.startswith(_url)]:
+    if [_url for _url in trusted if url.startswith(_url)] and not [_url for _url in trusted if url == _url]:
         # Find a query from a name
         def find_query(name):
             return [query for query in _request['queryString'] if query['name'] == name]
