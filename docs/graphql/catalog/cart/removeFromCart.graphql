@@ -1,0 +1,12 @@
+mutation removeFromCart($cartItemId: String!) {
+  Cart {
+    removeFromCart(cartItemId: $cartItemId) {
+      success
+    }
+  }
+}
+
+# Variables:
+# {
+#   "cartItemId": ""
+# }

@@ -40,3 +40,9 @@ query feedQuery($locale: String!, $countryCode: String) {
     }
   }
 }
+
+# Variables:
+# {
+#   "locale": "en-US",
+#   "countryCode": "US"
+# }

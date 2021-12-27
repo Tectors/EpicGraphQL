@@ -1,0 +1,12 @@
+{
+  Account {
+    myAccount(mask: true) {
+      country
+      displayName
+      email
+      id
+      isLoggedIn
+      preferredLanguage
+    }
+  }
+}

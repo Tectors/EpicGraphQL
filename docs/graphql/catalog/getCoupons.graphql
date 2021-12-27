@@ -1,35 +1,43 @@
-query getCoupons($currencyCountry: String!, $identityId: String!, $locale: String) {
-    CodeRedemption {
-        coupons(currencyCountry: $currencyCountry, identityId: $identityId, includeSalesEventInfo: true) {
-            code
-            codeStatus
-            codeType
-            consumptionMetadata {
-                amountDisplay {
-                  amount
-                  currency
-                  placement
-                  symbol
-                }
-                minSalesPriceDisplay {
-                  amount
-                  currency
-                  placement
-                  symbol
-                }
-            }
-            endDate
-            namespace
-            salesEvent(locale: $locale) {
-                eventName
-                eventSlug
-                voucherImages {
-                  type
-                  url
-                }
-                voucherLink
-            }
-            startDate
+query getCoupons($currencyCountry: String!, $identityId: String!, $locale: String, $merchantGroup: String!) {
+  CodeRedemption {
+    coupons(currencyCountry: $currencyCountry, identityId: $identityId, includeSalesEventInfo: true, merchantGroup: $merchantGroup) {
+      code
+      codeStatus
+      codeType
+      consumptionMetadata {
+        amountDisplay {
+          amount
+          currency
+          placement
+          symbol
         }
+        minSalesPriceDisplay {
+          amount
+          currency
+          placement
+          symbol
+        }
+      }
+      endDate
+      namespace
+      salesEvent(locale: $locale) {
+        eventName
+        eventSlug
+        voucherImages {
+          type
+          url
+        }
+        voucherLink
+      }
+      startDate
     }
+  }
 }
+
+# Variables:
+# {
+#   "currencyCountry": "US",
+#   "identityId": "",
+#   "locale": "en-US",
+#   "merchantGroup": ""
+# }

@@ -1,7 +1,14 @@
 mutation removeFromWishlistMutation($namespace: String!, $offerId: String!, $operation: RemoveOperation!) {
-    Wishlist {
-        removeFromWishlist(namespace: $namespace, offerId: $offerId, operation: $operation) {
-            success
-        }
+  Wishlist {
+    removeFromWishlist(namespace: $namespace, offerId: $offerId, operation: $operation) {
+      success
     }
+  }
 }
+
+# Variables:
+# {
+#   "namespace": "",
+#   "offerId": "",
+#   "operation": ""
+# }
