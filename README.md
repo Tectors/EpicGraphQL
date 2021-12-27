@@ -3,7 +3,7 @@
 Research about the [Epic Games](https://www.epicgames.com/)'s non-documented offically, Graphql API and main API.
 
 # How did you find these?
-<img align="right" width="250" height="250" src="https://raw.githubusercontent.com/Tectors/ico/main/EpicGraphQL2-cache-a%20copy.svg">
+<img align="right" width="250" height="250" src="https://raw.githubusercontent.com/Tectors/ico/main/EpicGraphQL2-cache-a-c.svg">
 
   Most of the documented information is from the [offical website](https://www.epicgames.com/) and taken from Network inside Developer tools, then taken into a python script which will parse them into different folders and seperate files for the GraphQL.
   
