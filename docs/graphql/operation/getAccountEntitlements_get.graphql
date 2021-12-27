@@ -1,0 +1,16 @@
+# GET: https://www.epicgames.com/graphql?operationName=getAccountEntitlements&variables=[{}]&extensions=[{}]
+# | getAccountEntitlements |
+
+# Variables:
+# {
+#     "accountId": "", 
+#     "namespace": ""
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }

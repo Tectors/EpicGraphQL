@@ -1,0 +1,15 @@
+# GET: https://www.epicgames.com/graphql?operationName=getCatalogCurrencyInfo&variables=[{}]&extensions=[{}]
+# | getCatalogCurrencyInfo |
+
+# Variables:
+# {
+#     "currencyId": "USD"
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }

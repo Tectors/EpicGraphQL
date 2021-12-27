@@ -1,0 +1,15 @@
+# GET: https://www.epicgames.com/graphql?operationName=getCategories&variables=[{}]&extensions=[{}]
+# | getCategories |
+
+# Variables:
+# {
+#     "locale": "en-US"
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }

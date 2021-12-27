@@ -1,0 +1,15 @@
+# GET: https://www.epicgames.com/graphql?operationName=getModsSupportedTypes&variables=[{}]&extensions=[{}]
+# | getModsSupportedTypes |
+
+# Variables:
+# {
+#     "sandboxId": "3840e423f39f45eab96aac124a46492a"
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }

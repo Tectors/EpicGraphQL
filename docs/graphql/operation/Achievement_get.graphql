@@ -1,0 +1,16 @@
+# GET: https://www.epicgames.com/graphql?operationName=Achievement&variables=[{}]&extensions=[{}]
+# | Achievement |
+
+# Variables:
+# {
+#     "locale": "en-US", 
+#     "sandboxId": "3840e423f39f45eab96aac124a46492a"
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }

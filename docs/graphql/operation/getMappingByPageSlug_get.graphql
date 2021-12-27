@@ -1,0 +1,15 @@
+# GET: https://www.epicgames.com/graphql?operationName=getMappingByPageSlug&variables=[{}]&extensions=[{}]
+# | getMappingByPageSlug |
+
+# Variables:
+# {
+#     "pageSlug": ""
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }

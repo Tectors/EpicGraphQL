@@ -1,0 +1,22 @@
+# GET: https://www.epicgames.com/graphql?operationName=getRelatedOfferIdsByCategory&variables=[{}]&extensions=[{}]
+# | getRelatedOfferIdsByCategory |
+
+# Variables:
+# {
+#     "allowCountries": "US", 
+#     "category": "games/edition", 
+#     "codeRedemptionOnly": false, 
+#     "country": "US", 
+#     "locale": "en-US", 
+#     "namespace": "", 
+#     "sortBy": "", 
+#     "sortDir": "DESC"
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }

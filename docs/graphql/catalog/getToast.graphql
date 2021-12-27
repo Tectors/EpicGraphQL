@@ -8,7 +8,7 @@ query getToast($country: String!, $locale: String) {
                     currentStatus
                     previousStatus
 
-offer(locale: $locale) {
+offer {
     productSlug
     urlSlug
     title
@@ -20,9 +20,6 @@ offer(locale: $locale) {
     isCodeRedemptionOnly
     description
     effectiveDate
-    pcReleaseDate
-    releaseDate
-    prePurchase
     keyImages {
         type
         url
@@ -41,8 +38,6 @@ offer(locale: $locale) {
         key
         value
     }
-    developerDisplayName
-    publisherDisplayName
     catalogNs {
         mappings(pageType: "productHome") {
             pageSlug
@@ -55,11 +50,6 @@ offer(locale: $locale) {
     }
     categories {
         path
-    }
-    tags {
-        id
-        groupName
-        name
     }
     price(country: $country) {
         totalPrice {
@@ -94,7 +84,7 @@ offer(locale: $locale) {
                     promotionRuleId
                     saleExpirationDate
 
-offer(locale: $locale) {
+offer {
     productSlug
     urlSlug
     title
@@ -106,9 +96,6 @@ offer(locale: $locale) {
     isCodeRedemptionOnly
     description
     effectiveDate
-    pcReleaseDate
-    releaseDate
-    prePurchase
     keyImages {
         type
         url
@@ -127,8 +114,6 @@ offer(locale: $locale) {
         key
         value
     }
-    developerDisplayName
-    publisherDisplayName
     catalogNs {
         mappings(pageType: "productHome") {
             pageSlug
@@ -141,11 +126,6 @@ offer(locale: $locale) {
     }
     categories {
         path
-    }
-    tags {
-        id
-        groupName
-        name
     }
     price(country: $country) {
         totalPrice {

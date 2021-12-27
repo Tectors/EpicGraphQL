@@ -1,0 +1,22 @@
+# GET: https://www.epicgames.com/graphql?operationName=primarySearchAutocomplete&variables=[{}]&extensions=[{}]
+# | primarySearchAutocomplete |
+
+# Variables:
+# {
+#     "allowCountries": "US", 
+#     "category": "games/edition/base|bundles/games|editors|software/edition/base", 
+#     "count": 0, 
+#     "country": "US", 
+#     "keywords": "", 
+#     "locale": "en-US", 
+#     "sortBy": null, 
+#     "sortDir": "DESC"
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }

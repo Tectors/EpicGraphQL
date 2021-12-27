@@ -1,0 +1,15 @@
+# GET: https://www.epicgames.com/graphql?operationName=getCatalogCountryInfo&variables=[{}]&extensions=[{}]
+# | getCatalogCountryInfo |
+
+# Variables:
+# {
+#     "countryCode": "US"
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }

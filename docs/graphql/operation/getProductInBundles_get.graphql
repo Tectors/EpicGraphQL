@@ -1,0 +1,18 @@
+# GET: https://www.epicgames.com/graphql?operationName=getProductInBundles&variables=[{}]&extensions=[{}]
+# | getProductInBundles |
+
+# Variables:
+# {
+#     "allowCountries": "US", 
+#     "country": "US", 
+#     "itemNs": "", 
+#     "locale": "en-US"
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }

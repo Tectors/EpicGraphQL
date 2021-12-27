@@ -1,0 +1,18 @@
+# GET: https://www.epicgames.com/graphql?operationName=storefrontDiscover&variables=[{}]&extensions=[{}]
+# | storefrontDiscover |
+
+# Variables:
+# {
+#     "country": "US", 
+#     "layoutSlug": "", 
+#     "layoutType": "", 
+#     "locale": "en-US"
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }

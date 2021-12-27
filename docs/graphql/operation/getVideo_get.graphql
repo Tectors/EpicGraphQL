@@ -1,0 +1,15 @@
+# GET: https://www.epicgames.com/graphql?operationName=getVideo&variables=[{}]&extensions=[{}]
+# | getVideo |
+
+# Variables:
+# {
+#     "mediaRefId": ""
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }

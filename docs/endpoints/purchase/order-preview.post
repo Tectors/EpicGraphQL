@@ -1,0 +1,248 @@
+POST https://payment-website-pci.ol.epicgames.com/purchase/order-preview HTTP/2.0
+Host: payment-website-pci.ol.epicgames.com
+
+Dfpsessionid: 0ebdc3d8e395496a972a549b69decdfd
+Accept-language: en-US,en;q=0.9
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+X-requested-with: 9a3e8befd4c44bde9a2663a3b6459642
+Dfpdccode: uswest
+Referer: https://www.epicgames.com/store/purchase?highlightColor=0078f2&offers=1-vpr-497cdc35842e458ca10a1edae95ae181&orderId&purchaseToken&showNavigation=true
+Content-type: application/json
+Cache-control: no-cache
+Accept: application/json, text/plain, */*
+Origin: https://www.epicgames.com
+Pragma: no-cache
+Accept-encoding: gzip, deflate, br
+Cookie: Removed
+Content-length: 482
+
+""
+
+Response: 200 HTTP/2.0
+
+{
+    "affiliation": null,
+    "catalogResponse": {
+        "code": "",
+        "currencySymbolPlacement": "",
+        "defaultCurrency": "",
+        "displayName": "",
+        "embargoed": false,
+        "paymentCurrency": "",
+        "ratingSystem": "",
+        "ratingSystems": [
+            ""
+        ],
+        "region": "",
+        "sellerOfRecord": "",
+        "sellerOfRecordName": "",
+        "subscriptionSupported": true,
+        "vatChargeRate": null,
+        "vatIncluded": false,
+        "vatPercentage": null,
+        "vatReverseCharge": true
+    },
+    "country": "",
+    "countryName": "",
+    "lineOffers": null,
+    "message": null,
+    "namespace": "",
+    "offers": [
+        ""
+    ],
+    "orderComplete": false,
+    "orderError": false,
+    "orderId": null,
+    "orderPending": false,
+    "orderResponse": {
+        "accountIpAddress": "",
+        "accountIpCountry": "",
+        "agentUserName": "",
+        "batchJobFailedRetryCount": 0,
+        "canQuickPurchase": false,
+        "canSplitPayment": false,
+        "convenienceFee": 0,
+        "country": "",
+        "coupons": [
+            {
+                "codeUsageType": "",
+                "consumed": false,
+                "coupon": "",
+                "couponApplyMode": "",
+                "couponDiscount": 0,
+                "deleted": false,
+                "id": 0,
+                "namespace": "",
+                "offerId": ""
+            }
+        ],
+        "creationDate": "",
+        "currency": "",
+        "epicAccountId": "",
+        "formattedConvenienceFee": {
+            "amount": "",
+            "decimals": 0,
+            "digits": 0,
+            "placement": "",
+            "symbol": ""
+        },
+        "formattedPresentmentAmount": {
+            "amount": "",
+            "decimals": 0,
+            "digits": 0,
+            "placement": "",
+            "symbol": ""
+        },
+        "formattedTotalDiscounted": {
+            "amount": "",
+            "decimals": 0,
+            "digits": 0,
+            "placement": "",
+            "symbol": ""
+        },
+        "formattedTotalPrice": {
+            "amount": "",
+            "decimals": 0,
+            "digits": 0,
+            "placement": "",
+            "symbol": ""
+        },
+        "formattedTotalTax": {
+            "amount": "",
+            "decimals": 0,
+            "digits": 0,
+            "placement": "",
+            "symbol": ""
+        },
+        "fraud": false,
+        "fraudScore": 0,
+        "fraudSubDecisions": [],
+        "identityId": "",
+        "isFree": false,
+        "lastModifiedDate": "",
+        "lineOffers": [
+            {
+                "basePayoutCurrencyCode": "",
+                "basePayoutPrice": 0,
+                "basePrice": 0,
+                "convenienceFee": 0,
+                "discountedPrice": 0,
+                "entitlementSource": "",
+                "formattedBasePayoutPrice": {
+                    "amount": "",
+                    "decimals": 0,
+                    "digits": 0,
+                    "placement": "",
+                    "symbol": ""
+                },
+                "formattedBasePrice": {
+                    "amount": "",
+                    "decimals": 0,
+                    "digits": 0,
+                    "placement": "",
+                    "symbol": ""
+                },
+                "formattedDiscountedPrice": {
+                    "amount": "",
+                    "decimals": 0,
+                    "digits": 0,
+                    "placement": "",
+                    "symbol": ""
+                },
+                "formattedTaxPrice": {
+                    "amount": "",
+                    "decimals": 0,
+                    "digits": 0,
+                    "placement": "",
+                    "symbol": ""
+                },
+                "formattedTotalPrice": {
+                    "amount": "",
+                    "decimals": 0,
+                    "digits": 0,
+                    "placement": "",
+                    "symbol": ""
+                },
+                "formattedUnitPrice": {
+                    "amount": "",
+                    "decimals": 0,
+                    "digits": 0,
+                    "placement": "",
+                    "symbol": ""
+                },
+                "formattedVoucherPrice": {
+                    "amount": "",
+                    "decimals": 0,
+                    "digits": 0,
+                    "placement": "",
+                    "symbol": ""
+                },
+                "namespace": "",
+                "namespaceDisplayName": "",
+                "offerId": "",
+                "offerType": "",
+                "quantity": 0,
+                "refundedBasePayoutPrice": 0,
+                "refundedConvenienceFee": 0,
+                "refundedDiscountPrice": 0,
+                "refundedQuantity": 0,
+                "refundedRevenueWithoutTax": 0,
+                "refundedTax": 0,
+                "refundedVat": 0,
+                "remainingDiscountPrice": 0,
+                "revenueWithoutTax": 0,
+                "roleNames": [],
+                "sellerId": "",
+                "sellerName": "",
+                "shareRate": 0,
+                "shareRateByDeveloper": 0,
+                "taxPrice": 0,
+                "title": "",
+                "totalPrice": 0,
+                "unitPrice": 0,
+                "vat": 0,
+                "vatRate": null,
+                "voucherDiscount": 0
+            }
+        ],
+        "merchantGroup": "",
+        "orderStatus": "",
+        "orderType": "",
+        "paymentCurrencyAmount": 0,
+        "paymentCurrencyCode": "",
+        "paymentCurrencyExchangeRate": null,
+        "paymentCurrencySymbol": "",
+        "paymentItems": [
+            {
+                "amount": 0,
+                "formattedAmount": {
+                    "amount": "",
+                    "decimals": 0,
+                    "digits": 0,
+                    "placement": "",
+                    "symbol": ""
+                }
+            }
+        ],
+        "resendReceiptForAdmin": false,
+        "resendReceiptForPublic": false,
+        "rewardVoucher": null,
+        "salesChannel": "",
+        "salesEventId": "",
+        "symbol": "",
+        "taxStatus": "",
+        "taxType": "",
+        "toUSDExchangeRate": null,
+        "totalDiscounted": 0,
+        "totalPrice": 0,
+        "totalTax": 0,
+        "useSplitPayment": false,
+        "vat": 0,
+        "vatIncluded": false,
+        "vatRate": null,
+        "voucherCode": ""
+    },
+    "showCurrencyChangeMessage": false,
+    "syncToken": "",
+    "voucherList": null
+}

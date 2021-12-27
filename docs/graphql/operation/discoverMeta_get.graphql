@@ -1,0 +1,17 @@
+# GET: https://www.epicgames.com/graphql?operationName=discoverMeta&variables=[{}]&extensions=[{}]
+# | discoverMeta |
+
+# Variables:
+# {
+#     "layoutSlug": "", 
+#     "layoutType": "", 
+#     "locale": "en-US"
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }

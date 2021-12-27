@@ -1,0 +1,17 @@
+# GET: https://www.epicgames.com/graphql?operationName=getStoreTagsByGroupName&variables=[{}]&extensions=[{}]
+# | getStoreTagsByGroupName |
+
+# Variables:
+# {
+#     "groupName": "", 
+#     "locale": "en-US", 
+#     "storeId": "EGS"
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }

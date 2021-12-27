@@ -1,0 +1,23 @@
+# GET: https://www.epicgames.com/graphql?operationName=searchStoreQuery&variables=[{}]&extensions=[{}]
+# | searchStoreQuery |
+
+# Variables:
+# {
+#     "allowCountries": "US", 
+#     "category": "games/edition/base|software/edition/base|editors|bundles/games", 
+#     "count": 0, 
+#     "country": "US", 
+#     "locale": "en-US", 
+#     "releaseDate": "", 
+#     "sortBy": "releaseDate", 
+#     "sortDir": "DESC", 
+#     "tag": ""
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }

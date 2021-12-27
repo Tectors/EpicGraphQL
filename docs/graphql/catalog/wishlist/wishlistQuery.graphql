@@ -9,7 +9,7 @@ query wishlistQuery($country:String!, $locale:String) {
                 updated
                 namespace
 
-offer(locale: $locale) {
+offer {
     productSlug
     urlSlug
     title
@@ -21,9 +21,6 @@ offer(locale: $locale) {
     isCodeRedemptionOnly
     description
     effectiveDate
-    pcReleaseDate
-    releaseDate
-    prePurchase
     keyImages {
         type
         url
@@ -42,8 +39,6 @@ offer(locale: $locale) {
         key
         value
     }
-    developerDisplayName
-    publisherDisplayName
     catalogNs {
         mappings(pageType: "productHome") {
             pageSlug
@@ -56,11 +51,6 @@ offer(locale: $locale) {
     }
     categories {
         path
-    }
-    tags {
-        id
-        groupName
-        name
     }
     price(country: $country) {
         totalPrice {

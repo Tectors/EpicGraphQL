@@ -1,0 +1,16 @@
+# GET: https://www.epicgames.com/graphql?operationName=fetchCommunicationSettings&variables=[{}]&extensions=[{}]
+# | fetchCommunicationSettings |
+
+# Variables:
+# {
+#     "identity": "", 
+#     "settingKeyPrefix": "email"
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }

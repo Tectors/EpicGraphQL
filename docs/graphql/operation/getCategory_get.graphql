@@ -1,0 +1,16 @@
+# GET: https://www.epicgames.com/graphql?operationName=getCategory&variables=[{}]&extensions=[{}]
+# | getCategory |
+
+# Variables:
+# {
+#     "locale": "en-US", 
+#     "slug": "platform-games"
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }

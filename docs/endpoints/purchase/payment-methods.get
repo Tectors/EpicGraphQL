@@ -1,178 +1,52 @@
-GET https://payment-website-pci.ol.epicgames.com/purchase/payment-methods?isOrderRequest=1&namespace=f4a904fcef2447439c35c4e6457f3027 HTTP/2.0
+GET https://payment-website-pci.ol.epicgames.com/purchase/payment-methods HTTP/2.0
 Host: payment-website-pci.ol.epicgames.com
-Cookie: Removed
 
-User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+Accept-language: en-US,en;q=0.9
+X-requested-with: 9a3e8befd4c44bde9a2663a3b6459642
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+Dfpdccode: uswest
+Referer: https://www.epicgames.com/store/purchase?highlightColor=0078f2&offers=1-vpr-497cdc35842e458ca10a1edae95ae181&orderId&purchaseToken&showNavigation=true
+Accept: application/json, text/plain, */*
 Cache-control: no-cache
 Origin: https://www.epicgames.com
 Pragma: no-cache
-X-requested-with: 9fc21a8a9d32445f868f8f83fc91f0ad
 Accept-encoding: gzip, deflate, br
-Accept: application/json, text/plain, */*
-Referer: https://www.epicgames.com/store/purchase?namespace=f4a904fcef2447439c35c4e6457f3027&showNavigation=true&highlightColor=0078f2&offers=6f5794f26c28428794657b040243fc4e
-Accept-language: en-US,en;q=0.9
+Cookie: Removed
 
 Response: 200 HTTP/2.0
 
 {
     "availablePaymentMethods": [
         {
-            "convenienceFeeRate": null,
-            "countryCode": "DE",
-            "currency": "EUR",
-            "displayInfo": {
-                "displayName": "Credit Card",
-                "logoUrl": ""
-            },
-            "gatewayType": "CHASE",
-            "gatewayTypeId": 0,
-            "isOfflinePayment": false,
-            "paymentMethodType": "CREDITCARD",
-            "paymentMethodTypeId": 0,
-            "paymentMode": "BOTH",
-            "requireExternalBrowser": false,
-            "supportSubscription": true,
-            "supportedSubtypes": [
-                ""
-            ]
-        },
-        {
             "abGroupName": "",
             "convenienceFeeRate": null,
-            "countryCode": "DE",
-            "currency": "EUR",
+            "countryCode": "",
+            "currency": "",
             "displayInfo": {
-                "displayName": "PayPal",
-                "logoUrl": "https://cdn2.unrealengine.com/paypal-transparentbg-211x252-0e679d32d4e7.png"
+                "displayName": "",
+                "logoUrl": ""
             },
-            "gatewayType": "PAYPAL",
+            "gatewayType": "",
+            "gatewayTypeId": 0,
             "grayGroupName": "",
             "isOfflinePayment": false,
             "morInfo": {
-                "displayName": "Epic Games International S.\u00c3\u00a0 r.l.",
-                "merchantOfRecord": "Epic Games International S.\u00c3\u00a0 r.l.",
+                "displayName": "",
+                "merchantOfRecord": "",
                 "morLogoUrl": "",
                 "privacyPolicyUrl": "",
                 "thirdPartMor": false,
                 "tosUrl": ""
             },
             "paymentMethodExternalInfo": "",
-            "paymentMethodSubtype": "PAYPAL",
-            "paymentMethodType": "PAYPAL",
-            "paymentMode": "BOTH",
+            "paymentMethodType": "",
+            "paymentMethodTypeId": 0,
+            "paymentMode": "",
             "requireExternalBrowser": false,
             "supportSubscription": true,
-            "transactionRange": {
-                "max": 0,
-                "min": 0,
-                "purchaseMaximumAmount": 0,
-                "purchaseMinimumAmount": 0,
-                "refundMinimumAmount": 0
-            }
-        },
-        {
-            "abGroupName": "amazon-xsolla",
-            "convenienceFeeRate": null,
-            "countryCode": "DE",
-            "currency": "EUR",
-            "displayInfo": {
-                "displayName": "Your Amazon Account",
-                "largeImageURL": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/235.png",
-                "logoUrl": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/235.png",
-                "mediumImageURL": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/235.png",
-                "smallImageURL": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/235.png"
-            },
-            "gatewayType": "XSOLLA",
-            "grayGroupName": "",
-            "isOfflinePayment": false,
-            "morInfo": {
-                "displayName": "Xsolla",
-                "merchantOfRecord": "Xsolla",
-                "morLogoUrl": "",
-                "privacyPolicyUrl": "",
-                "thirdPartMor": true,
-                "tosUrl": ""
-            },
-            "paymentMethodExternalInfo": "",
-            "paymentMethodSubtype": "AMAZON",
-            "paymentMethodType": "XSOLLA",
-            "paymentMode": "ONETIME",
-            "requireExternalBrowser": false,
-            "supportSubscription": false,
-            "transactionRange": {
-                "max": 0,
-                "min": 0,
-                "purchaseMaximumAmount": 0,
-                "purchaseMinimumAmount": 0,
-                "refundMinimumAmount": 0
-            }
-        },
-        {
-            "abGroupName": "psc-xsolla",
-            "convenienceFeeRate": null,
-            "countryCode": "DE",
-            "currency": "EUR",
-            "displayInfo": {
-                "displayName": "Paysafecard",
-                "largeImageURL": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/57.png",
-                "logoUrl": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/57.png",
-                "mediumImageURL": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/57.png",
-                "smallImageURL": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/57.png"
-            },
-            "gatewayType": "XSOLLA",
-            "grayGroupName": "",
-            "isOfflinePayment": false,
-            "morInfo": {
-                "displayName": "Xsolla",
-                "merchantOfRecord": "Xsolla",
-                "morLogoUrl": "",
-                "privacyPolicyUrl": "",
-                "thirdPartMor": true,
-                "tosUrl": ""
-            },
-            "paymentMethodExternalInfo": "",
-            "paymentMethodSubtype": "PAYSAFECARD",
-            "paymentMethodType": "XSOLLA",
-            "paymentMode": "ONETIME",
-            "requireExternalBrowser": false,
-            "supportSubscription": false,
-            "transactionRange": {
-                "max": 0,
-                "min": 0,
-                "purchaseMaximumAmount": 0,
-                "purchaseMinimumAmount": 0,
-                "refundMinimumAmount": 0
-            }
-        },
-        {
-            "abGroupName": "sofort-xsolla",
-            "convenienceFeeRate": null,
-            "countryCode": "DE",
-            "currency": "EUR",
-            "displayInfo": {
-                "displayName": "Sofort",
-                "largeImageURL": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/2140.png",
-                "logoUrl": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/2140.png",
-                "mediumImageURL": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/2140.png",
-                "smallImageURL": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/2140.png"
-            },
-            "gatewayType": "XSOLLA",
-            "grayGroupName": "",
-            "isOfflinePayment": false,
-            "morInfo": {
-                "displayName": "Xsolla",
-                "merchantOfRecord": "Xsolla",
-                "morLogoUrl": "",
-                "privacyPolicyUrl": "",
-                "thirdPartMor": true,
-                "tosUrl": ""
-            },
-            "paymentMethodExternalInfo": "",
-            "paymentMethodSubtype": "SOFORT",
-            "paymentMethodType": "XSOLLA",
-            "paymentMode": "ONETIME",
-            "requireExternalBrowser": false,
-            "supportSubscription": false,
+            "supportedSubtypes": [
+                ""
+            ],
             "transactionRange": {
                 "max": 0,
                 "min": 0,
@@ -184,104 +58,29 @@ Response: 200 HTTP/2.0
         {
             "abGroupName": "",
             "convenienceFeeRate": null,
-            "countryCode": "DE",
-            "currency": "EUR",
+            "countryCode": "",
+            "currency": "",
             "displayInfo": {
-                "displayName": "Sparkasse",
-                "largeImageURL": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/207.png",
-                "logoUrl": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/207.png",
-                "mediumImageURL": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/207.png",
-                "smallImageURL": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/207.png"
+                "displayName": "",
+                "logoUrl": ""
             },
-            "gatewayType": "XSOLLA",
+            "gatewayType": "",
+            "gatewayTypeId": 0,
             "grayGroupName": "",
             "isOfflinePayment": false,
             "morInfo": {
-                "displayName": "Xsolla",
-                "merchantOfRecord": "Xsolla",
+                "displayName": "",
+                "merchantOfRecord": "",
                 "morLogoUrl": "",
                 "privacyPolicyUrl": "",
-                "thirdPartMor": true,
+                "thirdPartMor": false,
                 "tosUrl": ""
             },
             "paymentMethodExternalInfo": "",
-            "paymentMethodSubtype": "SPARKASSE",
-            "paymentMethodType": "XSOLLA",
-            "paymentMode": "ONETIME",
-            "requireExternalBrowser": false,
-            "supportSubscription": false,
-            "transactionRange": {
-                "max": 0,
-                "min": 0,
-                "purchaseMaximumAmount": 0,
-                "purchaseMinimumAmount": 0,
-                "refundMinimumAmount": 0
-            }
-        },
-        {
-            "abGroupName": "",
-            "convenienceFeeRate": null,
-            "countryCode": "DE",
-            "currency": "EUR",
-            "displayInfo": {
-                "displayName": "Giropay",
-                "largeImageURL": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/1502.png",
-                "logoUrl": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/1502.png",
-                "mediumImageURL": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/1502.png",
-                "smallImageURL": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/1502.png"
-            },
-            "gatewayType": "XSOLLA",
-            "grayGroupName": "",
-            "isOfflinePayment": false,
-            "morInfo": {
-                "displayName": "Xsolla",
-                "merchantOfRecord": "Xsolla",
-                "morLogoUrl": "",
-                "privacyPolicyUrl": "",
-                "thirdPartMor": true,
-                "tosUrl": ""
-            },
-            "paymentMethodExternalInfo": "",
-            "paymentMethodSubtype": "GIROPAY",
-            "paymentMethodType": "XSOLLA",
-            "paymentMode": "ONETIME",
-            "requireExternalBrowser": false,
-            "supportSubscription": false,
-            "transactionRange": {
-                "max": 0,
-                "min": 0,
-                "purchaseMaximumAmount": 0,
-                "purchaseMinimumAmount": 0,
-                "refundMinimumAmount": 0
-            }
-        },
-        {
-            "abGroupName": "",
-            "convenienceFeeRate": null,
-            "countryCode": "DE",
-            "currency": "EUR",
-            "displayInfo": {
-                "displayName": "Skrill Digital Wallet",
-                "largeImageURL": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/465.png",
-                "logoUrl": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/465.png",
-                "mediumImageURL": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/465.png",
-                "smallImageURL": "https://static.xsolla.com/paymentoptions/paystation/theme_33/108x63/465.png"
-            },
-            "gatewayType": "XSOLLA",
-            "grayGroupName": "",
-            "isOfflinePayment": false,
-            "morInfo": {
-                "displayName": "Xsolla",
-                "merchantOfRecord": "Xsolla",
-                "morLogoUrl": "",
-                "privacyPolicyUrl": "",
-                "thirdPartMor": true,
-                "tosUrl": ""
-            },
-            "paymentMethodExternalInfo": "",
-            "paymentMethodSubtype": "SKRILL",
-            "paymentMethodType": "XSOLLA",
-            "paymentMode": "BOTH",
+            "paymentMethodSubtype": "",
+            "paymentMethodType": "",
+            "paymentMethodTypeId": 0,
+            "paymentMode": "",
             "requireExternalBrowser": false,
             "supportSubscription": true,
             "transactionRange": {
@@ -293,15 +92,24 @@ Response: 200 HTTP/2.0
             }
         }
     ],
-    "billingAccounts": [],
-    "country": "DE",
+    "billingAccounts": [
+        {
+            "billingAccountStatus": "",
+            "currency": "",
+            "gatewayType": "",
+            "id": "",
+            "paymentMethodInfo": {
+                "amount": 0
+            },
+            "paymentMethodSubtype": "",
+            "paymentMethodType": ""
+        }
+    ],
+    "country": "",
     "errors": null,
-    "merchantGroup": "EGS_MKT",
+    "merchantGroup": "",
     "message": null,
     "newBillingAccount": null,
     "payPalExpressRequest": null,
-    "xsollaWalletBalance": {
-        "amount": 0,
-        "currency": "USD"
-    }
+    "xsollaWalletBalance": null
 }

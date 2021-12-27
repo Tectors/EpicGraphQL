@@ -1,0 +1,16 @@
+# GET: https://www.epicgames.com/graphql?operationName=getCriticReviews&variables=[{}]&extensions=[{}]
+# | getCriticReviews |
+
+# Variables:
+# {
+#     "includeTopReviews": true, 
+#     "sku": ""
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }

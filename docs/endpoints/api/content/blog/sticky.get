@@ -1,0 +1,97 @@
+GET https://store-content-ipv4.ak.epicgames.com/api/en-US/content/blog/sticky?locale=en-US HTTP/2.0
+Host: store-content-ipv4.ak.epicgames.com
+
+X-requested-with: XMLHttpRequest
+Accept-language: en-US,en;q=0.9
+User-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+Accept: application/json, text/plain, */*
+Cache-control: no-cache
+Origin: https://www.epicgames.com
+Referer: https://www.epicgames.com/store/en-US/news
+Pragma: no-cache
+Accept-encoding: gzip, deflate, br
+
+Response: 200 HTTP/2.0
+
+[
+    {
+        "_id": "",
+        "_images_": [
+            ""
+        ],
+        "_locale": "",
+        "_metaTags": "",
+        "_noIndex": false,
+        "_title": "",
+        "_type": "",
+        "_urlPattern": "",
+        "author": "",
+        "cat": "",
+        "content": "",
+        "contentTypeSticky": false,
+        "date": "",
+        "enableLightbox": false,
+        "hasSocialWidget": false,
+        "lastModified": "",
+        "noTopImage": false,
+        "shareImage": "",
+        "short": "",
+        "slug": "",
+        "socialWidget": {
+            "_type": "",
+            "cta": {
+                "_type": "",
+                "theme": {
+                    "_type": ""
+                }
+            },
+            "dateColor": ""
+        },
+        "sticky": true,
+        "title": "",
+        "trending": false,
+        "trendingImage": "",
+        "url": "",
+        "urlPattern": ""
+    },
+    {
+        "_id": "",
+        "_images_": [
+            ""
+        ],
+        "_locale": "",
+        "_metaTags": "",
+        "_noIndex": false,
+        "_title": "",
+        "_type": "",
+        "_urlPattern": "",
+        "author": "",
+        "cat": "",
+        "content": "",
+        "contentTypeSticky": false,
+        "date": "",
+        "enableLightbox": false,
+        "hasSocialWidget": false,
+        "lastModified": "",
+        "noTopImage": false,
+        "shareImage": "",
+        "short": "",
+        "slug": "",
+        "socialWidget": {
+            "_type": "",
+            "cta": {
+                "_type": "",
+                "theme": {
+                    "_type": ""
+                }
+            },
+            "dateColor": ""
+        },
+        "sticky": true,
+        "title": "",
+        "trending": false,
+        "trendingImage": "",
+        "url": "",
+        "urlPattern": ""
+    }
+]

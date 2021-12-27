@@ -1,0 +1,17 @@
+# GET: https://www.epicgames.com/graphql?operationName=getLatestEulaAsMarkdownQuery&variables=[{}]&extensions=[{}]
+# | getLatestEulaAsMarkdownQuery |
+
+# Variables:
+# {
+#     "accountId": "", 
+#     "eulaId": "", 
+#     "locale": "en-US"
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }
