@@ -1,6 +1,6 @@
 # GraphQL
 
-<a href="https://gist.github.com/ToutinRoger/dd61991d4c1644454ff9aa4f0afe4713" target="_blank"><img align="right" width="302" height="172" src="https://raw.githubusercontent.com/ToutinRoger/FortniteFovChanger/main/port_later/usage-redirect.svg"></a>
+<a href="https://gist.github.com/ToutinRoger/dd61991d4c1644454ff9aa4f0afe4713" target="_blank"><img align="right" width="302" height="172" src="https://raw.githubusercontent.com/Tectors/EpicGraphQL/main/port_later/usage-redirect.svg"></a>
 
 Epic Games provides a graphql requesting service, to do actions in applications and to request data and information.
 
