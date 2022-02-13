@@ -35,7 +35,7 @@
             overflow: hidden;
             left: 8px;
             top: 2px;
-            font: 50px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+            font: 40px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
             <!--
              The default values for the
              container after the animation.
@@ -50,7 +50,7 @@
             color: #30363d;
             border-radius: 0px;
             border: 0px solid #30363d;
-            border-bottom: 4px solid #30363d;
+            border-bottom: 2px solid #30363d;
             background: #161b22;
         }
 
@@ -65,7 +65,7 @@
                 height: 0;
             }
             to {
-                font-size: 50px;
+                font-size: 40px;
                 left: 8px;
                 top: 2px;
                 width: 301px;
