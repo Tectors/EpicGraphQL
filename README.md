@@ -13,7 +13,6 @@ Research about the [Epic Games](https://www.epicgames.com/)'s non-documented off
   <br> It can be done in multiple ways such as, using Developer Tools recording each request and using a [script](https://github.com/Tectors/EpicGraphQL/tree/main/scripting) or finding each request yourself, or you could download a old [Fortnite Party Hub](https://www.epicgames.com/fortnite/en-US/news/party-hub-faq) version which I have many and use a program like [Fiddler](https://www.telerik.com/fiddler) to see each request.
 
 # What if I need support?
-<img align="right" width="250" height="250" src="https://raw.githubusercontent.com/Tectors/EpicGraphQL/main/port_later/book_spinner.svg">
 
   If there is help needed, search throughout the documentation and find the related information you are needing, if something is missing and you want to contribute make sure to, fork, create your changes, and make a [pull request](https://github.com/ToutinRoger/EpicGraphQL/pulls) explaining what you've contributed. 
   
