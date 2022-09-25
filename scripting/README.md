@@ -1,1 +1,0 @@
-Yes, I indeed need some scripts to help me, instead of wasting hours writing graphql requests for example.
