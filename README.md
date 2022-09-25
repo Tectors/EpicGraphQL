@@ -1,4 +1,4 @@
-# ![](https://raw.githubusercontent.com/Tectors/EpicGraphQL/main/port_later/title.svg) 
+# ![](https://raw.githubusercontent.com/Tectors/EpicGraphQL/main/scripting/art/title.svg) 
 
 Research about the [Epic Games](https://www.epicgames.com/)'s non-documented offically, Graphql API and main API, help and information at the [Discord Server](https://discord.gg/CPg9G9e22v).
 
