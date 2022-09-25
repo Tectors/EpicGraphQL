@@ -3,7 +3,7 @@
 Research about the [Epic Games](https://www.epicgames.com/)'s non-documented offically, Graphql API and main API, help and information at the [Discord Server](https://discord.gg/CPg9G9e22v).
 
 # How did you find these?
-<img align="right" width="250" height="250" src="https://raw.githubusercontent.com/Tectors/EpicGraphQL/main/port_later/book_spinner.svg">
+<img align="right" width="250" height="250" src="https://raw.githubusercontent.com/Tectors/EpicGraphQL/main/scripting/art/book_spinner.svg">
 
   Most of the documented information is from the [offical website](https://www.epicgames.com/) and taken from Network inside Developer tools, then taken into a python script which will parse them into different folders and seperate files for the GraphQL.
   

@@ -1,6 +1,6 @@
 # GraphQL
 
-<a href="https://gist.github.com/ToutinRoger/dd61991d4c1644454ff9aa4f0afe4713" target="_blank"><img align="right" width="302" height="172" src="https://raw.githubusercontent.com/Tectors/EpicGraphQL/main/port_later/usage-redirect.svg"></a>
+<a href="https://gist.github.com/ToutinRoger/dd61991d4c1644454ff9aa4f0afe4713" target="_blank"><img align="right" width="302" height="172" src="https://raw.githubusercontent.com/Tectors/EpicGraphQL/main/scripting/art/usage-redirect.svg"></a>
 
 Epic Games provides a graphql requesting service, to do actions in applications and to request data and information.
 
@@ -39,11 +39,6 @@ There has been a history of Epic Games's GraphQL for example the main page for t
 It would use the [*graphqlWebsite*](https://github.com/MixV2/EpicResearch/blob/master/docs/auth/permissions/319e1527d0be4457a1067829fc0ad86e.md) to authorize and generate a token, then adding it to the cookie (I believe).
 
 Once you authorized you would be able to request anything related to the services without authorization, if authorized with the cookie which is pretty cool.
-
-## ReportPlayer Mutation
-There is a mutation to report a player as much as you want for any reason at all, this was used for the **Fortnite Party Hub** application for mobile but can be used if you have a token.
-
-It hasn't been used for malicious intents yet but still is very possible to cause some trouble in the community, you can report any user even a user not playing Fortnite!
 
 ## Groups
 There is actually groups in the GraphQL service of Epic Games, people that have been researching their system and all have created groups and invited people to their groups, this probably was a scraped idea as it has been in the system for years without updates.
