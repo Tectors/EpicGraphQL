@@ -12,3 +12,10 @@ A simple request to check if the account has a password or not.
    "hasPassword": true
 }
 ```
+
+## Response
+```json
+{
+   "needLogin":false
+}
+```
