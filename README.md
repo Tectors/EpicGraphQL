@@ -19,4 +19,4 @@ Research about the [Epic Games](https://www.epicgames.com/)'s non-documented off
   There is something that we should of added? Well then make a [issue](https://github.com/Tectors/EpicGraphQL/issues) and tell us what we are missing that we should of added and I'll see if it can be added into the documentation.
   
   **How can I talk to you or other people that can help me?**:
-  <br> There's two great ways to communicate and chat about what you need. You can make a [issue](https://github.com/Tectors/EpicGraphQL/issues) that can be easily accessed at the repository and get answers. You can join our [Discord Server](https://discord.gg/CPg9G9e22v) which will give you direct contact to me, and other people that can help you. I would be glad to help you understand or to figure out.
+  <br> There's two great ways to communicate and chat about what you need. You can make a [issue](https://github.com/Tectors/EpicGraphQL/issues) that can be easily accessed at the repository and get answers. You can join our [Discord Server](https://discord.gg/CPg9G9e22v) which will give you direct contact to me, and other people that can help you. I am unactive at the moment, apologies.
