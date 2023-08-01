@@ -7,15 +7,8 @@ A simple request to check if the account has a password or not.
 | https://www.epicgames.com/account/v2/ajaxCheckLogin | `GET` |
 
 ## Response
-```json
+```js
 {
-   "hasPassword": true
-}
-```
-
-## Response
-```json
-{
-   "needLogin":false
+   "needLogin": Boolean
 }
 ```
