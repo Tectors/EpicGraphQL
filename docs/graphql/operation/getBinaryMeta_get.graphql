@@ -3,7 +3,10 @@
 
 # Variables:
 # {
-#     "locale": "en-US"
+#     "sandboxId": "",
+#     "artifactId": "",
+#     "label": "",
+#     "platform": ""
 # }
 
 # Extensions:
