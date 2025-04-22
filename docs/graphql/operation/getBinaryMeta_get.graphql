@@ -1,0 +1,18 @@
+# GET: https://www.epicgames.com/graphql?operationName=GetBinaryMeta&variables=[{}]&extensions=[{}]
+# | getBinaryMeta |
+
+# Variables:
+# {
+#     "sandboxId": "",
+#     "artifactId": "",
+#     "label": "",
+#     "platform": ""
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }
