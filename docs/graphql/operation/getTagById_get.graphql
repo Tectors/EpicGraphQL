@@ -1,0 +1,16 @@
+# GET: https://www.epicgames.com/graphql?operationName=getTagById&variables=[{}]&extensions=[{}]
+# | getTagById |
+
+# Variables:
+# {
+#     "locale": "en-US", 
+#     "id": ""
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 1
+#     }
+# }
