@@ -1,0 +1,15 @@
+# GET: https://www.epicgames.com/graphql?operationName=getSandboxData&variables=[{}]&extensions=[{}]
+# | Achievement |
+
+# Variables:
+# {
+#     "sandboxId": ""
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 1
+#     }
+# }
