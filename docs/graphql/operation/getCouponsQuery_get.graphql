@@ -1,0 +1,18 @@
+# GET: https://www.epicgames.com/graphql?operationName=getCouponsQuery&variables=[{}]&extensions=[{}]
+# | getCouponsQuery |
+
+# Variables:
+# {
+#     "identityId": "",
+#     "currencyCountry": "AU",
+#     "locale": "en-US",
+#     "merchantGroup": "EGS_MKT"
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 1
+#     }
+# }

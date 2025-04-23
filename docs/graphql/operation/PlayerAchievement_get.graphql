@@ -1,0 +1,16 @@
+# GET: https://www.epicgames.com/graphql?operationName=PlayerAchievement&variables=[{}]&extensions=[{}]
+# | PlayerAchievement |
+
+# Variables:
+# {
+#     "epicAccountId": "", 
+#     "sandboxId": ""
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 1
+#     }
+# }

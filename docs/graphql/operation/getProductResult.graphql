@@ -1,0 +1,16 @@
+# GET: https://www.epicgames.com/graphql?operationName=getProductResult&variables=[{}]&extensions=[{}]
+# | getProductResult |
+
+# Variables:
+# {
+#     "sandboxId": "",
+#     "locale": "en-US"
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 1
+#     }
+# }

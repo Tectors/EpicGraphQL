@@ -1,0 +1,15 @@
+# GET: https://www.epicgames.com/graphql?operationName=PlayerGameAchievementProgress&variables=[{}]&extensions=[{}]
+# | PlayerGameAchievementProgress |
+
+# Variables:
+# {
+#     "epicAccountId": ""
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 1
+#     }
+# }

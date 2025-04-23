@@ -5,7 +5,9 @@
 # {
 #     "groupName": "", 
 #     "locale": "en-US", 
-#     "storeId": "EGS"
+#     "storeId": "EGS",
+#     "sortBy": "",
+#     "sortDir": ""
 # }
 
 # Extensions:

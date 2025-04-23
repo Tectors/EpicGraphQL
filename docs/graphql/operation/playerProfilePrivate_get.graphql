@@ -1,0 +1,18 @@
+# GET: https://www.epicgames.com/graphql?operationName=playerProfilePrivate&variables=[{}]&extensions=[{}]
+# | playerProfilePrivate |
+
+# Variables:
+# {
+#     "epicAccountId": "",
+#     "locale": "en-US",
+#     "page": "",
+#     "accountId": ""
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }
