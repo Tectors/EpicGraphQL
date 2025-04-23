@@ -1,0 +1,15 @@
+# GET: https://www.epicgames.com/graphql?operationName=getWishlist&variables=[{}]&extensions=[{}]
+# | getWishlist |
+
+# Variables:
+# {
+#     "accountId": ""
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 1
+#     }
+# }
