@@ -1,0 +1,16 @@
+# GET: https://www.epicgames.com/graphql?operationName=getVideoById&variables=[{}]&extensions=[{}]
+# | getVideoById |
+
+# Variables:
+# {
+#     "videoId": "",
+#     "locale": "en-US"
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }
