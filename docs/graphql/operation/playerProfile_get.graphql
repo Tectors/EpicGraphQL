@@ -1,0 +1,15 @@
+# GET: https://www.epicgames.com/graphql?operationName=playerProfile&variables=[{}]&extensions=[{}]
+# | playerProfile |
+
+# Variables:
+# {
+#     "epicAccountId": ""
+# }
+
+# Extensions:
+# {
+#     "persistedQuery": {
+#         "sha256Hash": "", 
+#         "version": 0
+#     }
+# }
