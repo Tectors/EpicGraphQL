@@ -1,14 +1,6 @@
 # GET: https://www.epicgames.com/graphql?operationName=getCartItems&extensions=[{}]
 # | getCartItems |
 
-# Variables:
-# {
-#     "persistedQuery": {
-#         "sha256Hash": "", 
-#         "version": 0
-#     }
-# }
-
 # Extensions:
 # {
 #     "persistedQuery": {
