@@ -3,15 +3,17 @@
 
 # Variables:
 # {
-#     "allowCountries": "US", 
-#     "category": "games/edition/base|software/edition/base|editors|bundles/games", 
-#     "count": 0, 
-#     "country": "US", 
-#     "locale": "en-US", 
-#     "releaseDate": "", 
-#     "sortBy": "releaseDate", 
-#     "sortDir": "DESC", 
-#     "tag": ""
+#     "allowCountries": "US",
+#     "category": "games/edition/base|software/edition/base|editors|bundles/games",
+#     "comingSoon": ""
+#     "count": 0,
+#     "country": "US",
+#     "keywords": "",
+#     "locale": "en-US",
+#     "sortBy": "releaseDate",
+#     "sortDir": "DESC",
+#     "tag": "",
+#     "withPrice": ""
 # }
 
 # Extensions:
