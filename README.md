@@ -21,4 +21,4 @@ Research about Epic's non-documented Graphql API. Documentation can be found wit
   There is something that we should of added? Well then make a [issue](https://github.com/Tectors/EpicGraphQL/issues) and tell us what we are missing that we should of added and I'll see if it can be added into the documentation.
   
   **How can I talk to you or other people that can help me?**:
-  <br> There's two great ways to communicate and chat about what you need. You can make a [issue](https://github.com/Tectors/EpicGraphQL/issues) that can be easily accessed at the repository and get answers.
+  <br> You can make a [issue](https://github.com/Tectors/EpicGraphQL/issues) that can be easily accessed at the repository and get answers, if available.
